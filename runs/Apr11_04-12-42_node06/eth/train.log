@@ -1,0 +1,25 @@
+2022-04-11 04:12:42,137:INFO: batch_size=128
+2022-04-11 04:12:42,137:INFO: clip_grad=None
+2022-04-11 04:12:42,137:INFO: dataset=eth
+2022-04-11 04:12:42,137:INFO: drop=0.0
+2022-04-11 04:12:42,137:INFO: gpu_num=0
+2022-04-11 04:12:42,137:INFO: init=kmeans-32
+2022-04-11 04:12:42,137:INFO: input_size=2
+2022-04-11 04:12:42,137:INFO: kernel_size=3
+2022-04-11 04:12:42,137:INFO: lr=0.01
+2022-04-11 04:12:42,137:INFO: lr_sh_rate=150
+2022-04-11 04:12:42,137:INFO: model=social_stgcnn10
+2022-04-11 04:12:42,138:INFO: n_stgcnn=1
+2022-04-11 04:12:42,138:INFO: n_txpcnn=5
+2022-04-11 04:12:42,138:INFO: num_epochs=250
+2022-04-11 04:12:42,138:INFO: obs_seq_len=8
+2022-04-11 04:12:42,138:INFO: output_size=5
+2022-04-11 04:12:42,138:INFO: pred_seq_len=12
+2022-04-11 04:12:42,138:INFO: seed=0
+2022-04-11 04:12:42,138:INFO: tag=eth
+2022-04-11 04:12:42,138:INFO: use_lrschd=True
+2022-04-11 04:12:42,138:INFO: ******************************
+2022-04-11 04:12:42,138:INFO: Training initiating....
+2022-04-11 04:12:42,138:INFO: Namespace(batch_size=128, clip_grad=None, dataset='eth', drop=0.0, gpu_num='0', init='kmeans-32', input_size=2, kernel_size=3, lr=0.01, lr_sh_rate=150, model='social_stgcnn10', n_stgcnn=1, n_txpcnn=5, num_epochs=250, obs_seq_len=8, output_size=5, pred_seq_len=12, seed=0, tag='eth', use_lrschd=True)
+2022-04-11 04:12:42,142:INFO: Initializing train dataset
+2022-04-11 04:12:52,869:INFO: Initializing val dataset

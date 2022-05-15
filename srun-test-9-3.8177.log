@@ -1,0 +1,26 @@
+**************************************************
+Number of samples: 20
+**************************************************
+./runs/9-3.8177/eth
+Evaluating model: ./runs/9-3.8177/eth/checkpoint
+Stats: {'min_val_epoch': 178, 'min_val_loss': -0.015078970383514058}
+Loading Data from previous pre-process .....
+Traceback (most recent call last):
+  File "/cluster/home1/gcj/Social-STGCNN/testmodel.py", line 299, in <module>
+    test_main(args)
+  File "/cluster/home1/gcj/Social-STGCNN/testmodel.py", line 201, in test_main
+    model = Registers.model[args.model](
+  File "/cluster/home1/gcj/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 688, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/cluster/home1/gcj/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 578, in _apply
+    module._apply(fn)
+  File "/cluster/home1/gcj/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 578, in _apply
+    module._apply(fn)
+  File "/cluster/home1/gcj/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 578, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/cluster/home1/gcj/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 601, in _apply
+    param_applied = fn(param)
+  File "/cluster/home1/gcj/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 688, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+KeyboardInterrupt

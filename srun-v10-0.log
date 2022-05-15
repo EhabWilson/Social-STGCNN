@@ -1,0 +1,2837 @@
+srun: job 66370 queued and waiting for resources
+srun: job 66370 has been allocated resources
+eth Launched.
+hotel Launched.
+univ Launched.
+zara1 Launched.
+zara2 Launched.
+batch_size=128
+clip_grad=None
+dataset=univ
+drop=0.0
+gpu_num=0
+init=kmeans-valid-100
+input_size=2
+kernel_size=3
+lr=0.01
+lr_sh_rate=150
+model=social_stgcnn10
+n_stgcnn=1
+n_txpcnn=5
+num_epochs=250
+obs_seq_len=8
+output_size=5
+pred_seq_len=12
+seed=0
+tag=univ
+use_lrschd=True
+******************************
+Training initiating....
+Namespace(batch_size=128, clip_grad=None, dataset='univ', drop=0.0, gpu_num='0', init='kmeans-valid-100', input_size=2, kernel_size=3, lr=0.01, lr_sh_rate=150, model='social_stgcnn10', n_stgcnn=1, n_txpcnn=5, num_epochs=250, obs_seq_len=8, output_size=5, pred_seq_len=12, seed=0, tag='univ', use_lrschd=True)
+Initializing train dataset
+batch_size=128
+clip_grad=None
+dataset=zara1
+drop=0.0
+gpu_num=0
+init=kmeans-valid-100
+input_size=2
+kernel_size=3
+lr=0.01
+lr_sh_rate=150
+model=social_stgcnn10
+n_stgcnn=1
+n_txpcnn=5
+num_epochs=250
+obs_seq_len=8
+output_size=5
+pred_seq_len=12
+seed=0
+tag=zara1
+use_lrschd=True
+******************************
+Training initiating....
+Namespace(batch_size=128, clip_grad=None, dataset='zara1', drop=0.0, gpu_num='0', init='kmeans-valid-100', input_size=2, kernel_size=3, lr=0.01, lr_sh_rate=150, model='social_stgcnn10', n_stgcnn=1, n_txpcnn=5, num_epochs=250, obs_seq_len=8, output_size=5, pred_seq_len=12, seed=0, tag='zara1', use_lrschd=True)
+batch_size=128
+clip_grad=None
+dataset=zara2
+drop=0.0
+gpu_num=0
+init=kmeans-valid-100
+input_size=2
+kernel_size=3
+lr=0.01
+lr_sh_rate=150
+model=social_stgcnn10
+n_stgcnn=1
+n_txpcnn=5
+num_epochs=250
+obs_seq_len=8
+output_size=5
+pred_seq_len=12
+seed=0
+tag=zara2
+use_lrschd=True
+******************************
+Training initiating....
+Namespace(batch_size=128, clip_grad=None, dataset='zara2', drop=0.0, gpu_num='0', init='kmeans-valid-100', input_size=2, kernel_size=3, lr=0.01, lr_sh_rate=150, model='social_stgcnn10', n_stgcnn=1, n_txpcnn=5, num_epochs=250, obs_seq_len=8, output_size=5, pred_seq_len=12, seed=0, tag='zara2', use_lrschd=True)
+batch_size=128
+clip_grad=None
+dataset=eth
+drop=0.0
+gpu_num=0
+init=kmeans-valid-100
+input_size=2
+kernel_size=3
+lr=0.01
+lr_sh_rate=150
+model=social_stgcnn10
+n_stgcnn=1
+n_txpcnn=5
+num_epochs=250
+obs_seq_len=8
+output_size=5
+pred_seq_len=12
+seed=0
+tag=eth
+use_lrschd=True
+******************************
+Training initiating....
+Namespace(batch_size=128, clip_grad=None, dataset='eth', drop=0.0, gpu_num='0', init='kmeans-valid-100', input_size=2, kernel_size=3, lr=0.01, lr_sh_rate=150, model='social_stgcnn10', n_stgcnn=1, n_txpcnn=5, num_epochs=250, obs_seq_len=8, output_size=5, pred_seq_len=12, sbatch_size=128
+clip_grad=None
+dataset=zara1
+drop=0.0
+gpu_num=0
+init=kmeans-train-64
+input_size=2
+kernel_size=3
+lr=0.01
+lr_sh_rate=150
+model=social_stgcnn10
+n_stgcnn=1
+n_txpcnn=5
+num_epochs=250
+obs_seq_len=8
+output_size=5
+pred_seq_len=12
+seed=0
+tag=zara1
+use_lrschd=True
+******************************
+Training initiating....
+Namespace(batch_size=128, clip_grad=None, dataset='zara1', drop=0.0, gpu_num='0', init='kmeans-train-64', input_size=2, kernel_size=3, lr=0.01, lr_sh_rate=150, model='social_stgcnn10', n_stgcnn=1, n_txpcnn=5, num_epochs=250, obs_seq_len=8, output_size=5, pred_seq_len=12, seed=Initializing train dataset
+InitiaInitializing train daInitializing traInitializing train daInitializing traiInitializing val dataset
+InitializiInitializing vaInitializiInitializing vaInitializing val dataset
+Initializing val dataset
+social_stgcnn10
+Data and model loaded
+Checkpoint dir: ./runs/Apr11_05-56-27_node09kmeans-64/univ/checkpoint
+Training started ...
+social_stgcnn10
+Data and model loaded
+Checkpoint dir: ./runs/Apr11_05-56-27_node09kmeans-64/zara1/checkpoint
+Training started ...
+social_stgcnn10
+Data and model loaded
+Checkpoint dir: ./runs/Apr11_05-56-27_node09ksocial_stgcnn10
+Data and model loaded
+Checkpoint dir: ./runs/Apr11_05-56-27_node09kmeans-train-100/zara2/checkpoint
+Training social_stgcnsocial_stgcnn10
+Data and model loaded
+social_stgcnn10
+Data and model loaded
+Checkpoint dir: ./runs/Apr11_05-56-27_node09kmsocial_stgcnn10
+Data and model loaded
+CheckpoiTrain: [0][2075/2076]  Loss 0.2528 (1.5094)  Time:  0.143 (0.013)  Data Time:  0.005 (0.00Train: [0][2111Train: [0][2111/2112]  Loss 0.5232 (1.5516)  Time:  0.316 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:51:16
+TraTrain: [0][2321Train: [0][2321/2322]  Loss 0.1351 (1.1944)  Time:  0.104 (0.013)  Data TimTrain: [0][2321/23Train: [0][2593/2594]  Loss 0.2258 (1.4863)  Time:  0.202 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 2:18:48
+Train: [0][2784/2785]  Loss 0.6479 (1.2258)  Time:  0.468 (0.013)  Data Time:  0.005 (0.00Train: [0][2784/27Train: [1][2075/2076]  Loss 0.1567 (0.8210)  Time:  0.139 (0.013)  Data Time:  0.005 (0.00Train: [1][2075/20Train: [1][2111/2112]  Loss 0.3022 (0.8287)  Time:  0.326 (0.013)  Data Time:  0.005 (0.00Train: [1][2111TraTrain: [1][2321Train: [1][2321/2322]  Loss 0.0995 (0.6828)  Time:  0.095 (0.013)  Data TimTrain: [1][2321/23Train: [1][2593/2594]  Loss 0.0852 (0.6195)  Time:  0.173 (0.013)  Data Time:  0.003 (0.005)
+  Eta: 2:16:32
+Train: [1][2784/2785]  Loss 0.6321 (0.6297)  Time:  0.525 (0.013)  Data Time:  0.004 (0.00Train: [1][2784/27Train: [2][2075Train: [2][2111/2112]  Loss 0.1786 (0.5454)  Time:  0.331 (0.013)  Data TimTrain: [2][2075/2076]  Loss 0.1972 (0.5504)  Time:  0.140 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:51:30
+Train: [2][2111TraTrain: [2][2321Train: [2][2321/2322]  Loss 0.0854 (0.4160)  Time:  0.101 (0.013)  Data TimTrain: [2][2321/23Train: [2][2593/2594]  Loss 0.2422 (0.5400)  Time:  0.170 (0.013)  Data Time:  0.003 (0.004)
+  Eta: 2:15:04
+Train: [2][2784/2785]  Loss 0.3577 (0.3891)  Time:  0.473 (0.012)  Data Time:  0.004 (0.00Train: [2][2784/2785]  Loss 0.3477 (0.3888)  Time:  0.477 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 2:27:44
+Train: [3][2075/2076]  Loss 0.0953 (0.4732)  Time:  0.164 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:51:19
+Train: [3][2111TraTrain: [3][2321Train: [3][2321/2322]  Loss 0.0235 (0.2406)  Time:  0.096 (0.013)  Data TimTrain: [3][2321/232Train: [3][2593/2594]  Loss 0.1378 (0.1166)  Time:  0.177 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 2:14:24
+Train: [4][207Train: [4][2111/2112]  Loss 0.0181 (0.2087)  Time:  0.329 (0.013)  Data TimTTrain: [4][2075/2076]  Loss 0.0591 (0.2815)  Time:  0.155 (0.013)  Data Time:  0.006 (0.005)
+  Eta: 1:50:22
+Train: [4][211TraiTrain: [3][2784/2785]  Loss 0.0076 (0.2068)  Time:  0.484 (0.013)  Data Time:  0.005 (0.0Train: [3][2784/278Train: [4][232Train: [4][2321/2322]  Loss -0.0009 (0.1638)  Time:  0.115 (0.013)  Data TiTrain: [4][2321/232Train: [5][2075Train: [5][2111/2112]  Loss 0.0562 (0.0863)  Time:  0.315 (0.013)  Data TimeTrain: [5][2075/2076]  Loss -0.0252 (0.2339)  Time:  0.143 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:50:57
+Train: [5][21TraTrain: [4][2593/2594]  Loss 0.0991 (0.0889)  Time:  0.215 (0.013)  Data Time:  0.004 (0.00Train: [4][2593/25Train: [4][2784/2785]  Loss -0.1364 (0.1207)  Time:  0.558 (0.013)  Data Time:  0.004 (0.TraTrain: [4][2784/2Train: [5][2321/2Train: [5][2321/2322]  Loss 0.0564 (-0.0251)  Time:  0.102 (0.013)  DataTrain: [5][2321/232Train: [6][2075/20Train: [6][2111/2112]  Loss -0.0675 (0.0651)  Time:  0.351 (0.013)  Data TTrain: [6][2075/2076]  Loss -0.0089 (0.0847)  Time:  0.153 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:48:19
+Loading Data from previous pre-process .....
+Loading Data from previous pre-process .....
+Loading Data from previous pre-process .....
+Train: [6][211Train: [6][2075/2076]  Loss -0.0092 (0.1112)  Time:  0.176 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:48:29
+Loading Data from previous pTrain: [5][2593/2594]  Loss -0.0822 (-0.0219)  Time:  0.166 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 2:05:16
+Train: [6][2321/2Train: [6][2321/2322]  Loss -0.0532 (-0.1519)  Time:  0.083 (0.011)  DaTrain: [6][2321/2322]  Loss -0.0426 (-0.1606)  Time:  0.115 (0.011)  Data Time:  0.002 (0.003)
+  Eta: 1:45:24
+Loading Data from previous pre-process .....
+LTrain: [5][2784/2785]  Loss 0.0319 (-0.0380)  Time:  0.430 (0.011)  Data Time:  0.002 (0.TTrain: [5][2784/278Test: [6]  ADE: 0.7Train: [6][2593/2Train: [6][2593/2594]  Loss -0.1001 (-0.0539)  Time:  0.194 (0.010)  Data Time:  0.00Train: [6][2593/2594]  Loss -0.0966 (-0.0814)  Time:  0.172 (0.010)  Data Time:  0.003 (0.002)
+  Eta: 1:45:35
+Loading Data from previous pre-prTest: [6]  ADE: 0Test: [6]  ADE: 0.6Test: [6]  ADE: 0Test: [6]  ADE: 1.2335  FDE: 1.8550
+Train: [6][2784/2785]  Loss -0.1237 (-0.1283)  Time:  0.484 (0.010)  Data Time:  0.004 (0.Train: [6][2784/2785]  Loss -0.1784 (-0.1752)  Time:  0.539 (0.010)  Data Time:  0.004 (0.002)
+  Eta: 1:55:01
+Loading Data from previous pre-process .....
+Test: [6]  ADE: 0.9655  FDE: 1.3601
+Train: [7][2321/232Train: [7][2321/2322]  Loss -0.0418 (-0.0697)  Time:  0.093 (0.011)  DaTrain: [7][2321/2322]  Loss -0.0008 (-0Train: [7][2111/2112]  Loss -0.0317 (0.0919)  Time:  0.304 (0.011)TrainTraiTrain: [7][2111/Train: [7][2593/25Train: [7][2593/2594]  Loss -0.0467 (-0.0989)  Time:  0.168 (0.011)  Data Time:  0.004 (0.00Train: [7][2784/2785]  Loss 0.1143 (-0.2290)  Time:  0.429 (0.011)  Data Time:  0.003 (0.Train: [8][2321/2322Train: [8][2111/211Train: [8][2321/2322]  Loss -0.0080 (-0.2202)  Time:  0.084 (0.011)  DatTrain: [8][2111/2112]  Loss -0.1451 (-0.0664)  Time:  0.271 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:36:09
+TraTrain: [8][2111/Train: [8][2593/25Train: [8][2593/2594]  Loss -0.0995 (-0.2948)  Time:  0.209 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 2:01:19
+Test: [6]  ADE: 0Train: [9][2111/2112]  Loss 0.1467 (-0.2148)  Time:  0.322 (0.012)  Data Time:  0.004 (0.004)
+ Train: [9][2321/2322]  Loss -0.05Train: [9][2111/2112]  Loss 0.0927 (-0.1415)  Time:  0.321 (0.012)  Data Train: [9][2111/2112]  Loss 0.1424 (-0.0527)  Time:  0.320 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:43:22
+Train: [9][2321/232Train: [7][2075/20Train: [7][2075/2076]  Loss -0.0280 (-0.0463)  Time:  0.141 (0.013)  Data Time:  0.005 (TraTrain: [9][2593/259Train: [9][2593/2594]  Loss -0.0128 (-0.3229)  Time:  0.170 (0.013)  Data Time:  0.004 (0.0Train: [10][2111/21Train: [10][2111/2112]  Loss -0.0432 (-0.1687)  Time:  0.377 (0.013)  DaTrain: [10][2111/21Train: [10][2321/2322]  Loss -0.0022 (-0.3194)  Time:  0.111 (0.013)  Data Time:  0.004 (0.0Train: [9][2784/278Train: [9][2784/2785]  Loss -0.3610 (-0.3809)  Time:  0.514 (0.013)  Data Time:  0.003 (0.0TTrain: [9][2784/27Train: [8][2075/2076Train: [8][2075/2076]  Loss -0.0458 (-0.0026)  Time:  0.142 (0.013)  Data Time:  0.004 (0.Train: [11][2111/211Train: [11][2111/2112]  Loss -0.2100 (-0.2950)  Time:  0.337 (0.013)  Data TTrain: [10][2593/2594]  Loss -0.068Train: [10][2593/2594]  Loss 0.0072 (-0.4309)  Time:  0.186 (0.013)  Data Time:  0.006 (0.0Train: [11][2321/23Train: [11][2321/2322]  Loss 0.0317 (-0.3463)  Time:  0.116 (0.013)  DaTrain: [11][2321/2322Train: [10][2784/2785]  Loss -0.4342 (-0.2784)  Time:  0.510 (0.013)  Data Time:  0.004 (0.0Train: [9][2075/2076]  Loss -0.0522 (Train: [9][2075/2076]  Loss -0.0673 (-0.1260)  Time:  0.154 (0.013)  Data Time:  0.004 (0.00Train: [12][2111/2Train: [12][2111/2112]  Loss 0.1102 (-0.2727)  Time:  0.325 (0.013)  DatTrain:Train: [12][211Train: [11][2593/Train: [12][2321/2322]  Loss -0.0540 (-0.2552)  Time:  0.097 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:56:49
+Train: [11][2593/2594]  Loss -0.0601 (-0.2997)  Time:  0.174 (0.013)  DatTrain: [10][2075/207Train: [10][2075/2Train: [11][2784/2785]  Loss -0.4132 (-0.4062)  Time:  0.466 (0.012)  Data TimeTrain: [1TrainTrain: [13][2111/2112]  Loss -0.2415 (-0.3145)  Time:  0.314 (0.012)  Data Time:  0.005 (0.0TrainTrain: [11][2784/2785]  Loss -0Train: [13][2111/2112]  Loss -0.2544 (-0.2753)  Time:  0.346 (0.013)  DataTrain:Train: [13][21Train: [13][2321/Train: [13][2321/2322]  Loss -0.0817 (-0.4100)  Time:  0.097 (0.013)  Data Time:  0.005 (0.005Train: [12][2593/Train: [12][2593/2594]  Loss -0.1815 (-0.4251)  Time:  0.174 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 2:12:33
+Train: [11][2075/2076]  Loss 0.0251 (-0.2644)  Time:  0.145 (0.013)  Data Time:  0.005 (0.005)Train: [14][2111Train: [14][2111/2112]  Loss -0.2180 (-0.3811)  Time:  0.397 (0.013)  Data Train:Train: [14][21Train: [12][2784/2785]  Loss -0.3356 (-0.4654)  Time:  0.480 (0.012)  Data Time:  0.004 (0.Train:Train: [12][27Train: [14][2321/2322]  Loss -0.0860 (-0.4577)  Time:  0.096 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:58:53
+Train: [12][2075Train: [12][2075/2076]  Loss -0.0769 (-0.1778)  Time:  0.147 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:46:32
+Train: [13][2593/2594]  Loss -0.1805 (-0.5952)  Time:  0.190 (0.013)  Data Time:  0.005 (0.005)Train: [15][2111Train: [15][2111/2112]  Loss -0.2485 (-0.3118)  Time:  0.370 (0.013)  Data Train:Train: [15][21Train: [13][2784/2785]  Loss 0.0029 (-0.5246)  Time:  0.477 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 2:18:29
+Train: [13][2075/Train: [15][2321/2322]  Loss -0.0217 (-0.5435)  Time:  0.105 (0.013)  Data Train: [13][2075/20Train: [15][2321/Train: [13][2075/2076]  Loss -0.0877 (-0.3646)  Time:  0.155 (0.013)  Data Time:  0.004 (0.004Train: [16][2111/Train: [16][2111/2112]  Loss -0.3134 (-0.4311)  Time:  0.310 (0.013)  Data Time: Train: [14][2593/2594]  Loss -Train: [14][2593/2594]  Loss -0.1410 (-0.5887)  Time:  0.167 (0.013)  Data Train:Train: [16][2Train: [14][2075/Train: [14][2784/2785]  Loss -0.0146 (-0.4689)  Time:  0.439 (0.012)  Data Time:  0.004 (0.004Train: [16][2321/Train: [16][2321/2322]  Loss -0.1085 (-0.4404)  Time:  0.090 (0.012)  Data Train: [14][27Train: [14][2784/2785]  Loss -0.0380 (-0.4729)  Time:  0.495 (0.012)  Data Time:  0.003 (0.004)
+ Train: [15][2593/25Train: [15][2593/Train: [15][2593/2594]  Loss -0.2049 (-0.5233)  Time:  0.159 (0.012)  Data Time:  0.024 (0.003Test: [16]  ADE: Test: [16]  ADE: 0.5613  FDE: 0.7351
+Test: [16]  ADE: 0.5249  FDE: 0.6073
+Train: [15][2075/2076]  Loss -0.1079 (-0.4151)  Time:  0.158 (0.011)  Data Time:  0.004 (TrainTrain: [15][2784/2785]  Loss -0.1090 (-0.6466)  Time:  0.512 (0.012)  Data Time:  0.005 (0.Train: Train: [15][2Train: [16][2593/Train: [16][2593/2594]  Loss -0.2156 (-0.7617)  Time:  0.182 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 2:03:20
+Train: [17][2111/2112]  Loss -0.2417 (-0.4467)  Time:  0.305 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:43:42
+Train: [17][2321/2322]  Loss -0.1135 (-0.6361)  Time:  0.091 (0.012)  Data Time:  0.003 (0.005)
+  Eta: 1:52:27
+TTrain: [17][2111/2112]  Loss -0.2466 (-0.4645)  Time:  0.404 (0.012)  Data Time:Train: [17][2111/2112]  Loss -Test: [16]  ADETraiTrain: [16][2784/2785]  Loss -0.3346 (-0.6363)  Time:  0.467 (0.011)  Data Time:  0.004 (0.0Train: Train: [16][2784/2785]  Loss -0.4890 (-0.6070)  Time:  0.421 (0.012Train: [18][2111/2112]  Loss -0.2948 (-0.5545)  Time:  0.284 (0.011)  Data Train: [17][2593/2Train: [18][2321/2Train: [18][2321/2322]  Loss -0.0749 (-0.5829)  Time:  0.098 (0.011)  Data Time: Train: [18][Train: [17][2593/2Train: [17][2593/2594]  Loss -0.1768 (-0.6318)  Time:  0.151 (0.011)  Data Time:  0.003 (0.00Train: [19][2111/2Train: [17][2784/2785]  Loss -0.5569 (-0.6743)  Time:  0.460 (0.011)  Data Train: [17][2784/2Train: [17][2784/2785]  Loss -0.5362 (-0.6774)  Time:  0.432 (0.011)  Data Time:  0.004 (0.00Train:Train: [19][2111/2112]  Loss -Train: [19][2321/2322]  Loss -0.1082 (-0.5880)  Time:  0.090 (0.011)  Data Train:Train: [17][Train: [18][2593/2Train: [18][2593/2594]  Loss -0.1656 (-0.7430)  Time:  0.165 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:53:55
+Train: [20][2111/2112]  Loss -0.3065 (-0.5060)  Time:  0.295 (0.011)  Data Train: [20][2111/2Train: [20][2321/2322]  Loss -0.1005 (-0.5761)  Time:  0.086 (0.011)  Data Time:  0.003 (0.00Train: [18][2784/2Train: [18][2784/2785]  Loss -0.6538 (-0.6751)  Time:  0.416 (0.011)  Data Time:  0.004 (0.0Train: Train: [18][Train: [21][2111/2Train: [21][2111/2112]  Loss -0.2786 (-0.4635)  Time:  0.348 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:33:14
+Train: [19][2593/2594]  Loss -0.2493 (-0.7453)  Time:  0.150 (0.011)  Data Test: Train: [21][Test: [16]  ADE: 0Train: [21][2321/2322]  Loss -0.1076 (-0.5879)  Time:  0.088 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:41:TraiTrain: [19][2784/2785]  Loss -0.6677 (-0.6558)  Time:  0.487 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 2:08:02TTrain:Train: [19][2784/2785]  Loss -Train: [22][2111/2112]  Loss -0.4188 (-0.6108)  Time:  0.339 (0.012)  Data Time: Train: [20][2593/2594]  Loss -Train: [20][2593/2594]  Loss -0.2224 (-0.7427)  Time:  0.189 (0.012)  Data Time: Train: [22][2111/2112]  Loss -Train: [17][2075/2076]  Loss -0.0794 (-0.4487)  Time:  0.163 (0.013)  Data Time:  0.005 (0.00Train: [22][2321/2Train: [22][2321/2322]  Loss -0.0990 (-0.6768)  Time:  0.097 (0.013)  DTraiTrain: [22][2321/2322]  Loss -0.0786Train: [20][2784/2785]  Loss -0.5902 (-0.8001)  Time:  0.480 (0.013)  DataTTrain:Train: [20][2784/2785]  Loss -0.5507 (-0.7284)  Time:  0.471 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 2:16:19
+Train: [23][2111/2112]  Loss -Train: [18][2075/2076]  Loss -0.1916 (-0.5017)  Time:  0.142 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:43:36
+Train: [21][2593/2594]  Loss -0.2735 (-0.7781)  Time:  0.174 (0.013)  Data Time:  0.004 (0.00Train: [23][2321/2Train: [23][2321/2322]  Loss -0.0442 (-0.6700)  Time:  0.114 (0.013)  DTraiTrain: [23][2321/2322]  Loss -0.0427Train: [24][2111/2112]  Loss -0.3781 (-0.5962)  Time:  0.318 (0.013)  Data Train:Train: [24][2111/2112]  Loss -0.3747 (-0.5627)  Time:  0.340 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:42:05
+Train: [Train: [24][2321/2322]Train: [19][2075/2076]  Loss -0.1093 (-0.4693)  Time:  0.154 (0.013)  Data Time:  0.005 (Train: [21][2784/2785]Train: [22][2593/2594]  Loss -0.1572 (-0.8043)  Time:  0.223 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 2:06:40
+Train: [24][2321/2322]  Loss -0.0687 (-0.6112)  Time:  0.097 (0.013)  DTraTTrain: [20][2075/2076]  Loss -0.1424 (-0.5586)  Time:  0.182 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:42:40
+Train:Train: [25][2111/2112]  Loss -Train: [22][2784/2785]  Loss -0.6967 (-0.8327)  Time:  0.475 (0.012)  Data Time:  0.004 (0.00Train: [23][2593/2594]  Loss -0.2611 (-0.8527)  Time:  0.202 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 2:03:02
+Train: [22][2784/2Train: [25][2321/2322]  Loss -0.1305 (-0.6259)  Time:  0.111 (0.013)  Data Time: Train: [22][2784/2785]  Loss -Train: [23][2593/2594]  Loss -0.2625 (-0.8243)  Time:  0.214 (0.013)  Data Train: [21][2075/2076]  Loss -0.1316 (-0.5205)  Time:  0.155 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:43:15TTrain:Train: [26][2111/2112]  Loss -Train: [21][2075/2076]  Loss -0.0771 (-0.5024)  Time:  0.142 (0.013)  Data Time:  0.004 (0.00Train: [24][2593/2594]  Loss -0.1927 (-0.8724)  Time:  0.149 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:5TrainTrain: [26][2321/2Train: [26][2321/2322]  Loss -0.0937 (-0.7407)  Time:  0.092 (0.012)  Data Train:Train: [24][2593/2594]  Loss -Train: [24][2593/2594]  Loss -0.1984 (-0.8732)  Time:  0.162 (0.012)  DataTrain: [22][2075/2076]  Loss -0.1736 Train: [22][2075/2076]  Loss -0.1653 (-0.5203)  Time:  0.132 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1:32:22
+Test: [26]  ADE: 0.5626  FDE: 0.6677
+Test: [26]  ADE: 0.Train: [25][2593/2594]  Loss -0.2153 (-0.9064)  Time:  0.171 (0.012)  Data Time:  0.005 (0.004)
+  ETrain: [23][2075/2076]  Loss -Train: [25][2593/2594]  Loss -0.2226 (-0.9147)  Time:  0.201 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:55:14
+Train: [23][2075/2076]  Loss -0.1909 (-0.6163)  Time:  0.170 (0.013)  Data Time: Train: [24][2784/2785]  Loss -Train: [27][2111/2112]  Loss -0.3983 (-0.6948)  Time:  0.328 (0.013)  Data Train: [27][2111/2112]  Loss -0.3909 (-0.6990)  Time:  0.349 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:37:05
+Train: [24][2075/2Train: [24][2075/2Train: [25][2784/2785]  Loss -0.6471 (-0.7918)  Time:  0.472 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 2:09:00
+Train: [24][2075/2076]  Loss -0.1730 (-0.5159)  Time:  0.156 (0.013)  Data Time: Train: [26][2593/2594]  Loss -Train: [26][2593/2594]  Loss -0.2479 (-0.7298)  Time:  0.183 (0.013)  Data Time: Train: [28][2321/2322]  Loss -Train: [28][2111/2112]  Loss -0.3133 (-0.6818)  Time:  0.302 (0.013)  Data Time: Train: [25][2784/2785]  Loss -Train: [28][2321/2322]  Loss -0.1093 (-0.7651)  Time:  0.093 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:47:00
+Train: [25][2784/2785]  Loss -0.6366 Train: [25][2075/2076]  Loss -0.1864 (-0.6513)  Time:  0.152 (0.013)  Data Time:  0.006 (0.004)
+  Eta: 1:38:44
+Train: [26][2784/2785]  Loss -0.5908 (-0.7874)  Time:  0.473 (0.012)  Data Train:Train: [29][Train: [26][2784/2785]  Loss -0.5044 (-0.7823)  Time:  0.468 (0.012)  Data Time:  0.004 (0.005)
+  ETrain: [29][2111/2112]  Loss -0.2203 (-0.7086)  Time:  0.337 (0.013Train: [29][2321/2322]  Loss -0.0647 (-0.825Train: [26][2784/2785]  Loss -0.7038 (-0.9727)  Time:  0.480 (0.013Train: [27][2593/2594]  Loss -0.2131 (-0.7820)  Time:  0.174 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 2:02:43
+Train: [26][2075/2076]  Loss -0.1853 (-0.6039)  Time:  0.174 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:39:27
+Train: [30][2111/2112]  Loss -0.4661 (-0.7654)  Time:  0.290 (0.012)  Data Train: [28][2593/2Train: [30][2321/2322]  Loss -0.1495 (-0.8809)  Time:  0.090 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:3TrainTrain: [28][2593/2Train: [30][2321/2322]  Loss -0.1483 (-0.8809)  Time:  0.081 (0.012)  Data Time: Train: [28][2593/2594]  Loss -Train: [28][2593/2594]  Loss -0.2189 (-0.9502)  Time:  0.160 (0.012)  DataTrain: [31][2111/2112]  Loss -0.4694 Train: [31][2111/2112]  Loss -0.4630 (-0.7101)  Time:  0.365 (0.011)  Data Train: [31][2111/2Train: [31][2321/2Train: [31][2321/2322]  Loss -0.1092 (-0.7413)  Time:  0.113 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:36:00
+Train: [28][2784/2785]  Loss -0.7629 (-0.9488)  Time:  0.412 (0.011)  Data Train:Train: [29][2593/2594]  Loss -Train: [32][2111/2112]  Loss -0.4543 (-0.6134)  Time:  0.296 (0.011)  Data Train:Train: [28][2784/2785]  Loss -0.3148 (-0.9686)  Time:  0.443 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:Train:Train: [32][Train: [33][2111/2Train: [32][2321/2322]  Loss -0.1564 (-0.7955)  Time:  0.094 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:34:00
+Train: [29][2784/2785]  Loss -0.8827 (-1.0669)  Time:  0.425 (0.011)  Data Train:Train: [30][2593/2594]  Loss -0.2831 (-0.9402)  Time:  0.157 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:48:15
+Train: [33][2111/2112]  Loss -Train: [30][2593/2594]  Loss -0.2818 (-0.8173)  Time:  0.172 (0.011)  Data Time:  0.004 (0.00Train: [34][2111/2Train: [33][2321/2322]  Loss -0.1123 (-0.8893)  Time:  0.092 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:35:36
+Train: [34][2111/2112]  Loss -0.4260 (-0.8260)  Time:  0.365 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:26:08
+TTrain:Train: [34][2111/2112]  Loss -0.4328 (-0.7937)  Time:  0.329 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:Train:Train: [31][2593/2594]  Loss -Train: [31][2593/2594]  Loss -0.2993 (-0.8950)  Time:  0.183 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1:54:01
+Train: [34][2321/2322]  Loss -0.1070 (-0.8654)  Time:  0.092 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:44:00
+Train: [35][2111/2112]  Loss -0.4577 (-0.8084)  Time:  0.392 (0.012)  Data Train: [32][2593/2594]  Loss -0.2311Train: [27][2075/2076]  Loss -0.2318 (-0.6966)  Time:  0.191 (0.013)  Data Train:Train: [35][2111/2112]  Loss -Train: [31][2784/2785]  Loss -0.8234 (-0.9423)  Time:  0.461 (0.012)  Data Time: Train: [35][2321/2322]  Loss -Train: [32][2593/2594]  Loss -0.2989 (-1.0433)  Time:  0.171 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:59:41
+Train: [35][2321/2322]  Loss -0.1397 (-0.8971)  Time:  0.093 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:46:06
+Train: [36][2111/2112]  Loss -0.5071 (-0.8301)  Time:  0.369 (0.013)  Data Train: [36][2111/2112]  Loss -0.5065 (-0.8197)  Time:  0.323 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:34:21
+Train:Train: [36][Train: [33][2593/2Train: [32][2784/2785]  Loss -0.8931 (-1.0370)  Time:  0.566 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 2:03:56
+Train: [33][2593/2594]  Loss -0.2132 (-0.9948)  Time:  0.148 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:53:32
+Train: [36][2321/2322]  Loss -0.1326 (-0.9057)  Time:  0.092 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:37:54
+Train: [29][207Test: [36]  ADE: 0.4706  FDE: 0.6778
+Train: [32][2784/2785] Train: [34][2593/2594]  Loss -0.2949Test: [36]  ADE: 0.4622  FDE: 0.5822
+Test: [36]  ADE: 0.4601  FDE: 0.6568
+Train: [33][2784/2785]  Loss -0.8943 (-0.9784)  Time:  0.472 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:52:55
+Train: [30][2075/2076]  Loss -0.1599 (-0.7250)  Time:  0.136 (0.011)  Data Time: Train: [34][2593/2594]  Loss -Train: [34][2593/2594]  Loss -0.2785 (Train: [33][2784/2785]  Loss -0.8033Train: Train: [37][2321/2322]  Loss -Train: [37][2111/2112]  Loss -0.3323 (-0.8543)  Time:  0.326 (0.013)  Data Time: Train: [33][2784/2785]  Loss -Train: [37][2321/2322]  Loss -0.1572 (-1.0237)  Time:  0.096 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:44:42
+Train: [31][2075/2076]  Loss -0.2173 (-0.7911)  Time:  0.142 (0.013)  DTrain: [37][2321/2322]  Loss -0.1551 (-1Train: [34][2784/2785]  Loss -0.8783 (-1.0145)  Time:  0.471 (0.013)  Data Train: [32][2075/2076]  Loss -0.2021 (-0.7572)  Time:  0.138 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:35:58
+Train:Train: [38][2321/2322]  Loss -Train: [38][2111/2112]  Loss -0.4714 (-0.8629)  Time:  0.316 (0.013)  Data Time: Train: [32][2075/2076]  Loss -Train: [32][2075/2076]  Loss -0.2045 (-0.7057)  Time:  0.138 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:37:22
+Train: [38][2321/2322]  Loss -0.0422 (-0.9111)  Time:  0.112 (0.013)  DTrain: [38][2321/2322]  Loss -0.0360 (-0Train: [39][2111/2112]  Loss -0.3870 (-0.9542)  Time:  0.319 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:33:24
+Train: [35][2784/2785]  Loss -0.4892 (-0.9590)  Time:  0.544 (0.013)  Data Time: Train: [39][2321/2322]  Loss -0Train: [38][2321/2322]  Loss -0.0521 (-0.9579)  Time:  0.113 (0.013)  Data Time:Train: [33][2075/2076]  Loss -Train: [33][2075/2076]  Loss -0.2018 (-0.7713)  Time:  0.141 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:35:39
+Test: [36]  ADE: 0.6446  FDE: 0.9953
+Train: [39][2321/2322]  Loss -0.1761 (-0.9940)  Time:  0.095 (0.012)  DataTTrain: [37][2593/2594]  Loss -0.3036Train: [40][2111/2112]  Loss -0.5556 (-0.7918)  Time:  0.326 (0.012)  Data Time: Train: [34][2075/2076]  Loss -Train: [36][2784/2785]  Loss -0.6624 (-0.9886)  Time:  0.473 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 2:00:15
+Test: [36]  ADE: 0.7541  FDE: 1.2337
+Train: [34][2075/2076]  Loss -0.2173 (-0.648Train: [40][2111/2112]  Loss -0.4897 (-0.7641)  Time:  0.324 (0.013Train: [40][2321/2322]  Loss -0.1084 (-1.0163)  Time:  0.095 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:42:11
+Train: [37][2593/2594]  Loss -0.2917 Train: Train: [36][2784/2785]  Loss -0.7736 (-0.9225)  Time:  0.492 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 2:05:57
+Test: [36]  ADE: 0.6993  FDE: 1.1223
+Train: [35][2075/2076]  Loss -Train: [35][2075/2076]  Loss -0.2007 (-0.8029)  Time:  0.174 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:37:49
+Train: [37][2784/2785]  Loss -0.7278 (-1.0591)  Time:  0.517 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 2:04:45
+Train: [41][2321/2322]  Loss -0.1544 (-0.9322)  Time:  0.116 (0.013)  Data Train: [36][2075/2076]  Loss -0.1860Train: [38][2593/2594]  Loss -0.2929 (-1.0908)  Time:  0.196 (0.013)  DataTrain: Train: [36][2075/2076]  Loss -0.0901 (-0.8209)  Time:  0.158 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:Train:Train: [42][2321/2322]  Loss -Train: [36][2075/2076]  Loss -0.1657 (-0.8356)  Time:  0.136 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:36:47
+Train: [42][2321/2322]  Loss -0.0727 (-0.9211)  Time:  0.089 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:37:23
+Train: [43][2111/2112]  Loss -0.5282 (-0.9039)  Time:  0.282 (0.012)  Data Train: [43][2111/2112]  Loss -0.5107 (-0.9593)  Time:  0.292 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:21:35
+Train:Train: [43][2321/2322]  Loss -0.1072 (-0.8830)  Time:  0.088 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:Train: [40][2593/2594]  Loss -0.2012Train: [44][2111/2112]  Loss -0.2392 (-0.9282)  Time:  0.290 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:21:40
+Train: [43][2321/2322]  Loss -0.1093 (-0.8915)  Time:  0.109 (0.011)  Data Train:Train: [40][2593/2594]  Loss -Train: [39][2784/2785]  Loss -0.8664 (-0.9781)  Time:  0.421 (0.011)  Data Train: [39][2784/2785]  Loss -0.7680 (-1.0781)  Time:  0.408 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:49:32
+Train: [43][2321/2322]  Loss -0.1081Train: [45][2111/2112]  Loss -0.5855 (-0.9463)  Time:  0.340 (0.011)  Data Time: Train: [39][2784/2785]  Loss -Train: [44][2321/2322]  Loss -0.1700 (-1.0589)  Time:  0.092 (0.011)  Data Train:Train: [45][2111/2112]  Loss -Train: [40][2784/2785]  Loss -0.7898 (-1.0730)  Time:  0.448 (0.011)  Data Train: [44][2321/2322]  Loss -0.1746 (-1.0636)  Time:  0.097 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:33:25
+Train: [40][2784/2785]  Loss -0.7806Train: [46][2111/2112]  Loss -0.5271 (-0.8985)  Time:  0.285 (0.011)  Data Time: Test: [36]  ADE: 0.6573  FDE: 0.8928
+Train: [40][2784/2785]  Loss -0.7724 (-1.0748)  Time:  0.497 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1Train: [42][2593/2594]  Loss -0.3025 (-0.9911)  Time:  0.148 (0.011)  Data Time:  0.002 (0.003)
+  Eta: 1:36:51
+TTrain: [45][2321/2322]  Loss -0.1785 (-1.0625)  Time:  Train: [46][2321/2322]  Loss -0.1263 (-0.9898)  Time:  0Train: [37][2075/2076]  Loss -0.1852Train: [46][2321/2322]  Loss -0.1507 (-0.9476)  Time:  0.097 (0.011)  Data Time: Train: [37][2075/2076]  Loss -Test: [46]  ADE: 0.4139  FDE: 0.5466
+Train: [37][2075/2076]  Loss -0.1906 (-0.8085)  Time:  0.160 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:25:51
+Train: [43][2593/2594]  Loss -0.2040 (-1.0665)  Time:  0.185 (0.012)  Data Train: [46][2321/2322]  Loss -0.1188Train: [44][2593/2594]  Loss -0.2848 Train: [42][2784/2785]  Loss -0.9790 (Train:Test: [46]  ADE: 0.4174  FDE: 0.5664
+Train: [38][2075/2076]  Loss -Train: [47][2111/2112]  Loss -0.5642 (-0.9456)  Time:  0.361 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:27:39
+Train: [38][2075/2076]  Loss -0.2242 (-0.8290)  Time:  0.146 (0.013)  Data Time: Train: [42][2784/2785]  Loss -Train: [47][2321/2322]  Loss -0.1447 (-0.9874)  Time:  0.100 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:40:03
+Train: [44][2593/2594]  Loss -0.3161 (-1.1145)  Time:  0.172 (0.013)  DataTrain: [45][2593/2594]  Loss -0.3666 Train: [43][2784/2785]  Loss -0.8694 (-1.1625)  Time:  0.505 (0.013)  Data Train: [45][2593/2594]  Loss -0.3372Train: [48][2111/2112]  Loss -0.5933 (-0.9691)  Time:  0.385 (0.013)  Data Train: [43][2784/2785]  Loss -0.8973Train: [39][2075/2076]  Loss -0.1338 (-0.8455)  Time:  0.149 (0.013)  Data Train:Train: [48][2111/2112]  Loss -Train: [48][2321/2322]  Loss -0.1587 (-0.8718)  Time:  0.096 (0.013)  Data Time: Train: [43][2784/2785]  Loss -Train: [45][2593/2594]  Loss -0.3684 (-1.0664)  Time:  0.171 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:51:52
+Train: [49][2111/2112]  Loss -0.4410 (-0.8580)  Time:  0.356 (0.013)  Data Train: [46][2593/2594]  Loss -0.2971 (-1.0678)  Time:  0.176 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:51:04
+Train: [49][2111/2112]  Loss -0.4686 (-0.8690)  Time:  0.297 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:30:29
+Train:Train: [49][2111/2112]  Loss -Train: [49][2321/2322]  Loss -0.1734 (-1.0828)  Time:  0.096 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:38:27
+Train: [50][2111/2112]  Loss -0.4233 (-0.9490)  Time:  0.333 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:30:26
+Train: [46][2593/2594]  Loss -0.3179 (-1.1521)  Time:  0.176 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:52:49
+TTrain: [50][2111/2112]  Loss -0.4821 (-0.9780)  Time:  0.332 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:27:06Train: [45][2784/2785]  Loss -0.7828 (-1.1923)  Time:  0.447 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:58:35
+TTrain:Train: [50][2111/2112]  Loss -Train: [50][2321/2322]  Loss -0.0433 (-1.0912)  Time:  0.117 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:35:44
+Train: [51][2111/2112]  Loss -0.6026 (-1.0024)  Time:  0.387 (0.012)  Data Time: Train: [51][2321/2322]  Loss -0.1257 (-1.0739)  Time:  0.099 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:35:31
+Train: [45][2784/2785]  Loss -Train: [46][2784/2785]  Loss -0.9777 (-1.1702)  Time:  0.485 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:58:18
+Train: [47][2593/2594]  Loss -0.3829 (-1.0501)  Time:  0.169 (0.013)  DataTrain: [48][2593/2594]  Loss -0.2583 Test: [46]  ADE: 0.6800  FDE: 1.0828
+Train: [51][2321/2322]  Loss -0.1275 (Train: [48][2593/2594]  Loss -0.2724 (-1.0274)  Time:  0.200 (0.013)  DatTrain: [52][2111/2112]  Loss -0.5846 (Train:Train: [52][2321/2322]  Loss -0.1780 (-1.0357)  Time:  0.115 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:36:39
+Train: [52][2111/2112]  Loss -0.5968 (-0.9662)  Time:  0.327 (0.013Train: [48][2593/2594]  Loss -0.2752 (-1.0020)  Time:  0.164 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:51:12
+Train: [53][2111/2112]  Loss -0.3280 (-0.9717)  Time:  0.333 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:28:49
+Train: [52][2321/2322]  Loss -0.1749 (-1.0385)  Time:  0.087 (0.013)  Data Train: [49][2593/2594]  Loss -0.3658 (-1.2103)  Time:  0.211 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:49:18
+Train:Train: [53][2321/2322]  Loss -0.1413 (-1.1083)  Time:  0.109 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:35:06
+Train: [53][2111/2112]  Loss -Train: [54][2111/2112]  Loss -0.6507 (-0.9865)  Time:  0.318 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:27:41
+Train: [53][2321/2322]  Loss -0.1277 (-1.1222)  Time:  0.100 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:36:13
+Train: [49][2593/2594]  Loss -0.3332 (-1.1164)  Time:  0.201 (0.013)  Data Train: [54][2111/2112]  Loss -0.5337 (-1.0497)  Time:  0.392 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:28:12
+Train:Train: [54][2321/2322]  Loss -0.1469 (-0.9686)  Time:  0.099 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:34:44
+Train: [54][2111/2112]  Loss -Train: [55][2111/2112]  Loss -0.4293 (-1.0379)  Time:  0.359 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:26:42
+Train: [54][2321/2322]  Loss -0.1708 (-1.0225)  Time:  0.097 (0.013)  Data Time: Train: [50][2593/2594]  Loss -0.2097 (-1.1586)  Time:  0.171 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:44:07
+Train: [48][2784/2785]  Loss -Train: [50][2593/2594]  Loss -0.1296 (-1.1669)  Time:  0.203 (0.013)  Data Train:Train: [55][2111/2112]  Loss -Train: [49][2784/2785]  Loss -0.8236 (-1.1430)  Time:  0.512 (0.012)  Data Train: [54][2321/2322]  Loss -0.1378Train: [56][2111/2112]  Loss -0.5161 (-0.9290)  Time:  0.298 (0.012)  Data Train:Train: [51][2593/2594]  Loss -0.3397 (-1.1706)  Time:  0.207 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:37:14
+Train: [56][2111/2112]  Loss -Train: [51][2593/2594]  Loss -0.3595 (-1.1951)  Time:  0.212 (0.011)  Data Train: [52][2593/2Test: [56]  ADE: 0Train: [50][2784/2785]  Loss -1.0205 (-1.1907)  Time:  0.383 (0.010)  Data Train: [55][2321/2322]  Loss -0.1774Train: [56][2321/2322]  Loss -0.1544 (-1.1697)  Time:  0.080 (0.010)  Data Time: Test: [56]  ADE: 0.6257  FDE: Test: [56]  ADE: 0.3908  FDE: 0.5404
+Train: [52][2593/2594]  Loss -0.3273 (Train: [53][2593/2594]  Loss -0.2061 (-1.3073)  Time:  0.143 (0.010)  DatTrain: [51][2784/2785]  Loss -0.9961 (-1.1680)  Time:  0.415 (0.010)  Data Train:Test: [56]  ADE: 0.3907  FDE: Train: Train: [57][2321/2322]  Loss -Train: [57][2111/2112]  Loss -0.5661 (-1.0258)  Time:  0.328 (0.011)  Data Time: Train: [53][2593/2594]  Loss -Train: [53][2593/2594]  Loss -0.3418 (-1.2845)  Time:  0.190 (0.011)  Data Time: Test: [46]  ADE: 0.6030  FDE: Train: [57][2321/2322]  Loss -0.1723 (-1.0192)  Time:  0.089 (0.011)  Data Time:  0.002 (0.004)
+  Eta: 1:25:18
+Train: [52][2784/2785]  Loss -0.9643 (-1.2023)  Time:  0.436 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:42:55
+Train: [58][2111/2112]  Loss -0.5902 (-1.0264)  Time:  0.292 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:16:43
+TTrain:Train: [47][2075/2076]  Loss -Train: [54][2593/2594]  Loss -0.2503 (-1.2745)  Time:  0.202 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:42:35
+Train: [58][2321/2322]  Loss -0.1762 (-0.9720)  Time:  0.117 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:31:51
+Train: [59][2111/2112]  Loss -0.5036 (-1.0666)  Time:  0.305 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:25:36
+Train: [53][2784/2785]  Loss -0.9060 (-1.2172)  Time:  0.475 (0.012)  Data Time: Train: [59][2321/2322]  Loss -Train: [47][2075/2076]  Loss -0.1842 (-0.9600)  Time:  0.156 (0.013)  Data Train:Train: [48][2075/2076]  Loss -Train: [55][2593/2594]  Loss -0.2857 (-1.2681)  Time:  0.168 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:45:41
+Train: [59][2321/2322]  Loss -0.1533 (-1.1489)  Time:  0.097 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:32:20
+Train: [60][2111/2112]  Loss -0.6710 (-1.0750)  Time:  0.405 (0.013)  Data Time: Train: [60][2321/2322]  Loss -0.1810 (-1.1523)  Time:  0.092 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:32:57
+Train: [53][2784/2785]  Loss -Train: [54][2784/2785]  Loss -0.9320 (-1.2887)  Time:  0.536 (0.013)  Data Time: Train: [49][2075/2076]  Loss -Train: [60][2321/2322]  Loss -0.1815 (-1.1417)  Time:  0.099 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:33:44
+Train: [56][2593/2594]  Loss -0.3212 (-1.2939)  Time:  0.170 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:47:56
+Train: [61][2111/2112]  Loss -0.5782 (-1.1550)  Time:  0.317 (0.013)  Data Time: Train: [61][2321/2322]  Loss -0.1464 (-1.1097)  Time:  0.086 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:29:13
+Test: [56]  ADE: 0.5774  FDE: Test: [56]  ADE: 0.5631  FDE: 0.9363
+Train: [55][2784/2785]  Loss -1.1245 (-1.2648)  Time:  0.523 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1:50:22
+Train: [62][2111/2112]  Loss -0.4400 (-1.0667)  Time:  0.324 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:21:22
+Train: [61][2321/2322]  Loss -0.1367 (-1.1559)  Time:  0.097 (0.013)  Data Time: Train: [62][2321/2322]  Loss -0.1965 (-1.2016)  Time:  0.095 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:30:47
+Train: [51][2075/2076]  Loss -Train: [57][2593/2594]  Loss -0.2791 (-1.1993)  Time:  0.173 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:45:01
+Train: [56][2784/2785]  Loss -1.1354 (-1.2868)  Time:  0.452 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:53:30
+Train: [63][2111/2112]  Loss -0.5502 (-1.1103)  Time:  0.384 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:23:09
+Test: [56]  ADE: 0.6960  FDE: 1.1562
+Train: [51][2075/2076]  Loss -0.1896 (-1.025Train: [63][2321/2322]  Loss -0.1797 (-1.0840)  Time:  0.097 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:29:34
+Train: [52][2075/2076]  Loss -0.1612 (-1.0778)  Time:  0.136 (0.013Train: [58][2593/2594]  Loss -0.3865 (-1.1930)  Time:  0.172 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:44:33
+Train: [64][2111/2112]  Loss -0.4617 (-1.0518)  Time:  0.345 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:23:39
+Train: [52][2075/2076]  Loss -0.2557 (-1.068Train: [56][2784/2785]  Loss -1.1352 (-1.3112)  Time:  0.483 (0.013Train: [63][2321/2322]  Loss -0.1615 (-1.044Test: [56]  ADE: 0.6895  FDE: 1.1352
+Train: [53][2075/2076]  Loss -Train: [57][2784/2785]  Loss -1.2520 Train: [64][2321/2322]  Loss -0.1583 (-1.211Train: [64][2321/2322]  Loss -Train: [65][2111/2112]  Loss -0.5945 (-1.0051)  Time:  0.316 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:22:05
+Train: [53][2075/2076]  Loss -0.1491 (-0.9681)  Time:  0.167 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:28:48
+Train: [59][2593/2594]  Loss -0.3811 (-1.2335)  Time:  0.201 (0.013)  Data Train:Train: [54][2075/2076]  Loss -0.1115 (-0.9908)  Time:  0.149 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:27:34
+Train: [57][2784/2785]  Loss -Train: [58][2784/2785]  Loss -0.9365 (-1.2715)  Time:  0.552 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:54:33
+Train: [66][2111/2112]  Loss -0.6154 (-1.0848)  Time:  0.329 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:21:01
+Train: [54][2075/2076]  Loss -0.1076 (-0.9623)  Time:  0.139 (0.013)  Data Train:Train: [60][2593/2594]  Loss -Train: [60][2593/2594]  Loss -0.3549 (-1.2792)  Time:  0.156 (0.013)  Data Time: Train: [55][2075/2076]  Loss -Train: [65][232Train: [66][2321/2322]  Loss -0.2076 (-1.0814)  Time:  0.114 (0.01Train: [66][2321/2322]  Loss -Train: [59][2784/2785]  Loss -1.0468 (-1.2898)  Time:  0.426 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:46:19
+Train: [55][2075/2076]  Loss -0.2502 (-0.9927)  Time:  0.145 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:20:41
+Train: [66][2321/2322]  Loss -0.2146 (-0.9618)  Time:  0.092 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:23:25
+Train: [61][2593/2594]  Loss -0.3694 (-1.1495)  Time:  0.147 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1:37:18
+Test: [66]  ADE: 0.4120  FDE: 0.5927
+Train: [56][2075/2076]  Loss -0.2815 (-0.9475)  Time:  0.136 (0.012)  Data Time: Train: [59][2784/2785]  Loss -Train: [60][2784/2785]  Loss -1.0318 (-1.2797)  Time:  0.441 (0.011)  Data Train:Train: [67][2321/2322]  Loss -0.1431 (-1.0169)  Time:  0.082 (0.010Train: [67][2111/2112]  Loss -0.7043 (-1.1364)  Time:  0.283 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:11:43
+Train: [62][2593/2594]  Loss -0.4010 (-1.2355)  Time:  0.189 (0.011)  Data Time: Train: [60][2784/2785]  Loss -Train: [67][2321/2322]  Loss -0.1890 (-1.0402)  Time:  0.104 (0.011)  Data Time: Train: [67][2111/2112]  Loss -Train: [61][2784/2785]  Loss -0.5861 (-1.2554)  Time:  0.454 (0.011)  Data Train: [64][2593/2594]  Loss -0.2555 (-1.2089)  Time:  0.154 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 1:26:27
+Train: [61][2784/2785]  Loss -0.4949Train: [63][2593/2594]  Loss -0.3268 (-1.2829)  Time:  0.158 (0.011)  Data Time: Train: [68][2111/2112]  Loss -Train: [68][2321/2322]  Loss -0.1520 (-1.1871)  Time:  0.091 (0.011)  Data Time: Train: [69][2321/2322]  Loss -Train: [69][2111/2112]  Loss -0.6035 (-1.1576)  Time:  0.355 (0.011)  Data Train: [69][2111/2112]  Loss -0.6446 (-1.1418)  Time:  0.294 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:14:44
+Train:Train: [64][2593/2594]  Loss -Train: [64][2593/2594]  Loss -0.3118 (-1.2690)  Time:  0.163 (0.011)  Data Time: Train: [69][2111/2112]  Loss -Train: [69][2321/2322]  Loss -0.1905 (-1.1483)  Time:  0.097 (0.011)  Data Time: Test: [56]  ADE: 0.4852  FDE: 0.7129
+Train: [70][2321/2322]  Loss -0.2157 (-1.2768)  Time:  0.097 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1Train: [63][2784/2785]  Loss -0.8823 (-1.3289)  Time:  0.472 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:37:26
+Test: [56]  ADE: 0.4857  FDE: 0.7137
+Train: [65][2593/2594]  Loss -0.3399 (-1.2643)  Time:  0.172 (0.011)  Data Time: Train: [70][2111/2112]  Loss -Train: [71][2111/2112]  Loss -0.5071 (-1.0615)  Time:  0.359 (0.012)  Data Time: Train: [57][2075/2076]  Loss -0.2708 (-1.0644)  Time:  0.173 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:Train:Train: [71][2321/2322]  Loss -Train: [64][2784/2785]  Loss -1.0420 (-1.2699)  Time:  0.500 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:46:12
+Train: [57][2075/2076]  Loss -0.2691 (-1.0721)  Time:  0.156 (0.013)  Data Time: Train: [71][2111/2112]  Loss -Train: [72][2111/2112]  Loss -0.6669 (-1.0065)  Time:  0.415 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:20:30
+TTrain: [70][2321/2322]  Loss -0.2225 (-1.3011)  Time:  0.103 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:29:55
+Train: [64][2784/2785]  Loss -1.0289 (-1.2840)  Time:  0.500 (0.013)  Data Time:Train: [72][2321/2322]  Loss -Test: [66]  ADE: 0.5332  FDE: 0.8794
+Train: [58][2075/2076]  Loss -0.2880 (-0.9987)  Time:  0.144 (0.013)  Data Time: Train: [72][2111/2112]  Loss -Train: [73][2111/2112]  Loss -0.6382 (-1.1303)  Time:  0.358 (0.012)  Data Time: Train: [64][2784/2785]  Loss -Train: [65][2784/2785]  Loss -1.1290 (-1.2544)  Time:  0.497 (0.012)  Data Train: [71][2321/2322]  Loss -0.1741 (-1.2388)  Time:  0.099 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:29:36
+Train: [73][2111/2112]  Loss -0.6548Train: [67][2593/2594]  Loss -0.3540 (-1.2856)  Time:  0.172 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:41:41
+Train: [59][2075/2076]  Loss -0.2397 (-0.9870)  Time:  0.174 (0.013)  Data Time: Train: [73][2111/2112]  Loss -Train: [74][2111/2112]  Loss -0.4492 (-1.0374)  Time:  0.382 (0.013)  Data Time: Train: [60][2075/2076]  Loss -Train: [73][2321/2322]  Loss -0.1281 (-1.1966)  Time:  0.094 (0.013)  Data Train: [74][2111/2112]  Loss -0.4791 (-1.0465)  Time:  0.369 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:20:59
+Train: [72][2321/2322]  Loss -0.1852 (-1.1268)  Time:  0.116 (0.013)  DatTrain: [60][2075/2076]  Loss -0.2689 (-1.114Train: [68][2593/2594]  Loss -0.3827 (-1.2859)  Time:  0.167 (0.013Train: [68][2593/2594]  Loss -0.3701 (-1.261Train: [74][2111/2112]  Loss -0.5920 (-1.0769)  Time:  0.353 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1Train: Train: [61][2075/2076]  Loss -0.1592 (-1.0726)  Time:  0.143 (0.013Train: [74][2321/2322]  Loss -0.2034 (-1.290Train: [75][2321/2322]  Loss -0.1743 (-1.1589)  Time:  0.096 (0.013Train: [67][2784/2785]  Loss -1.0312 (-1.3327)  Time:  0.483 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:47:10
+Train: [61][2075/2076]  Loss -0.2467 (-1.1038)  Time:  0.148 (0.013)  Data Time: Train: [75][2111/2112]  Loss -0.6246 (-1.1539)  Time:  0.331 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:Train: [70][2593/2594]  Loss -0.4042Train: [69][2593/2594]  Loss -0.3034 (-1.2581)  Time:  0.206 (0.013)  Data Train: [67][2784/2785]  Loss -1.1269Train: [75][2321/2322]  Loss -0.1975 (-1.1795)  Time:  0.104 (0.012)  Data Train:Train: [76][2321/2322]  Loss -Train: [62][2075/2076]  Loss -0.2755 (-1.1349)  Time:  0.128 (0.012)  Data Time: Train: [76][2111/2112]  Loss -Train: [68][2784/2785]  Loss -1.0154 (-1.3394)  Time:  0.447 (0.012)  Data Time: Train: [63][2075/2076]  Loss -Train: [70][2593/2594]  Loss -0.3691 (-1.3034)  Time:  0.159 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:31:41
+Train: [76][2321/2322]  Loss -0.1859 (-1.3067)  Time:  0.081 (0.011)  Data Train: [64][2075/2076]  Loss -0.2570Test: [76]  ADE: 0.4196  FDE: 0.6080
+Train: [63][2075/2076]  Loss -0.2865 (-1.1027)  Time:  0.204 (0.012)  Data Time: Train: [64][2075/2076]  Loss -Train: [69][2784/2785]  Loss -1.0088 (-1.3089)  Time:  0.506 (0.011)  Data Time: Train: [68][2784/2785]  Loss -0.9288 (-1.3252)  Time:  0.444 (0.011Train: [71][2593/2594]  Loss -0.3054 (-1.3233)  Time:  0.203 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:34:12
+Train: [77][2111/2112]  Loss -0.6486 (-1.1327)  Time:  0.319 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:14:09
+Train: [64][2075/2076]  Loss -0.2589 (Train: [69][2784/2785]  Loss -0.6754 (-1.36Train: [65][2075/2076]  Loss -Train: [77][2321/2322]  Loss -0.2081 (-1.3002)  Time:  0.097 (0.013)  Data Time: Train: [77][2111/2112]  Loss -0.6457 (-1.1191)  Time:  0.365 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:19:17
+Train: [78][2321/2322]  Loss -Train: [78][2111/2112]  Loss -0.6438 (-1.1050)  Time:  0.340 (0.013)  Data Time: Train: [69][2784/2785]  Loss -Train: [65][2075/2076]  Loss -0.2814 (-1.0045)  Time:  0.190 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:23:14
+Train: [72][2593/2594]  Loss -0.3587 (-1.2568)  Time:  0.171 (0.013)  Data Train: [78][2111/2112]  Loss -0.6413Train: [78][2321/2322]  Loss -0.1584 (-1.1621)  Time:  0.117 (0.013)  Data Time: Train: [78][2111/2112]  Loss -Train: [79][2111/2112]  Loss -0.6540 (-1.2246)  Time:  0.313 (0.013)  Data Train: [74][2593/2594]  Loss -0.3160Train: [66][2075/2076]  Loss -0.2375 (-1.2010)  Time:  0.145 (0.013)  Data Time: Train: [73][2593/2594]  Loss -Train: [71][2784/2785]  Loss -0.8936 (-1.3596)  Time:  0.433 (0.012)  Data Train: [79][2111/2112]  Loss -0.6441Train: [73][2593/2594]  Loss -0.3433 (-1.3829)  Time:  0.154 (0.013)  Data Train:Train: [79][2111/2112]  Loss -Train: [80][2111/2112]  Loss -0.6458 (-1.1620)  Time:  0.290 (0.011)  Data Train: [78][2321/2322]  Loss -0.1488 (-1.1606)  Time:  0.086 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:15:27
+Train:Train: [74][2593/2594]  Loss -Train: [72][2784/2785]  Loss -1.0756 (-1.3095)  Time:  0.465 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:30:58
+Train: [74][2593/2594]  Loss -0.3300 (-1.4515)  Time:  0.177 (0.011)  Data Train: [72][2784/2785]  Loss -1.0986 (-1.4025)  Time:  0.429 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:32:26
+Train: [81][2111/2112]  Loss -0.5202 (-1.0253)  Time:  0.314 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:07:04
+Train:Train: [75][2593/2594]  Loss -Train: [73][2784/2785]  Loss -0.7239 (-1.4395)  Time:  0.455 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:30:33
+Train: [75][2593/2594]  Loss -0.3295 (-1.4304)  Time:  0.157 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:26:43
+TTest: [66]  ADE: 0.4858  FDE: 0.6990
+Train: [82][2111/2112]  Loss -0.6501 (-1.2255)  Time:  0.318 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:07:00
+Train: [73][2784/2785]  Loss -0.7858 (-1.38Test: [66]  ADE: 0.4879  FDE: Train: [83][2111/2112]  Loss -0.5644 (-1.1941)  Time:  0.284 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:06:53
+Train: [74][2784/2785]  Loss -0.9926 (Train: [67][2075/2076]  Loss -0.2093 (-1.0772)  Time:  0.153 (0.013)  DatTrain: Train: [73][2784/2785]  Loss -0.9952 (-1.4620)  Time:  0.466 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1Train: Train: [83][2321/2322]  Loss -0Train: [83][2111/2112]  Loss -0.5773 (-1.1942)  Time:  0.328 (0.013)  DatTest: [66]  ADE: 0.4783  FDE: 0.6837
+TTrain: [81][2321/2322]  Loss -0.1466Train: [84][2111/2112]  Loss -0.6545 (-1.1558)  Time:  0.351 (0.012)  Data Time: Train: [83][2111/2112]  Loss -Train: [83][2321/2322]  Loss -0.2068 (-1.1625)  Time:  0.101 (0.012)  Data Time: Train: [84][2321/2322]  Loss -0.1901 (-1.2200)  Time:  0.095 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:Train:Train: [68][2075/2076]  Loss -0.2740 (-1.1781)  Time:  0.147 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:21:29
+Train: [74][2784/2785]  Loss -Train: [77][2593/2594]  Loss -0.3845 (-1.4095)  Time:  0.180 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:34:50
+Train: [85][2111/2112]  Loss -0.6490 (-1.2534)  Time:  0.329 (0.013)  Data Train: [75][2784/2785]  Loss -1.1488Train: [84][2321/2322]  Loss -0.2021 (-1.1566)  Time:  0.091 (0.012)  Data Time: Train: [85][2321/2322]  Loss -0.2011 (-1.1376)  Time:  0.115 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:20:32
+Train: [69][2075/2076]  Loss -Train: [76][2784/2785]  Loss -1.0074 (-1.3490)  Time:  0.503 (0.013)  Data Time: Train: [78][2593/2594]  Loss -0.4271 (-1.3500)  Time:  0.180 (0.013Train: [86][2111/2112]  Loss -0.6915 (-1.1409)  Time:  0.323 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:11:31
+Train: [78][2593/2594]  Loss -0.4589 (Train: [70][2075/2Train: [76][2784/2785]  Loss -1.0454 (-1.3574)  Time:  Train: [69][2075/2076]  Loss -0.3020 (-1.136Train: [70][2075/2076]  Loss -0.2930 (-1.0946)  Time:  0.137 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:20:30
+Train: [86][2321/2322]  Loss -0.0729 (-1.3065Train: [87][2111/2112]Train: [77][2784/2785]  Loss -0.9617 (-1.445Train: [86][2111/2112]  Loss -0.6463 (-1.1817)  Time:  0.313 (0.013Train: [79][2593/2594]  Loss -0.3367 (-1.3677)  Time:  0.153 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:28:47
+Train: [70][2075/2076]  Loss -0.1739 (-1.0948)  Time:  0.159 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:15:00
+Test: [86]  ADE: 0.3805  FDE: 0.5724
+Train: [86][2321/2322]  Loss -0.1555 (Train: [77][2784/2785]  Loss -0.9235 (-1.3748)  Time:  0.465 (0.011)  DatTrain: [78][2784/2785]  Loss -1.2026 (-1.4484)  Time:  0.523 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:33:36
+Train: [71][2075/2076]  Loss -0.2455 (-1.1356)  Time:  0.136 (0.012)  Data Time: Train: [72][2075/2076]  Loss -0.2332 (-1.1403)  Time:  0.167 (0.012Train: [80][2593/2594]  Loss -0.3437 (-1.320Train: [87][2321/2322]  Loss -Train: [87][2111/2112]  Loss -0.6681 (-1.1244)  Time:  0.345 (0.013)  Data Train: [78][2784/2785]  Loss -1.1755 (-1.4204)  Time:  0.514 (0.012)  DatTrain: [72][2075/2076]  Loss -0.2216 (-1.1429)  Time:  0.138 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:21:05
+Train: [88][2111/2112]  Loss -0.6394 (-1.2242)  Time:  0.312 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:11:52
+Train: [87][2321/2322]  Loss -0.2006 (-1.2278)  Time:  0.094 (0.013)  Data Time: Train: [88][2321/2322]  Loss -Train: [79][2784/2785]  Loss -0.7334 (-1.3879)  Time:  0.523 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:39:55
+Train: [81][2593/2594]  Loss -0.3548 (Train: [88][2111/2112]  Loss -0.5034 (-1.2284)  Time:  0.289 (0.012)  DatTrain: [73][2075/2076]  Loss -0.2684 (-1.2198)  Time:  0.153 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:18:41
+Train: [89][2111/2112]  Loss -0.6955 (-1.2282)  Time:  0.318 (0.013)  Data Time: Train: [88][2111/2112]  Loss -0.6185 (-1.3269)  Time:  0.320 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:12:18
+Train: [89][2321/2322]  Loss -Train: [80][2784/2785]  Loss -1.0686 (-1.3178)  Time:  0.459 (0.012)  Data Train: [89][2111/2112]  Loss -0.6686 (-1.2417)  Time:  0.311 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:12:10
+Train:Train: [79][2784/2785]  Loss -Train: [74][2075/2076]  Loss -0.2905 (-1.1113)  Time:  0.151 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:18:49
+Train: [90][2111/2112]  Loss -0.5100 (-1.1717)  Time:  0.356 (0.013)  Data Train:Train: [89][2111/2112]  Loss -Train: [89][2321/2322]  Loss -0.1752 (-1.3487)  Time:  0.092 (0.013)  Data Time: Train: [90][2321/2322]  Loss -Train: [83][2593/2594]  Loss -0.3872 (-1.3635)  Time:  0.172 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:31:49
+Train: [81][2784/2785]  Loss -1.1397 (-1.4935)  Time:  0.460 (0.013)  Data Time: Train: [76][2075/2076]  Loss -Train: [75][2075/2076]  Loss -0.2072 (-1.1475)  Time:  0.143 (0.013)  Data Time: Train: [80][2784/2785]  Loss -Train: [91][2111/2112]  Loss -0.5326 (-1.2464)  Time:  0.373 (0.013)  DataTTrain: [81][2784/2785]  Loss -1.0706 (-1.4269)  Time:  0.479 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:30:51
+Train: [85][2593/2594]  Loss -0.3114Train: [84][2593/2594]  Loss -0.4414 (-1.4389)  Time:  0.177 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:32:37
+Train: [76][2075/2076]  Loss -0.2624 (-1.1650)  Time:  0.152 (0.013)  Data Time: Train: [91][2111/2112]  Loss -Train: [92][2111/2112]  Loss -0.6093 (-1.2656)  Time:  0.281 (0.013)  Data Train: [92][2111/2112]  Loss -0.5917 (-1.2376)  Time:  0.298 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:02:46
+Train: [86][2593/2594]  Loss -0.3879 (-1.3682)  Time:  0.165 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:19:10
+Train:Train: [85][2593/2594]  Loss -Train: [93][2111/2112]  Loss -0.7179 (-1.1359)  Time:  0.282 (0.012)  Data Time:  0.002 (0.004)
+  Eta: 1:04:00
+Train: [85][2593/2594]  Loss -0.3242 (-1.3203)  Time:  0.165 (0.011)  Data Time: Train: [93][2321/2322]  Loss -Train: [83][2784/2785]  Loss -1.1379 (-1.4361)  Time:  0.407 (0.011)  Data Time: Train: [82][2784/2785]  Loss -1Train: [83][2784/2785]  Loss -1.1339 (-1.4330)  Time:  0.433 (0.011)  Data Time:Train: [93][2111/2112]  Loss -Train: [94][2111/2112]  Loss -0.7233 (-1.3515)  Time:  0.276 (0.011)  Data Time: Train: [86][2593/2594]  Loss -Train: [86][2593/2594]  Loss -0.3876 (-1.3936)  Time:  0.198 (0.011)  Data Time: Train: [94][2321/2322]  Loss -Train: [93][2321/2322]  Loss -0.2132 (-1.3897)  Time:  0.083 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:09:24
+TTest: Train: [83][2784/2785]  Loss -1Train: [92][2321/2322]  Loss -0.1824 (-1.3624)  Time:  0.103 (0.012)  Data Time:  0.006 (0.004)
+  Eta: 1:13:39TTrain: [84][2784/2785]  Loss -1.0136 (-1.4028)  Time:  0.485 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:30:44Train: [94][2321/2322]  Loss -0.1667 (-1.2029)  Time:  0.080 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:07:58
+Train: [85][2784/2785]  Loss -0.9709 (-1.4548)  Time:  0.513 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:25:07
+Train: Train: [95][2111/2112]  Loss -0.6826 (-1.2158)  Time:  0.339 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:Train: [93][2321/2322]  Loss -0.1924 (-1.3934)  Time:  0.117 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:18:24TTrain: [96][2111/2112]  Loss -0.6543Train: [95][2321/2322]  Loss -0.2058 (-1.3288)  Time:  0.095 (0.011)  Data Time: Train: [96][2321/2322]  Loss -Train: [86][2784/2785]  Loss -1.1887 (-1.3420)  Time:  0.454 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:24:50
+Train: [88][2593/2594]  Loss -0.3691 (-1.4256)  Time:  0.151 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1:20:39
+Test: [86]  ADE: 0.7432  FDE: 1.2208
+Train: [77][2075/2076]  Loss -0.2941 (Train: [94][2321/2322]  Loss -0.1736 (-1.2017)  Time:  0.095 (0.012)  DatTest: [96]  ADE: 0.3933  FDE: 0.5801
+TTrain: [79][2075/2076]  Loss -0.3382 (-1.2162)  Time:  0.130 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:09:00Train: [78][2075/2076]  Loss -0.2810 (-1.1609)  Time:  0.136 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:12:59
+Train: [89][2593/2594]  Loss -0.3408 (-1.4332)  Time:  0.162 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:21:53
+Train: [87][2784/2785]  Loss -1.1825 (-1.433Train: [97][2321/2322]  Loss -0.1211 (-1.4081)  Time:  0.080 (0.011Test: [96]  ADE: 0.3826  FDE: 0.5986
+Train: Test: [96]  ADE: 0.3987  FDE: 0Train:Train: [86][2784/2785]  Loss -1.2010 (-1.3405)  Time:  0.505 (0.012Train: [79][2075/2076]  Loss -0.3438 (-1.2501)  Time:  0.173 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:15:03
+Train: [90][2593/2594]  Loss -0.3542 (-1.4395)  Time:  0.198 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:28:11
+Train: [98][2111/2112]  Loss -0.6883 (-1.2704)  Time:  0.315 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:09:42
+Train: [97][2321/2322]  Loss -0.1527 (-1.3802)  Time:  0.098 (0.013)  Data Time: Train: [97][2111/2112]  Loss -Train: [88][2784/2785]  Loss -1.0155 (-1.4033)  Time:  0.516 (0.013)  Data Time: Train: [81][2075/2076]  Loss -Train: [80][2075/2076]  Loss -0.3091 (-1.2330)  Time:  0.154 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:16:15
+Train: [99][2111/2112]  Loss -0.6442 (-1.1058)  Time:  0.356 (0.013)  Data Time: Train: [91][2593/2594]  Loss -Train: [98][2321/2322]  Loss -0.2016 (-1.3767)  Time:  0.109 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:14:09
+Train: [91][2593/2594]  Loss -0.4528 (-1.3624)  Time:  0.168 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:27:03
+Train: [89][2784/2785]  Loss -1.0730 (-1.4269)  Time:  0.467 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:34:08
+Train: [81][2075/2076]  Loss -0.3332 (-1.1629)  Time:  0.144 (0.013)  Data Train:Train: [88][2784/2785]  Loss -Train: [100][2111/2112]  Loss -0.4934 (-1.2377)  Time:  0.309 (0.013)  Data Time:Train: [99][2111/2112]  Loss -0Train: [99][2321/2322]  Loss -0.2199 (-1.3324)  Time:  0.100 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:14:18
+Train: [92][2593/2594]  Loss -0.4330 (-1.4129)  Time:  0.172 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:27:13
+Train: [82][2075/2076]  Loss -0.2195 (-1.1250)  Time:  0.147 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:15:47
+Train: [90][2784/2785]  Loss -1.0322 (-1.4954)  Time:  0.479 (0.012)  Data Train:Train: [100][2111/2112]  Loss -0.5197 (-1.2224)  Time:  0.320 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:07:12
+Train: [89][2784/2785]  Loss -Train: [100][2321/2322]  Loss -0.1269 (-1.4416)  Time:  0.094 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:12:47
+Train: [83][2075/2076]  Loss -0.2732 (-1.2115)  Time:  0.180 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:15:21
+Train: [93][2593/2594]  Loss -0.4009 (-1.4790)  Time:  0.214 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:27:07
+Train: [102][2111/2112]  Loss -0.5612 (-1.2808)  Time:  0.327 (0.013)  DatTrain: Train: [101][2111/2112]  Loss -Train: [91][2784/2785]  Loss -1.1312 (-1.4306)  Time:  0.467 (0.013)  Data Time: Train: [102][2321/2322]  Loss Train: [101][2321/2322]  Loss -0.2095 (-1.4500)  Time:  0.103 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:12:13
+Train: [84][2075/2076]  Loss -0.2498 (-1.2472)  Time:  0.150 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:13:27
+Train: [94][2593/2594]  Loss -0.3460 (-1.4925)  Time:  0.213 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:25:57
+Train: [103][2111/2112]  Loss -0.6743 (-1.2440)  Time:  0.342 (0.013)  DaTrain: [Train: [102][2111/2112]  Loss -Train: [92][2784/2785]  Loss -1.0019 (-1.4734)  Time:  0.540 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:33:24
+Train: [102][2321/2322]  Loss -0.1735 (-1.3278)  Time:  0.114 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:12:20
+Train: [85][2075/2076]  Loss -0.3225 (-1.2277)  Time:  0.145 (0.013)  Data Time: Train: [91][2784/2785]  Loss -Train: [104][2111/2112]  Loss -0.5633 (-1.2426)  Time:  0.319 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:05:46
+Train: [95][2593/2594]  Loss -0.3102 (-1.4917)  Time:  0.169 (0.013)  Data Time:  0.003 (0.005)
+  Eta: 1:27:05
+Train: [103][2321/2322]  Loss -0.2077 (-1.3305)  Time:  0.102 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:13:02
+Train: [86][2075/2076]  Loss -0.1449 (-1.2826)  Time:  0.173 (0.013)  Data Time: Train: [104][2111/2112]  Loss -0.6625 (-1.2507)  Time:  0.297 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:58:40
+Train: [92][2784/2785]  LossTrain: [93][2784/2785]  Loss -1.2324 (-1.5098)  Time:  0.465 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:22:54
+TrTrain: [96][2593/2594]  Loss -0.4159 (-1.4833)  Time:  0.156 (0.012)  Data Time: Train: [105][2321/2322]  Loss Train: [104][2321/2322]  Loss -0.1629 (-1.4208)  Time:  0.085 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:03:22Train: [98][2593/2594]  Loss -0.3801 (-1.4224)  Time:  0.159 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:15:15
+Train: [1Train: [93][2784/2785]  Loss -1.2005 (-1.4964)  Time:  0.507 (0.011)  Data Time:  0.004 (0.003)
+  Eta: Train: [Train: [106][2321/2322]  Loss Train: [105][2321/2322]  Loss -0.1900 (-1.2771)  Time:  0.078 (0.010)  Data Time: Train: [97][2593/2594]  Loss -Train: [97][2593/2594]  Loss -0.3253 (-1.4696)  Time:  0.143 (0.011)  DatTest: [86]  ADE: 0.5269  FDE: 0.8113
+Train: [99][2593/2594]  Loss -0.3519 (-1.5098)  Time:  0.160 (0.011)  Data Time:  0Test: [106]  ADE: 0.4396  FDTTest: [106]  ADE: 0.3586  FDE: 0.5214
+Train: [106][2321/2322]  Loss -0.1738 (-1.3916)  Time:  0.096 (0.010)  DaTrain: [95][2784/2785]  Loss -1.1551 (-Train: [98][2593/2594]  Loss -0.3980 (-1.4265)  Time:  0.205 (0.011)  Data Time:  0.002 (0.003)
+  Eta: 1:09:46TTrain: Train: [107][2321/2322]  Loss -0.1884 (-1.4258)  Time:  0.093 (0.011)  Data Time:  0.004 (0.004)
+  Eta:Train: [105][2321/2322]  Loss -0.1869 (-1.3212)  Time:  0.099 (0.012)  Data Train: [107][2111/2112]  Loss -0.781Train: [100][2593/2594]  Loss -0.4160 (-1.5040Train: [95][2784/2785]  Loss -Test: [86]  ADE: 0.5651  FDE: 0.8674TTrain: [99][2593/2594]  Loss -0.3315 (-1.5092)  Time:  0.235 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:14:30
+Train: [107][2321/2322]  Loss -0.1913 (-1.4388)  Time:  0.101 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:06:52
+Train: [108][2111/2112]  Loss -0.6860 (-1.3068)  Time:  0.334 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1:02:25
+Train: [97][2784/2785]  Loss -1.204Train: [106][2321/2322]  Loss -0.1492 (-1.3888)  Time:  0.104 (0.013)  Data Train: [87][2075/2076]  Loss -0.3543 (-1.289Train: [96][2784/2785]  Loss -1.3024 (-1.4757)  Time:  0.497 (0.013Train: [100][2593/2594]  Loss -0.4453 (-1.5204)  Time:  0.178 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:23:36
+Train: [109][2111/2112]  Loss -0.6376 (-1.2659)  Time:  0.312 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:02:48
+Train: [108][2321/2322]  Loss -0.1946 (-1.3897)  Time:  0.093 (0.013)  Data Time:  0.006 (0.004)
+  Eta: 1:09:41
+Train: [98][2784/2785]  Loss -1.1243 (-1.4968)  Time:  0.486 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:27:39
+Train: [88][2075/2076]  Loss -0.1988 (-1.2619)  Time:  0.166 (0.013)  Data Time: Train: [90][2075/2076]  Loss -Train: [110][2111/2112]  Loss -0.6817 (-1.2325)  Time:  0.328 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:03:34
+Train: [101][2593/2594]  Loss -0.4023 (-1.2669)  Time:  0.190 (0.013)  Data Time:  0.003 (0.005)
+  Eta: 1:21:45
+Train: [109][2321/2322]  Loss -0.1748 (-1.4930)  Time:  0.108 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:09:40
+Train: [89][2075/2076]  Loss -0.2208 (-1.1792)  Time:  0.139 (0.013)  Data Time:  0.003 (0.004)
+  Eta: 1:12:35
+Train: [99][2784/2785]  Loss -1.1480 (-1.4606)  Time:  0.500 (0.013)  Data Time: Train: [91][2075/2076]  Loss -Train: [111][2111/2112]  Loss -0.6883 (-1.3612)  Time:  0.354 (0.013)  Data Time:Train: [110][2111/2112]  Loss -Train: [110][2321/2322]  Loss -0.2354 (-1.4232)  Time:  0.125 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:09:04
+Train: [102][2593/2594]  Loss -0.3467 (-1.4726)  Time:  0.169 (0.013)  DatTrain: [111][2111/2112]  Loss -0.6852 Train: [90][2075/2076]  Loss -0.3214 (-1.0818)  Time:  0.144 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:12:13
+Train: [112][2111/2112]  Loss -0.6073 (-1.3612)  Time:  0.316 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:02:34
+Train: [100][2784/2785]  Loss -1.2503 (-1.5210)  Time:  0.473 (0.013)  Data TimeTrain: [111][2111/2112]  Loss -0Train: [111][2321/2322]  Loss -0.1225 (-1.3767)  Time:  0.102 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:07:51
+Train: [91][2075/2076]  Loss -0.3489 (-1.3541)  Time:  0.162 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:10:51
+Train: [103][2593/2594]  Loss -0.4364 (-1.4507)  Time:  0.223 (0.013)  Data Time:Train: [99][2784/2785]  Loss -1Train: [113][2111/2112]  Loss -0.6281 (-1.3072)  Time:  0.321 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 1:00:27
+Train: [101][2784/2785]  Loss -1.1393 (-1.4806)  Time:  0.463 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:26:29
+Train: [92][2075/2076]  Loss -0.2829 (-1.3004)  Time:  0.149 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:10:42
+Train: [112][2321/2322]  Loss -0.1449 (-1.4558)  Time:  0.097 (0.013)  Data TimeTrain: [104][2593/2594]  Loss -0Train: [104][2593/2594]  Loss -0.3329 (-1.5020)  Time:  0.211 (0.013)  Data TimeTrain: [94][2075/2076]  Loss -0.Train: [114][2111/2112]  Loss -0.6988 (-1.3156)  Time:  0.313 (0.013)  DaTrain: [101][2784/2785]  Loss -1.1335 (Train: [93][2075/2076]  Loss -0.2489 (-1.2550)  Time:  0.178 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:10:14
+Train: [113][2321/2322]  Loss -0.1480 (-1.2508)  Time:  0.094 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:06:16
+Train: [102][2784/2785]  Loss -1.1413 (-1.5435)  Time:  0.486 (0.013)  Data TimeTrain: [95][2075/2076]  Loss -0.Train: [115][2111/2112]  Loss -0.5998 (-1.2682)  Time:  0.339 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:00:13
+Train: [105][2593/2594]  Loss -0.3980 (-1.4043)  Time:  0.164 (0.013)  Data TimTrain: [114][2111/2112]  Loss -0TTrain: [94][2075/2076]  Loss -0.2399 (-1.2185)  Time:  0.146 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:09:09
+Train: [114][2321/2322]  Loss -0.1939 (-1.2431)  Time:  0.115 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:06:06
+Train: [103][2784/2785]  Loss -1.2948 (-1.5556)  Time:  0.501 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 1:27:11
+Train: [116][2111/2112]  Loss -0.6978 (-1.3550)  Time:  0.357 (0.013)  Data TimTrain: [115][2111/2112]  Loss -0.Train: [106][2593/2594]  Loss -0.4156 (-1.4117)  Time:  0.181 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:20:03
+Train: [95][2075/2076]  Loss -0.2237 (-1.2683)  Time:  0.136 (0.013)  Data TimeTrain: [116][2321/2322]  Loss -0Train: [115][2321/2322]  Loss -0.1261 (-1.4114)  Time:  0.101 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 1:00:30
+Test: [106]  ADE: 0.4788  FDE: 0.7912
+(-1.2691)  TiTrain: [115][2321/2322]  Loss -0.1457 (-1.4425)  Time:  0.109Train:Train: [116][2111/2112]  Loss -0.6813 (-1.3462)  Time:  0.273 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:49:55
+1)  Data Time:  0.004 (0.003)
+  Eta: 1:13:26
+Train: [117][2111/2112]  Loss -0.6239 (-1.3673)  Time:  0.333 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:53:01
+ Eta: 1:11:19
+1.2079 (-1.4785)  Time:  0.428 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 1:14:22
+Train: [117][2111/2112]  Loss -0.6417 (-1.3679)  Time:  0.374 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:52:29
+93/2594]  Loss -0.3146 (-1.4478)  Time:  0.166 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:09:37
+Train: [113][2321/2322]  Loss -0.1561 (-1.2770)  Time:  0.096 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:01:11
+Train: [121][2111/2112]  Loss -0.5859 (-1.3454)  Time:  0.253 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:47:39
+Train: [105][2784/2785]  Loss -1.0385 (-1.5087)  Time:  0.393 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:11:50
+Train: [110][2593/2594]  Loss -0.4130 (-1.4807)  Time:  0.150 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:04:45
+Train: [114][2321/2322]  Loss -0.1880 (-1.2618)  Time:  0.080 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:00:16
+Train: [122][2111/2112]  Loss -0.5714 (-1.3312)  Time:  0.297 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:48:01
+Train: [106][2784/2785]  Loss -1.1406 (-1.5328)  Time:  0.424 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:11:37
+Test: [106]  ADE: 0.7133  FDE: 1.1791
+Train: [111][2593/2594]  Loss -0.3487 (-1.3855)  Time:  0.163 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:04:38
+Train: [115][2321/2322]  Loss -0.1529 (-1.4137)  Time:  0.095 (0.011)  Data Time:  0.002 (0.004)
+  Eta: 0:58:55
+Train: [123][2111/2112]  Loss -0.6526 (-1.2242)  Time:  0.299 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:47:56
+Test: [96]  ADE: 0.5087  FDE: 0.8549
+Train: [112][2593/2594]  Loss -0.3236 (-1.4201)  Time:  0.176 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:07:17
+Train: [107][2784/2785]  Loss -1.0766 (-1.5367)  Time:  0.511 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:15:15
+Train: [116][2321/2322]  Loss -0.1662 (-1.4490)  Time:  0.096 (0.012)  Data Time:  0.006 (0.004)
+  Eta: 1:00:55
+Train: [124][2111/2112]  Loss -0.7739 (-1.3951)  Time:  0.302 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:50:02
+Train: [97][2075/2076]  Loss -0.3009 (-1.3159)  Time:  0.138 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:03:36
+Test: [116]  ADE: 0.4744  FDE: 0.7364
+Train: [125][2111/2112]  Loss -0.6832 (-1.2683)  Time:  0.325 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:49:57
+Train: [113][2593/2594]  Loss -0.3847 (-1.3814)  Time:  0.162 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:07:32
+Train: [108][2784/2785]  Loss -1.1707 (-1.5463)  Time:  0.480 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:14:52
+Train: [98][2075/2076]  Loss -0.3106 (-1.3228)  Time:  0.144 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:06:25
+Train: [117][2321/2322]  Loss -0.1784 (-1.4181)  Time:  0.090 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:05:25
+Train: [126][2111/2112]  Loss -0.7091 (-1.3900)  Time:  0.322 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:53:22
+Train: [114][2593/2594]  Loss -0.4426 (-1.5009)  Time:  0.160 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:11:21
+Train: [109][2784/2785]  Loss -1.0944 (-1.5103)  Time:  0.396 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:17:30
+Train: [99][2075/2076]  Loss -0.3281 (-1.2881)  Time:  0.140 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:04:36
+Train: [118][2321/2322]  Loss -0.1734 (-1.4547)  Time:  0.084 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:00:56
+Test: [126]  ADE: 0.3362  FDE: 0.5105
+Train: [115][2593/2594]  Loss -0.3791 (-1.3782)  Time:  0.166 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:05:02
+Train: [100][2075/2076]  Loss -0.3273 (-1.3454)  Time:  0.144 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:03:33
+Train: [110][2784/2785]  Loss -1.2422 (-1.4972)  Time:  0.470 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:15:13
+Train: [119][2321/2322]  Loss -0.1661 (-1.3808)  Time:  0.100 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:02:44
+Train: [127][2111/2112]  Loss -0.7167 (-1.3444)  Time:  0.306 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:51:27
+Train: [116][2593/2594]  Loss -0.4343 (-1.5050)  Time:  0.180 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:11:15
+Train: [101][2075/2076]  Loss -0.2632 (-1.3681)  Time:  0.125 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:06:03
+Test: [116]  ADE: 0.4492  FDE: 0.7140
+Train: [111][2784/2785]  Loss -1.1397 (-1.5200)  Time:  0.494 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:18:14
+Train: [120][2321/2322]  Loss -0.1840 (-1.3636)  Time:  0.095 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:02:38
+Train: [128][2111/2112]  Loss -0.6475 (-1.3198)  Time:  0.300 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:50:55
+Train: [102][2075/2076]  Loss -0.2117 (-1.3954)  Time:  0.158 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:05:58
+Train: [117][2593/2594]  Loss -0.3866 (-1.5062)  Time:  0.171 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:10:33
+Train: [129][2111/2112]  Loss -0.6925 (-1.3016)  Time:  0.313 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:52:01
+Train: [112][2784/2785]  Loss -1.2473 (-1.5293)  Time:  0.481 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:18:49
+Train: [121][2321/2322]  Loss -0.2691 (-1.5245)  Time:  0.094 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:05:32
+Train: [103][2075/2076]  Loss -0.2778 (-1.2387)  Time:  0.149 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:05:47
+Train: [130][2111/2112]  Loss -0.7030 (-1.3523)  Time:  0.298 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:50:54
+Train: [118][2593/2594]  Loss -0.3534 (-1.4226)  Time:  0.175 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:09:05
+Train: [122][2321/2322]  Loss -0.1936 (-1.3908)  Time:  0.099 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:03:29
+Train: [113][2784/2785]  Loss -0.9695 (-1.5049)  Time:  0.435 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:16:28
+Train: [104][2075/2076]  Loss -0.3118 (-1.3424)  Time:  0.139 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:04:30
+Train: [131][2111/2112]  Loss -0.8075 (-1.3563)  Time:  0.302 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:48:50
+Train: [123][2321/2322]  Loss -0.1880 (-1.3600)  Time:  0.096 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:59:42
+Train: [119][2593/2594]  Loss -0.3829 (-1.5330)  Time:  0.136 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:07:14
+Train: [105][2075/2076]  Loss -0.3267 (-1.3383)  Time:  0.138 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:00:01
+Train: [114][2784/2785]  Loss -1.2683 (-1.5536)  Time:  0.460 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:15:02
+Train: [132][2111/2112]  Loss -0.7092 (-1.3634)  Time:  0.298 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:50:05
+Train: [106][2075/2076]  Loss -0.3422 (-1.2895)  Time:  0.152 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:04:40
+Train: [124][2321/2322]  Loss -0.1830 (-1.2721)  Time:  0.082 (0.013)  Data Time:  0.003 (0.005)
+  Eta: 1:03:30
+Train: [120][2593/2594]  Loss -0.3962 (-1.5606)  Time:  0.159 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:07:29
+Train: [133][2111/2112]  Loss -0.7796 (-1.2511)  Time:  0.300 (0.011)  Data Time:  0.002 (0.004)
+  Eta: 0:46:57
+Train: [115][2784/2785]  Loss -1.1898 (-1.5306)  Time:  0.442 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:13:17
+Train: [125][2321/2322]  Loss -0.1912 (-1.2925)  Time:  0.086 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:55:23
+Train: [121][2593/2594]  Loss -0.4004 (-1.3334)  Time:  0.151 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:00:17
+Train: [134][2111/2112]  Loss -0.5780 (-1.4668)  Time:  0.285 (0.011)  Data Time:  0.002 (0.004)
+  Eta: 0:43:21
+Train: [116][2784/2785]  Loss -1.1118 (-1.5419)  Time:  0.412 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 1:06:03
+Test: [116]  ADE: 0.7208  FDE: 1.1678
+Train: [126][2321/2322]  Loss -0.2356 (-1.3967)  Time:  0.093 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:54:45
+Train: [135][2111/2112]  Loss -0.6930 (-1.3703)  Time:  0.270 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:42:44
+Train: [122][2593/2594]  Loss -0.4041 (-1.4675)  Time:  0.134 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:58:07
+Train: [117][2784/2785]  Loss -1.1212 (-1.5482)  Time:  0.378 (0.010)  Data Time:  0.002 (0.003)
+  Eta: 1:03:45
+Test: [126]  ADE: 0.3754  FDE: 0.5257
+Train: [136][2111/2112]  Loss -0.5271 (-1.3471)  Time:  0.285 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:39:17
+Train: [123][2593/2594]  Loss -0.4574 (-1.5859)  Time:  0.123 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:54:53
+Test: [106]  ADE: 0.4639  FDE: 0.7726
+Train: [127][2321/2322]  Loss -0.2353 (-1.4807)  Time:  0.084 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:51:22
+Train: [118][2784/2785]  Loss -0.9574 (-1.5751)  Time:  0.442 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 1:01:20
+Train: [124][2593/2594]  Loss -0.5221 (-1.4033)  Time:  0.154 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:56:58
+Test: [136]  ADE: 0.3740  FDE: 0.5005
+Train: [107][2075/2076]  Loss -0.2529 (-1.3569)  Time:  0.147 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:01:09
+Train: [128][2321/2322]  Loss -0.1869 (-1.5254)  Time:  0.102 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:58:58
+Train: [119][2784/2785]  Loss -1.2324 (-1.5993)  Time:  0.493 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:12:19
+Train: [137][2111/2112]  Loss -0.6537 (-1.4113)  Time:  0.325 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:48:05
+Train: [125][2593/2594]  Loss -0.3675 (-1.5421)  Time:  0.159 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:05:06
+Train: [108][2075/2076]  Loss -0.3619 (-1.4075)  Time:  0.147 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:02:34
+Train: [129][2321/2322]  Loss -0.2230 (-1.5113)  Time:  0.083 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:58:10
+Train: [138][2111/2112]  Loss -0.6712 (-1.4043)  Time:  0.344 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:45:36
+Train: [120][2784/2785]  Loss -1.1639 (-1.5011)  Time:  0.463 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:11:19
+Train: [126][2593/2594]  Loss -0.4044 (-1.5550)  Time:  0.162 (0.011)  Data Time:  0.004 (0.005)
+  Eta: 1:00:57
+Train: [109][2075/2076]  Loss -0.3384 (-1.2819)  Time:  0.138 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:59:17
+Test: [126]  ADE: 0.4171  FDE: 0.6250
+Train: [130][2321/2322]  Loss -0.2259 (-1.4732)  Time:  0.096 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:56:30
+Train: [139][2111/2112]  Loss -0.7636 (-1.4088)  Time:  0.321 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:46:40
+Train: [110][2075/2076]  Loss -0.2966 (-1.2366)  Time:  0.160 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:01:22
+Train: [121][2784/2785]  Loss -1.3267 (-1.5665)  Time:  0.476 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:11:40
+Train: [127][2593/2594]  Loss -0.3934 (-1.5509)  Time:  0.175 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:05:21
+Train: [140][2111/2112]  Loss -0.5913 (-1.3926)  Time:  0.310 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:47:26
+Train: [131][2321/2322]  Loss -0.2181 (-1.5079)  Time:  0.095 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:00:11
+Train: [111][2075/2076]  Loss -0.2731 (-1.3341)  Time:  0.146 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:02:42
+Train: [122][2784/2785]  Loss -1.0741 (-1.5718)  Time:  0.472 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:12:52
+Train: [141][2111/2112]  Loss -0.7709 (-1.4381)  Time:  0.324 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:46:46
+Train: [128][2593/2594]  Loss -0.3624 (-1.5626)  Time:  0.182 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:05:21
+Train: [132][2321/2322]  Loss -0.2021 (-1.5704)  Time:  0.101 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:59:11
+Train: [112][2075/2076]  Loss -0.3169 (-1.3217)  Time:  0.148 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:01:48
+Train: [142][2111/2112]  Loss -0.5592 (-1.3356)  Time:  0.331 (0.012)  Data Time:  0.006 (0.005)
+  Eta: 0:46:34
+Train: [123][2784/2785]  Loss -1.2284 (-1.5358)  Time:  0.496 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:12:10
+Train: [133][2321/2322]  Loss -0.2246 (-1.5725)  Time:  0.099 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:58:41
+Train: [129][2593/2594]  Loss -0.4004 (-1.5259)  Time:  0.177 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:04:19
+Train: [113][2075/2076]  Loss -0.3522 (-1.3005)  Time:  0.154 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:01:40
+Train: [143][2111/2112]  Loss -0.7710 (-1.4558)  Time:  0.298 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:46:23
+Train: [124][2784/2785]  Loss -1.2417 (-1.5622)  Time:  0.476 (0.012)  Data Time:  0.006 (0.005)
+  Eta: 1:11:37
+Train: [134][2321/2322]  Loss -0.2021 (-1.3921)  Time:  0.098 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:57:53
+Train: [114][2075/2076]  Loss -0.3053 (-1.3154)  Time:  0.164 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 1:01:05
+Train: [130][2593/2594]  Loss -0.4079 (-1.5609)  Time:  0.175 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:03:27
+Train: [144][2111/2112]  Loss -0.6398 (-1.4578)  Time:  0.289 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:44:44
+Train: [115][2075/2076]  Loss -0.2880 (-1.2952)  Time:  0.149 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 1:00:19
+Train: [135][2321/2322]  Loss -0.1896 (-1.3646)  Time:  0.090 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:56:47
+Train: [125][2784/2785]  Loss -1.2544 (-1.6010)  Time:  0.465 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:09:31
+Train: [131][2593/2594]  Loss -0.3982 (-1.4382)  Time:  0.175 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:01:42
+Train: [145][2111/2112]  Loss -0.6193 (-1.4988)  Time:  0.314 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:43:15
+Train: [116][2075/2076]  Loss -0.3148 (-1.3579)  Time:  0.149 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:59:14
+Train: [136][2321/2322]  Loss -0.2191 (-1.3077)  Time:  0.084 (0.012)  Data Time:  0.002 (0.005)
+  Eta: 0:54:10
+Train: [146][2111/2112]  Loss -0.6351 (-1.3317)  Time:  0.263 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:41:28
+Train: [126][2784/2785]  Loss -1.3631 (-1.5554)  Time:  0.348 (0.011)  Data Time:  0.000 (0.004)
+  Eta: 1:05:36
+Train: [132][2593/2594]  Loss -0.4291 (-1.4873)  Time:  0.124 (0.011)  Data Time:  0.002 (0.004)
+  Eta: 0:56:07
+Test: [126]  ADE: 0.7899  FDE: 1.3458
+Test: [136]  ADE: 0.3597  FDE: 0.5810
+Train: [133][2593/2594]  Loss -0.4081 (-1.5612)  Time:  0.135 (0.009)  Data Time:  0.003 (0.003)
+  Eta: 0:44:39
+Train: [127][2784/2785]  Loss -1.0408 (-1.5498)  Time:  0.344 (0.009)  Data Time:  0.004 (0.003)
+  Eta: 0:53:12
+Test: [146]  ADE: 0.3508  FDE: 0.5187
+Train: [137][2321/2322]  Loss -0.2360 (-1.5444)  Time:  0.082 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:46:21
+Train: [134][2593/2594]  Loss -0.3935 (-1.6115)  Time:  0.150 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:51:59
+Train: [147][2111/2112]  Loss -0.6584 (-1.3384)  Time:  0.284 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:38:55
+Train: [128][2784/2785]  Loss -1.2136 (-1.5438)  Time:  0.477 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 1:01:23
+Train: [138][2321/2322]  Loss -0.1991 (-1.4874)  Time:  0.087 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:49:59
+Train: [148][2111/2112]  Loss -0.7313 (-1.4008)  Time:  0.298 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:38:03
+Train: [135][2593/2594]  Loss -0.4253 (-1.4789)  Time:  0.163 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:53:32
+Train: [129][2784/2785]  Loss -1.2775 (-1.5858)  Time:  0.427 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 1:01:24
+Test: [116]  ADE: 0.4508  FDE: 0.7284
+Train: [139][2321/2322]  Loss -0.2243 (-1.3518)  Time:  0.101 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:50:55
+Train: [149][2111/2112]  Loss -0.7568 (-1.4171)  Time:  0.314 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:40:15
+Train: [136][2593/2594]  Loss -0.4038 (-1.5704)  Time:  0.173 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:57:11
+Train: [117][2075/2076]  Loss -0.3744 (-1.3414)  Time:  0.140 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:59:18
+Test: [136]  ADE: 0.4646  FDE: 0.7235
+Train: [140][2321/2322]  Loss -0.2196 (-1.4741)  Time:  0.107 (0.013)  Data Time:  0.006 (0.004)
+  Eta: 0:53:57
+Train: [130][2784/2785]  Loss -1.2615 (-1.5984)  Time:  0.467 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:05:41
+Train: [150][2111/2112]  Loss -0.6025 (-1.5671)  Time:  0.301 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:41:50
+Train: [118][2075/2076]  Loss -0.3409 (-1.4214)  Time:  0.148 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:58:28
+Train: [137][2593/2594]  Loss -0.4420 (-1.5358)  Time:  0.169 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:59:19
+Train: [141][2321/2322]  Loss -0.2055 (-1.5234)  Time:  0.096 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:53:26
+Train: [151][2111/2112]  Loss -0.7776 (-1.5587)  Time:  0.307 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:42:31
+Train: [131][2784/2785]  Loss -1.1721 (-1.6051)  Time:  0.473 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:07:03
+Valid: [151][500/501]  Loss -4.3159 (-2.7230)
+Checkpoint saved...
+Train: [119][2075/2076]  Loss -0.2573 (-1.4081)  Time:  0.138 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:55:41
+Train: [142][2321/2322]  Loss -0.2057 (-1.4521)  Time:  0.102 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:52:28
+Train: [138][2593/2594]  Loss -0.4403 (-1.5418)  Time:  0.159 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:57:48
+Train: [152][2111/2112]  Loss -0.8136 (-1.5606)  Time:  0.288 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:41:50
+Valid: [152][500/501]  Loss -5.7717 (-3.5466)
+Checkpoint saved...
+Train: [132][2784/2785]  Loss -1.2502 (-1.6276)  Time:  0.435 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 1:05:58
+Train: [120][2075/2076]  Loss -0.3327 (-1.3229)  Time:  0.131 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:56:49
+Train: [143][2321/2322]  Loss -0.1608 (-1.4642)  Time:  0.096 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:52:24
+Train: [153][2111/2112]  Loss -0.6476 (-1.4714)  Time:  0.325 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:41:26
+Train: [139][2593/2594]  Loss -0.3340 (-1.6019)  Time:  0.152 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:57:18
+Valid: [153][500/501]  Loss -1.6853 (-1.2646)
+Train: [121][2075/2076]  Loss -0.3799 (-1.4383)  Time:  0.157 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:55:20
+Train: [133][2784/2785]  Loss -1.3432 (-1.5969)  Time:  0.464 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:05:02
+Train: [144][2321/2322]  Loss -0.1887 (-1.5185)  Time:  0.102 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:52:18
+Train: [154][2111/2112]  Loss -0.8271 (-1.5765)  Time:  0.309 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:41:39
+Train: [140][2593/2594]  Loss -0.3698 (-1.5724)  Time:  0.186 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:57:06
+Valid: [154][500/501]  Loss -2.5555 (-1.5371)
+Train: [122][2075/2076]  Loss -0.3535 (-1.4607)  Time:  0.147 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:58:01
+Train: [134][2784/2785]  Loss -1.2869 (-1.6112)  Time:  0.451 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:04:50
+Train: [145][2321/2322]  Loss -0.2669 (-1.4859)  Time:  0.099 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:53:13
+Train: [155][2111/2112]  Loss -0.8343 (-1.4287)  Time:  0.304 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:41:00
+Train: [141][2593/2594]  Loss -0.4630 (-1.4474)  Time:  0.171 (0.012)  Data Time:  0.003 (0.005)
+  Eta: 0:56:38
+Train: [123][2075/2076]  Loss -0.3189 (-1.4496)  Time:  0.153 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:57:36
+Valid: [155][500/501]  Loss -5.1708 (-3.1571)
+Train: [135][2784/2785]  Loss -1.3632 (-1.6359)  Time:  0.490 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 1:04:51
+Train: [146][2321/2322]  Loss -0.2173 (-1.4667)  Time:  0.097 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:51:19
+Train: [156][2111/2112]  Loss -0.7821 (-1.5684)  Time:  0.306 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:40:08
+Train: [124][2075/2076]  Loss -0.2712 (-1.3814)  Time:  0.145 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:56:04
+Valid: [156][500/501]  Loss -5.0522 (-3.0994)
+Train: [142][2593/2594]  Loss -0.4177 (-1.5447)  Time:  0.137 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:55:59
+Test: [146]  ADE: 0.3632  FDE: 0.5411
+Train: [136][2784/2785]  Loss -1.0530 (-1.5219)  Time:  0.432 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:59:41
+Test: [136]  ADE: 0.7900  FDE: 1.4659
+Train: [125][2075/2076]  Loss -0.3202 (-1.3983)  Time:  0.146 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:49:17
+Train: [143][2593/2594]  Loss -0.4743 (-1.5431)  Time:  0.158 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:49:23
+Test: [156]  ADE: 0.3297  FDE: 0.5328
+Train: [147][2321/2322]  Loss -0.2308 (-1.5252)  Time:  0.098 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:46:15
+Train: [126][2075/2076]  Loss -0.3965 (-1.4575)  Time:  0.143 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:50:30
+Train: [137][2784/2785]  Loss -1.1388 (-1.5413)  Time:  0.395 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:58:57
+Train: [144][2593/2594]  Loss -0.3791 (-1.5952)  Time:  0.151 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:50:05
+Train: [157][2111/2112]  Loss -0.8021 (-1.5237)  Time:  0.288 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:36:51
+Valid: [157][500/501]  Loss -4.4057 (-2.7806)
+Train: [148][2321/2322]  Loss -0.1786 (-1.6099)  Time:  0.089 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:45:30
+Train: [138][2784/2785]  Loss -1.2870 (-1.6284)  Time:  0.429 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:54:51
+Train: [145][2593/2594]  Loss -0.3656 (-1.4665)  Time:  0.159 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:47:41
+Train: [158][2111/2112]  Loss -0.7532 (-1.6013)  Time:  0.271 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:34:43
+Valid: [158][500/501]  Loss -5.7781 (-3.5952)
+Checkpoint saved...
+Train: [149][2321/2322]  Loss -0.2039 (-1.5602)  Time:  0.087 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:45:02
+Train: [139][2784/2785]  Loss -1.2912 (-1.6785)  Time:  0.447 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:54:31
+Train: [146][2593/2594]  Loss -0.5144 (-1.5437)  Time:  0.152 (0.010)  Data Time:  0.003 (0.004)
+  Eta: 0:46:49
+Train: [159][2111/2112]  Loss -0.7501 (-1.5010)  Time:  0.251 (0.010)  Data Time:  0.003 (0.004)
+  Eta: 0:33:15
+Valid: [159][500/501]  Loss -2.8946 (-1.9383)
+Train: [150][2321/2322]  Loss -0.2255 (-1.5446)  Time:  0.081 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:41:30
+Test: [146]  ADE: 0.4353  FDE: 0.6631
+Train: [140][2784/2785]  Loss -1.1166 (-1.6798)  Time:  0.422 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:53:23
+Train: [160][2111/2112]  Loss -0.7799 (-1.5518)  Time:  0.316 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:33:49
+Test: [126]  ADE: 0.4696  FDE: 0.8231
+Valid: [160][500/501]  Loss -4.3457 (-2.7358)
+Train: [151][2321/2322]  Loss -0.2059 (-1.7044)  Time:  0.096 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:44:52
+Train: [147][2593/2594]  Loss -0.4368 (-1.6678)  Time:  0.166 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:49:02
+Valid: [151][604/605]  Loss -7.8379 (-4.8161)
+Checkpoint saved...
+Train: [127][2075/2076]  Loss -0.3437 (-1.3616)  Time:  0.143 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:54:38
+Train: [161][2111/2112]  Loss -0.8819 (-1.3568)  Time:  0.306 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:37:43
+Train: [141][2784/2785]  Loss -1.3226 (-1.6006)  Time:  0.460 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 1:01:34
+Valid: [161][500/501]  Loss -2.8409 (-1.7939)
+Train: [148][2593/2594]  Loss -0.4071 (-1.6193)  Time:  0.178 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:53:36
+Train: [152][2321/2322]  Loss -0.2238 (-1.6590)  Time:  0.092 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:48:45
+Valid: [152][604/605]  Loss -8.2274 (-5.1073)
+Checkpoint saved...
+Train: [128][2075/2076]  Loss -0.2605 (-1.4247)  Time:  0.148 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:54:45
+Train: [162][2111/2112]  Loss -0.7674 (-1.5694)  Time:  0.298 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:37:14
+Valid: [162][500/501]  Loss -0.1630 (-0.3696)
+Train: [142][2784/2785]  Loss -1.3408 (-1.6274)  Time:  0.483 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 1:00:34
+Train: [149][2593/2594]  Loss -0.4174 (-1.3654)  Time:  0.152 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:51:47
+Train: [153][2321/2322]  Loss -0.2511 (-1.7267)  Time:  0.095 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:48:09
+Valid: [153][604/605]  Loss -7.6946 (-4.6807)
+Train: [129][2075/2076]  Loss -0.2581 (-1.3877)  Time:  0.157 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:53:43
+Train: [163][2111/2112]  Loss -0.8250 (-1.4860)  Time:  0.313 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:36:13
+Valid: [163][500/501]  Loss -2.8611 (-1.6842)
+Train: [143][2784/2785]  Loss -1.2635 (-1.5948)  Time:  0.503 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:59:09
+Train: [150][2593/2594]  Loss -0.4139 (-1.7331)  Time:  0.168 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:50:59
+Train: [130][2075/2076]  Loss -0.3579 (-1.3782)  Time:  0.144 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:52:04
+Train: [154][2321/2322]  Loss -0.2582 (-1.6928)  Time:  0.101 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:46:03
+Valid: [154][604/605]  Loss -8.1867 (-5.0321)
+Train: [164][2111/2112]  Loss -0.8331 (-1.5636)  Time:  0.288 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:36:40
+Valid: [164][500/501]  Loss -4.8763 (-2.9760)
+Train: [144][2784/2785]  Loss -1.2538 (-1.5369)  Time:  0.481 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:59:33
+Train: [151][2593/2594]  Loss -0.4226 (-1.5796)  Time:  0.169 (0.012)  Data Time:  0.003 (0.005)
+  Eta: 0:52:06
+Train: [131][2075/2076]  Loss -0.4009 (-1.4265)  Time:  0.135 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:52:55
+Valid: [151][620/621]  Loss -8.6402 (-5.1194)
+Checkpoint saved...
+Train: [155][2321/2322]  Loss -0.2167 (-1.7095)  Time:  0.110 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:46:46
+Train: [165][2111/2112]  Loss -0.7161 (-1.5668)  Time:  0.311 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:36:32
+Valid: [155][604/605]  Loss -8.3099 (-5.1576)
+Checkpoint saved...
+Valid: [165][500/501]  Loss -5.0515 (-3.1436)
+Train: [132][2075/2076]  Loss -0.3025 (-1.4424)  Time:  0.147 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:51:41
+Train: [145][2784/2785]  Loss -1.2858 (-1.5979)  Time:  0.476 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:59:00
+Train: [152][2593/2594]  Loss -0.5051 (-1.7451)  Time:  0.175 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:51:24
+Valid: [152][620/621]  Loss -8.4624 (-5.0208)
+Train: [166][2111/2112]  Loss -0.7676 (-1.4982)  Time:  0.314 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:35:37
+Train: [156][2321/2322]  Loss -0.2199 (-1.6636)  Time:  0.094 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:45:21
+Valid: [166][500/501]  Loss -4.3585 (-2.7451)
+Valid: [156][604/605]  Loss -8.0396 (-4.8883)
+Train: [133][2075/2076]  Loss -0.3063 (-1.4817)  Time:  0.141 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:48:55
+Train: [146][2784/2785]  Loss -1.1943 (-1.5639)  Time:  0.431 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:52:52
+Test: [146]  ADE: 0.7423  FDE: 1.2425
+Test: [156]  ADE: 0.3607  FDE: 0.5535
+Train: [153][2593/2594]  Loss -0.4777 (-1.7412)  Time:  0.149 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:44:05
+Valid: [153][620/621]  Loss -8.5984 (-5.0794)
+Train: [134][2075/2076]  Loss -0.3776 (-1.4297)  Time:  0.141 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:44:34
+Test: [166]  ADE: 0.3362  FDE: 0.5491
+Train: [157][2321/2322]  Loss -0.2567 (-1.7179)  Time:  0.096 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:44:04
+Train: [147][2784/2785]  Loss -1.2506 (-1.6601)  Time:  0.441 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:55:14
+Valid: [157][604/605]  Loss -8.1938 (-5.0302)
+Train: [135][2075/2076]  Loss -0.3465 (-1.4091)  Time:  0.153 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:50:18
+Train: [154][2593/2594]  Loss -0.4242 (-1.6520)  Time:  0.168 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:49:44
+Train: [167][2111/2112]  Loss -0.7394 (-1.4445)  Time:  0.302 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:35:11
+Valid: [154][620/621]  Loss -8.4795 (-5.0074)
+Valid: [167][500/501]  Loss -4.4000 (-2.8028)
+Train: [136][2075/2076]  Loss -0.3155 (-1.3971)  Time:  0.154 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:50:48
+Train: [158][2321/2322]  Loss -0.2525 (-1.7301)  Time:  0.106 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:44:52
+Train: [148][2784/2785]  Loss -1.2819 (-1.7022)  Time:  0.420 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:56:37
+Valid: [158][604/605]  Loss -7.2266 (-4.3963)
+Train: [168][2111/2112]  Loss -0.7933 (-1.5328)  Time:  0.268 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:32:39
+Train: [155][2593/2594]  Loss -0.4088 (-1.7773)  Time:  0.153 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:46:55
+Valid: [168][500/501]  Loss -4.8700 (-2.9798)
+Valid: [155][620/621]  Loss -8.4155 (-4.9784)
+Train: [149][2784/2785]  Loss -1.1704 (-1.6564)  Time:  0.429 (0.010)  Data Time:  0.004 (0.004)
+  Eta: 0:48:08
+Train: [159][2321/2322]  Loss -0.1990 (-1.4589)  Time:  0.096 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:38:57
+Train: [169][2111/2112]  Loss -0.7894 (-1.5729)  Time:  0.293 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:30:09
+Valid: [159][604/605]  Loss -7.4489 (-4.5343)
+Valid: [169][500/501]  Loss -4.6699 (-2.8573)
+Train: [156][2593/2594]  Loss -0.4055 (-1.6073)  Time:  0.141 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:42:40
+Valid: [156][620/621]  Loss -8.3521 (-4.9403)
+Test: [156]  ADE: 0.4586  FDE: 0.7818
+Train: [150][2784/2785]  Loss -1.3058 (-1.7435)  Time:  0.392 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:48:10
+Train: [170][2111/2112]  Loss -0.8198 (-1.4709)  Time:  0.263 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:29:12
+Train: [160][2321/2322]  Loss -0.2224 (-1.7421)  Time:  0.080 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:38:31
+Valid: [170][500/501]  Loss -3.9719 (-2.4768)
+Valid: [160][604/605]  Loss -7.7619 (-4.7625)
+Train: [157][2593/2594]  Loss -0.4960 (-1.5980)  Time:  0.143 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:42:31
+Train: [171][2111/2112]  Loss -0.8012 (-1.5562)  Time:  0.291 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:29:59
+Train: [151][2784/2785]  Loss -1.4116 (-1.7534)  Time:  0.385 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:47:49
+Valid: [157][620/621]  Loss -7.8877 (-4.6706)
+Valid: [171][500/501]  Loss -1.5601 (-1.1199)
+Train: [161][2321/2322]  Loss -0.2126 (-1.6972)  Time:  0.091 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:39:44
+Valid: [151][659/660]  Loss -9.5574 (-6.0953)
+Checkpoint saved...
+Test: [136]  ADE: 0.4527  FDE: 0.7879
+Valid: [161][604/605]  Loss -8.3808 (-5.1705)
+Checkpoint saved...
+Train: [172][2111/2112]  Loss -0.8437 (-1.5206)  Time:  0.318 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:30:52
+Valid: [172][500/501]  Loss -2.5917 (-1.6492)
+Train: [158][2593/2594]  Loss -0.4023 (-1.7677)  Time:  0.151 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:45:04
+Train: [137][2075/2076]  Loss -0.3546 (-1.4880)  Time:  0.127 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:48:13
+Valid: [158][620/621]  Loss -8.3980 (-4.9714)
+Train: [152][2784/2785]  Loss -1.2830 (-1.7645)  Time:  0.466 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:52:36
+Train: [162][2321/2322]  Loss -0.2383 (-1.4632)  Time:  0.089 (0.012)  Data Time:  0.003 (0.005)
+  Eta: 0:42:04
+Valid: [152][659/660]  Loss -9.4927 (-6.0715)
+Valid: [162][604/605]  Loss -8.3263 (-5.1190)
+Train: [173][2111/2112]  Loss -0.6892 (-1.4844)  Time:  0.322 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:32:17
+Valid: [173][500/501]  Loss -5.4665 (-3.3628)
+Train: [138][2075/2076]  Loss -0.3636 (-1.3212)  Time:  0.151 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:48:48
+Train: [159][2593/2594]  Loss -0.5108 (-1.7639)  Time:  0.168 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:48:17
+Valid: [159][620/621]  Loss -8.3005 (-4.9092)
+Train: [163][2321/2322]  Loss -0.2428 (-1.7478)  Time:  0.105 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:42:57
+Train: [153][2784/2785]  Loss -1.3229 (-1.7986)  Time:  0.476 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:55:07
+Valid: [163][604/605]  Loss -8.1709 (-5.0480)
+Valid: [153][659/660]  Loss -9.1727 (-5.8754)
+Train: [174][2111/2112]  Loss -0.8091 (-1.5807)  Time:  0.331 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:32:07
+Train: [139][2075/2076]  Loss -0.3264 (-1.4520)  Time:  0.164 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:49:06
+Valid: [174][500/501]  Loss -3.7026 (-2.4065)
+Train: [160][2593/2594]  Loss -0.4218 (-1.7482)  Time:  0.169 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:46:38
+Valid: [160][620/621]  Loss -7.4032 (-4.4137)
+Train: [164][2321/2322]  Loss -0.1846 (-1.5779)  Time:  0.095 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:41:52
+Train: [140][2075/2076]  Loss -0.2501 (-1.4153)  Time:  0.139 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:47:29
+Train: [175][2111/2112]  Loss -0.7636 (-1.5504)  Time:  0.312 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:31:15
+Valid: [164][604/605]  Loss -7.5696 (-4.6167)
+Train: [154][2784/2785]  Loss -1.3177 (-1.7701)  Time:  0.458 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:53:26
+Valid: [175][500/501]  Loss -5.7746 (-3.5403)
+Valid: [154][659/660]  Loss -9.0832 (-5.7611)
+Train: [141][2075/2076]  Loss -0.2571 (-1.4178)  Time:  0.142 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:47:05
+Train: [161][2593/2594]  Loss -0.4414 (-1.7185)  Time:  0.161 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:45:54
+Train: [176][2111/2112]  Loss -0.7578 (-1.6258)  Time:  0.298 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:30:55
+Train: [165][2321/2322]  Loss -0.2430 (-1.7160)  Time:  0.097 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:41:10
+Valid: [161][620/621]  Loss -8.7032 (-5.1323)
+Checkpoint saved...
+Valid: [176][500/501]  Loss -4.8426 (-2.9218)
+Valid: [165][604/605]  Loss -7.7012 (-4.6959)
+Train: [155][2784/2785]  Loss -1.3950 (-1.7815)  Time:  0.434 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:51:31
+Valid: [155][659/660]  Loss -9.5210 (-6.0492)
+Train: [142][2075/2076]  Loss -0.3506 (-1.4620)  Time:  0.147 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:45:02
+Train: [162][2593/2594]  Loss -0.5078 (-1.7652)  Time:  0.144 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:42:31
+Train: [166][2321/2322]  Loss -0.2480 (-1.6563)  Time:  0.088 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:37:31
+Valid: [162][620/621]  Loss -8.7037 (-5.1125)
+Checkpoint saved...
+Valid: [166][604/605]  Loss -8.2830 (-5.1075)
+Test: [176]  ADE: 0.3292  FDE: 0.5280
+Train: [143][2075/2076]  Loss -0.3661 (-1.4520)  Time:  0.148 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:43:35
+Train: [156][2784/2785]  Loss -1.4512 (-1.7791)  Time:  0.455 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:48:34
+Valid: [156][659/660]  Loss -9.1695 (-5.8371)
+Test: [156]  ADE: 0.7444  FDE: 1.3140
+Test: [166]  ADE: 0.3585  FDE: 0.5634
+Train: [177][2111/2112]  Loss -0.8234 (-1.5083)  Time:  0.304 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:28:58
+Train: [163][2593/2594]  Loss -0.4006 (-1.6100)  Time:  0.166 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:42:28
+Valid: [177][500/501]  Loss -4.7659 (-2.9187)
+Valid: [163][620/621]  Loss -8.6953 (-5.1254)
+Train: [144][2075/2076]  Loss -0.3194 (-1.4910)  Time:  0.155 (0.012)  Data Time:  0.006 (0.004)
+  Eta: 0:45:12
+Train: [167][2321/2322]  Loss -0.2250 (-1.6313)  Time:  0.097 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:40:34
+Train: [157][2784/2785]  Loss -1.4451 (-1.7563)  Time:  0.455 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:52:14
+Valid: [167][604/605]  Loss -8.2551 (-5.0508)
+Train: [178][2111/2112]  Loss -0.7461 (-1.5607)  Time:  0.306 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:30:18
+Valid: [157][659/660]  Loss -9.3588 (-5.9471)
+Train: [145][2075/2076]  Loss -0.3466 (-1.3634)  Time:  0.147 (0.012)  Data Time:  0.006 (0.005)
+  Eta: 0:45:00
+Valid: [178][500/501]  Loss -4.7212 (-2.8384)
+Train: [164][2593/2594]  Loss -0.4550 (-1.6934)  Time:  0.156 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:43:54
+Valid: [164][620/621]  Loss -8.4670 (-5.0204)
+Train: [168][2321/2322]  Loss -0.2721 (-1.2869)  Time:  0.091 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:39:29
+Train: [179][2111/2112]  Loss -0.7962 (-1.5516)  Time:  0.314 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:30:11
+Train: [146][2075/2076]  Loss -0.2737 (-1.4266)  Time:  0.157 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:45:55
+Valid: [168][604/605]  Loss -7.8214 (-4.7698)
+Valid: [179][500/501]  Loss -5.1958 (-3.2604)
+Train: [158][2784/2785]  Loss -1.2768 (-1.7137)  Time:  0.407 (0.012)  Data Time:  0.002 (0.004)
+  Eta: 0:49:31
+Valid: [158][659/660]  Loss -9.3873 (-5.9738)
+Train: [165][2593/2594]  Loss -0.5606 (-1.7867)  Time:  0.153 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:41:41
+Valid: [165][620/621]  Loss -8.5543 (-5.0358)
+Train: [180][2111/2112]  Loss -0.8080 (-1.6052)  Time:  0.281 (0.010)  Data Time:  0.005 (0.004)
+  Eta: 0:25:44
+Train: [169][2321/2322]  Loss -0.2370 (-1.7374)  Time:  0.086 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:34:42
+Valid: [180][500/501]  Loss -5.3444 (-3.3016)
+Valid: [169][604/605]  Loss -8.2088 (-5.0236)
+Train: [159][2784/2785]  Loss -1.4005 (-1.8118)  Time:  0.410 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:43:50
+Valid: [159][659/660]  Loss -9.6984 (-6.1961)
+Checkpoint saved...
+Train: [166][2593/2594]  Loss -0.4241 (-1.7404)  Time:  0.118 (0.010)  Data Time:  0.002 (0.004)
+  Eta: 0:37:41
+Valid: [166][620/621]  Loss -8.5950 (-5.0748)
+Train: [181][2111/2112]  Loss -0.8262 (-1.5911)  Time:  0.277 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:24:24
+Valid: [181][500/501]  Loss -5.5777 (-3.3772)
+Train: [170][2321/2322]  Loss -0.2510 (-1.7606)  Time:  0.088 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:32:28
+Test: [166]  ADE: 0.4322  FDE: 0.6814
+Valid: [170][604/605]  Loss -8.0884 (-4.9607)
+Train: [160][2784/2785]  Loss -1.3286 (-1.8071)  Time:  0.402 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:42:56
+Train: [182][2111/2112]  Loss -0.7397 (-1.5980)  Time:  0.287 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:25:31
+Valid: [160][659/660]  Loss -9.0240 (-5.7644)
+Valid: [182][500/501]  Loss -2.4392 (-1.6023)
+Train: [167][2593/2594]  Loss -0.4509 (-1.8139)  Time:  0.144 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:38:27
+Train: [171][2321/2322]  Loss -0.2734 (-1.7109)  Time:  0.081 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:34:55
+Valid: [167][620/621]  Loss -8.3281 (-4.9401)
+Valid: [171][604/605]  Loss -8.2604 (-5.0617)
+Test: [146]  ADE: 0.4974  FDE: 0.7923
+Train: [183][2111/2112]  Loss -0.7155 (-1.5808)  Time:  0.312 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:26:14
+Valid: [183][500/501]  Loss -5.3179 (-3.3377)
+Train: [161][2784/2785]  Loss -1.4251 (-1.7851)  Time:  0.484 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:46:30
+Valid: [161][659/660]  Loss -9.7422 (-6.2285)
+Checkpoint saved...
+Train: [168][2593/2594]  Loss -0.4903 (-1.6557)  Time:  0.169 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:43:04
+Train: [172][2321/2322]  Loss -0.2509 (-1.6845)  Time:  0.105 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:38:08
+Train: [147][2075/2076]  Loss -0.2885 (-1.4014)  Time:  0.156 (0.013)  Data Time:  0.007 (0.004)
+  Eta: 0:45:36
+Valid: [172][604/605]  Loss -8.2732 (-5.0700)
+Valid: [168][620/621]  Loss -8.1358 (-4.8193)
+Train: [184][2111/2112]  Loss -0.8866 (-1.4829)  Time:  0.307 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:28:09
+Valid: [184][500/501]  Loss -0.0220 (-0.4335)
+Train: [162][2784/2785]  Loss -1.3255 (-1.7785)  Time:  0.492 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:50:14
+Train: [148][2075/2076]  Loss -0.2978 (-1.5502)  Time:  0.159 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:45:29
+Valid: [162][659/660]  Loss -9.5901 (-6.1468)
+Train: [173][2321/2322]  Loss -0.2474 (-1.7065)  Time:  0.108 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:37:45
+Train: [169][2593/2594]  Loss -0.5059 (-1.7979)  Time:  0.175 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:42:14
+Valid: [173][604/605]  Loss -7.6708 (-4.7086)
+Train: [185][2111/2112]  Loss -0.8943 (-1.5477)  Time:  0.305 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:27:11
+Valid: [169][620/621]  Loss -7.7424 (-4.5743)
+Valid: [185][500/501]  Loss -3.3530 (-2.0696)
+Train: [149][2075/2076]  Loss -0.3623 (-1.4710)  Time:  0.143 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:43:00
+Train: [163][2784/2785]  Loss -1.3143 (-1.7697)  Time:  0.491 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:48:29
+Train: [174][2321/2322]  Loss -0.2206 (-1.6259)  Time:  0.093 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:36:17
+Train: [186][2111/2112]  Loss -0.7575 (-1.6003)  Time:  0.291 (0.012)  Data Time:  0.003 (0.005)
+  Eta: 0:27:11
+Valid: [163][659/660]  Loss -9.6522 (-6.1384)
+Train: [170][2593/2594]  Loss -0.4569 (-1.7808)  Time:  0.166 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:41:25
+Valid: [174][604/605]  Loss -8.0772 (-4.9437)
+Valid: [186][500/501]  Loss -5.0209 (-3.1228)
+Valid: [170][620/621]  Loss -8.2925 (-4.9108)
+Train: [150][2075/2076]  Loss -0.3110 (-1.6492)  Time:  0.145 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:43:19
+Train: [175][2321/2322]  Loss -0.2546 (-1.7723)  Time:  0.087 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:33:06
+Train: [151][2075/2076]  Loss -0.3744 (-1.6723)  Time:  0.133 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:38:38
+Train: [164][2784/2785]  Loss -1.3154 (-1.8378)  Time:  0.404 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:44:21
+Valid: [175][604/605]  Loss -6.8486 (-4.1414)
+Train: [171][2593/2594]  Loss -0.5131 (-1.7171)  Time:  0.170 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:37:26
+Valid: [151][529/530]  Loss -6.6247 (-4.7549)
+Checkpoint saved...
+Valid: [164][659/660]  Loss -9.1563 (-5.8721)
+Test: [186]  ADE: 0.3352  FDE: 0.5265
+Valid: [171][620/621]  Loss -8.2967 (-4.9035)
+Train: [176][2321/2322]  Loss -0.2052 (-1.6087)  Time:  0.102 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:34:41
+Train: [152][2075/2076]  Loss -0.3553 (-1.6958)  Time:  0.154 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:41:56
+Valid: [152][529/530]  Loss -5.2236 (-3.8867)
+Train: [187][2111/2112]  Loss -0.8524 (-1.5964)  Time:  0.336 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:26:43
+Valid: [176][604/605]  Loss -8.1046 (-4.9708)
+Train: [165][2784/2785]  Loss -1.3300 (-1.8044)  Time:  0.405 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:46:41
+Valid: [187][500/501]  Loss -3.5238 (-2.1661)
+Train: [172][2593/2594]  Loss -0.4605 (-1.7959)  Time:  0.160 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:39:43
+Valid: [165][659/660]  Loss -9.7784 (-6.2500)
+Checkpoint saved...
+Valid: [172][620/621]  Loss -8.5304 (-5.0446)
+Test: [176]  ADE: 0.3679  FDE: 0.5565
+Train: [153][2075/2076]  Loss -0.3814 (-1.6685)  Time:  0.141 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:40:31
+Train: [188][2111/2112]  Loss -0.8422 (-1.5878)  Time:  0.315 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:25:13
+Valid: [153][529/530]  Loss -4.0261 (-3.2516)
+Valid: [188][500/501]  Loss -4.5946 (-2.8719)
+Train: [173][2593/2594]  Loss -0.5038 (-1.6104)  Time:  0.172 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:39:56
+Train: [166][2784/2785]  Loss -1.3899 (-1.8129)  Time:  0.457 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:47:29
+Valid: [173][620/621]  Loss -8.6302 (-5.0946)
+Valid: [166][659/660]  Loss -9.4553 (-6.0635)
+Train: [177][2321/2322]  Loss -0.2111 (-1.6277)  Time:  0.087 (0.013)  Data Time:  0.003 (0.004)
+  Eta: 0:35:35
+Test: [166]  ADE: 0.7507  FDE: 1.2878
+Valid: [177][604/605]  Loss -8.3068 (-5.1116)
+Train: [154][2075/2076]  Loss -0.3565 (-1.6917)  Time:  0.154 (0.013)  Data Time:  0.006 (0.004)
+  Eta: 0:42:13
+Train: [189][2111/2112]  Loss -0.7726 (-1.5613)  Time:  0.308 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:25:40
+Valid: [154][529/530]  Loss -5.6214 (-4.1060)
+Valid: [189][500/501]  Loss -4.7166 (-2.8417)
+Train: [174][2593/2594]  Loss -0.4299 (-1.7687)  Time:  0.185 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:39:37
+Valid: [174][620/621]  Loss -8.7477 (-5.1669)
+Checkpoint saved...
+Train: [178][2321/2322]  Loss -0.2738 (-1.6545)  Time:  0.104 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:35:31
+Train: [167][2784/2785]  Loss -1.3836 (-1.8229)  Time:  0.487 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:47:11
+Train: [155][2075/2076]  Loss -0.3025 (-1.6778)  Time:  0.144 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:42:32
+Train: [190][2111/2112]  Loss -0.8938 (-1.5313)  Time:  0.281 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:25:37
+Valid: [178][604/605]  Loss -8.2018 (-5.0335)
+Valid: [167][659/660]  Loss -8.2982 (-5.2643)
+Valid: [155][529/530]  Loss -5.8742 (-4.2773)
+Valid: [190][500/501]  Loss -5.3665 (-3.3041)
+Train: [175][2593/2594]  Loss -0.4490 (-1.7944)  Time:  0.156 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:38:19
+Train: [191][2111/2112]  Loss -0.8100 (-1.5190)  Time:  0.310 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:24:42
+Train: [156][2075/2076]  Loss -0.4143 (-1.7133)  Time:  0.137 (0.013)  Data Time:  0.003 (0.005)
+  Eta: 0:41:28
+Train: [179][2321/2322]  Loss -0.2115 (-1.7783)  Time:  0.083 (0.013)  Data Time:  0.003 (0.005)
+  Eta: 0:34:48
+Valid: [175][620/621]  Loss -7.7852 (-4.6111)
+Valid: [191][500/501]  Loss -3.7829 (-2.3474)
+Valid: [156][529/530]  Loss -5.2247 (-3.8458)
+Valid: [179][604/605]  Loss -7.8284 (-4.7660)
+Train: [168][2784/2785]  Loss -1.4091 (-1.7962)  Time:  0.381 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:44:39
+Valid: [168][659/660]  Loss -9.4065 (-6.0167)
+Train: [192][2111/2112]  Loss -0.8679 (-1.5875)  Time:  0.292 (0.010)  Data Time:  0.004 (0.004)
+  Eta: 0:21:25
+Train: [176][2593/2594]  Loss -0.4581 (-1.5730)  Time:  0.145 (0.010)  Data Time:  0.003 (0.004)
+  Eta: 0:33:20
+Valid: [192][500/501]  Loss -3.9182 (-2.5147)
+Train: [180][2321/2322]  Loss -0.2343 (-1.7080)  Time:  0.079 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:29:08
+Valid: [176][620/621]  Loss -8.5721 (-5.0607)
+Valid: [180][604/605]  Loss -7.7806 (-4.7191)
+Train: [169][2784/2785]  Loss -1.3261 (-1.8038)  Time:  0.384 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:38:12
+Test: [176]  ADE: 0.4408  FDE: 0.7014
+Valid: [169][659/660]  Loss -9.4517 (-6.0095)
+Train: [193][2111/2112]  Loss -0.8002 (-1.5796)  Time:  0.296 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:19:36
+Valid: [193][500/501]  Loss -4.3599 (-2.7504)
+Train: [181][2321/2322]  Loss -0.2324 (-1.7311)  Time:  0.096 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:28:17
+Valid: [181][604/605]  Loss -8.1873 (-5.0222)
+Train: [177][2593/2594]  Loss -0.4583 (-1.6648)  Time:  0.145 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:33:04
+Train: [170][2784/2785]  Loss -1.4322 (-1.8393)  Time:  0.439 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:39:36
+Valid: [177][620/621]  Loss -8.1413 (-4.8324)
+Train: [194][2111/2112]  Loss -0.7949 (-1.6095)  Time:  0.271 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:20:46
+Valid: [170][659/660]  Loss -9.5061 (-6.0675)
+Valid: [194][500/501]  Loss -3.5164 (-2.0224)
+Train: [182][2321/2322]  Loss -0.2900 (-1.7284)  Time:  0.094 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:30:04
+Valid: [182][604/605]  Loss -7.8997 (-4.8695)
+Test: [156]  ADE: 0.4698  FDE: 0.8183
+Train: [178][2593/2594]  Loss -0.4087 (-1.6378)  Time:  0.173 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:33:15
+Train: [195][2111/2112]  Loss -0.7551 (-1.5889)  Time:  0.309 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:21:27
+Valid: [178][620/621]  Loss -8.6710 (-5.1362)
+Valid: [195][500/501]  Loss -4.9041 (-2.9952)
+Train: [171][2784/2785]  Loss -1.3805 (-1.8017)  Time:  0.472 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:41:53
+Valid: [171][659/660]  Loss -9.3298 (-5.9935)
+Train: [183][2321/2322]  Loss -0.2260 (-1.4595)  Time:  0.097 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:32:45
+Train: [157][2075/2076]  Loss -0.3007 (-1.6828)  Time:  0.144 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:40:54
+Valid: [183][604/605]  Loss -8.2403 (-5.0508)
+Valid: [157][529/530]  Loss -6.3245 (-4.5732)
+Train: [196][2111/2112]  Loss -0.7232 (-1.5750)  Time:  0.306 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:22:40
+Valid: [196][500/501]  Loss -4.9889 (-3.0490)
+Train: [179][2593/2594]  Loss -0.5185 (-1.7968)  Time:  0.151 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:37:14
+Valid: [179][620/621]  Loss -8.5518 (-5.0719)
+Train: [172][2784/2785]  Loss -1.4095 (-1.8209)  Time:  0.483 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:42:59
+Valid: [172][659/660]  Loss -9.6182 (-6.1224)
+Train: [158][2075/2076]  Loss -0.3861 (-1.6992)  Time:  0.147 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:37:57
+Train: [184][2321/2322]  Loss -0.2248 (-1.7773)  Time:  0.087 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:30:23
+Valid: [158][529/530]  Loss -5.5907 (-4.1321)
+Valid: [184][604/605]  Loss -8.1649 (-4.9728)
+Train: [180][2593/2594]  Loss -0.4483 (-1.7056)  Time:  0.156 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:33:48
+Test: [196]  ADE: 0.3229  FDE: 0.5339
+Valid: [180][620/621]  Loss -7.9897 (-4.7297)
+Train: [159][2075/2076]  Loss -0.3762 (-1.6092)  Time:  0.146 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:38:43
+Train: [173][2784/2785]  Loss -1.4458 (-1.8434)  Time:  0.454 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:41:26
+Valid: [159][529/530]  Loss -5.7139 (-4.2458)
+Train: [185][2321/2322]  Loss -0.2620 (-1.6878)  Time:  0.089 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:31:00
+Valid: [173][659/660]  Loss -9.4584 (-6.0085)
+Valid: [185][604/605]  Loss -8.0338 (-4.9230)
+Train: [197][2111/2112]  Loss -0.7366 (-1.5989)  Time:  0.319 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:22:06
+Valid: [197][500/501]  Loss -1.8689 (-1.2602)
+Train: [181][2593/2594]  Loss -0.4962 (-1.7214)  Time:  0.166 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:35:46
+Valid: [181][620/621]  Loss -8.0620 (-4.8048)
+Train: [160][2075/2076]  Loss -0.3896 (-1.6789)  Time:  0.150 (0.012)  Data Time:  0.007 (0.005)
+  Eta: 0:38:19
+Valid: [160][529/530]  Loss -5.3532 (-3.9981)
+Train: [186][2321/2322]  Loss -0.2262 (-1.7339)  Time:  0.091 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:30:11
+Train: [174][2784/2785]  Loss -1.3636 (-1.8101)  Time:  0.487 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:41:07
+Train: [198][2111/2112]  Loss -0.7100 (-1.6374)  Time:  0.300 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:20:59
+Valid: [186][604/605]  Loss -8.1687 (-4.9786)
+Valid: [198][500/501]  Loss -4.2888 (-2.6256)
+Valid: [174][659/660]  Loss -9.0227 (-5.7575)
+Train: [182][2593/2594]  Loss -0.4912 (-1.7907)  Time:  0.163 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:32:55
+Train: [161][2075/2076]  Loss -0.3294 (-1.6665)  Time:  0.144 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:36:03
+Test: [186]  ADE: 0.3624  FDE: 0.5430
+Valid: [182][620/621]  Loss -8.4124 (-4.9923)
+Valid: [161][529/530]  Loss -4.3523 (-3.2913)
+Train: [199][2111/2112]  Loss -0.7770 (-1.4928)  Time:  0.328 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:20:09
+Valid: [199][500/501]  Loss -5.5447 (-3.3696)
+Train: [175][2784/2785]  Loss -1.4768 (-1.7877)  Time:  0.437 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:40:55
+Valid: [175][659/660]  Loss -9.7408 (-6.2304)
+Train: [162][2075/2076]  Loss -0.3352 (-1.5912)  Time:  0.141 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:38:48
+Train: [187][2321/2322]  Loss -0.2474 (-1.5860)  Time:  0.099 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:31:18
+Valid: [162][529/530]  Loss -6.3036 (-4.5869)
+Train: [183][2593/2594]  Loss -0.4208 (-1.7320)  Time:  0.167 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:35:09
+Valid: [187][604/605]  Loss -7.8158 (-4.7646)
+Train: [200][2111/2112]  Loss -0.8615 (-1.5452)  Time:  0.301 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:21:08
+Valid: [183][620/621]  Loss -7.9543 (-4.7008)
+Valid: [200][500/501]  Loss -5.2655 (-3.2671)
+Train: [176][2784/2785]  Loss -1.4369 (-1.8243)  Time:  0.496 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:41:19
+Train: [163][2075/2076]  Loss -0.4330 (-1.7175)  Time:  0.140 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:38:33
+Valid: [176][659/660]  Loss -9.0160 (-5.7603)
+Valid: [163][529/530]  Loss -6.2454 (-4.4746)
+Test: [176]  ADE: 0.7402  FDE: 1.2873
+Train: [188][2321/2322]  Loss -0.1869 (-1.7272)  Time:  0.103 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:30:20
+Train: [201][2111/2112]  Loss -0.8357 (-1.5631)  Time:  0.303 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:20:51
+Train: [184][2593/2594]  Loss -0.4973 (-1.5792)  Time:  0.164 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:34:36
+Valid: [188][604/605]  Loss -8.0880 (-4.9438)
+Valid: [201][500/501]  Loss -4.6057 (-2.9325)
+Valid: [184][620/621]  Loss -7.9734 (-4.7528)
+Train: [164][2075/2076]  Loss -0.2691 (-1.7522)  Time:  0.157 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:38:15
+Valid: [164][529/530]  Loss -5.3784 (-3.9764)
+Train: [202][2111/2112]  Loss -0.8419 (-1.5975)  Time:  0.309 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:20:17
+Train: [177][2784/2785]  Loss -1.3472 (-1.8173)  Time:  0.494 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:40:55
+Train: [189][2321/2322]  Loss -0.2549 (-1.7205)  Time:  0.093 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:30:19
+Valid: [202][500/501]  Loss -2.6032 (-1.6164)
+Valid: [177][659/660]  Loss -9.6075 (-6.1158)
+Valid: [189][604/605]  Loss -7.5027 (-4.5343)
+Train: [185][2593/2594]  Loss -0.5433 (-1.8000)  Time:  0.162 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:33:49
+Valid: [185][620/621]  Loss -8.5114 (-5.0437)
+Train: [165][2075/2076]  Loss -0.3267 (-1.6509)  Time:  0.159 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:37:40
+Valid: [165][529/530]  Loss -5.9631 (-4.3428)
+Train: [203][2111/2112]  Loss -0.8704 (-1.5767)  Time:  0.319 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:19:56
+Valid: [203][500/501]  Loss -5.6048 (-3.3851)
+Train: [190][2321/2322]  Loss -0.2303 (-1.7819)  Time:  0.093 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:30:04
+Train: [178][2784/2785]  Loss -1.4081 (-1.7839)  Time:  0.462 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:40:27
+Valid: [190][604/605]  Loss -7.9403 (-4.8529)
+Valid: [178][659/660]  Loss -8.7880 (-5.5923)
+Train: [186][2593/2594]  Loss -0.4316 (-1.8265)  Time:  0.147 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:33:18
+Valid: [186][620/621]  Loss -8.5228 (-5.0516)
+Train: [166][2075/2076]  Loss -0.3664 (-1.7017)  Time:  0.140 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:36:37
+Train: [204][2111/2112]  Loss -0.7614 (-1.6117)  Time:  0.271 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:18:52
+Valid: [166][529/530]  Loss -5.7575 (-4.1555)
+Test: [186]  ADE: 0.4373  FDE: 0.6902
+Valid: [204][500/501]  Loss -5.5251 (-3.4135)
+Train: [191][2321/2322]  Loss -0.2153 (-1.7281)  Time:  0.086 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:26:00
+Valid: [191][604/605]  Loss -8.2183 (-5.0560)
+Train: [179][2784/2785]  Loss -1.3487 (-1.8302)  Time:  0.425 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:34:40
+Valid: [179][659/660]  Loss -9.6278 (-6.1559)
+Train: [205][2111/2112]  Loss -0.9215 (-1.6044)  Time:  0.277 (0.010)  Data Time:  0.005 (0.004)
+  Eta: 0:16:01
+Train: [187][2593/2594]  Loss -0.4351 (-1.6950)  Time:  0.138 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:27:13
+Valid: [205][500/501]  Loss -5.1099 (-3.1126)
+Valid: [187][620/621]  Loss -8.4863 (-5.0099)
+Train: [192][2321/2322]  Loss -0.2536 (-1.6880)  Time:  0.084 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:22:51
+Valid: [192][604/605]  Loss -8.4199 (-5.1594)
+Checkpoint saved...
+Train: [180][2784/2785]  Loss -1.3691 (-1.7548)  Time:  0.386 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:33:19
+Train: [206][2111/2112]  Loss -0.8903 (-1.6083)  Time:  0.258 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:16:14
+Valid: [206][500/501]  Loss -4.6097 (-2.8081)
+Valid: [180][659/660]  Loss -9.3108 (-5.9355)
+Train: [188][2593/2594]  Loss -0.3739 (-1.6125)  Time:  0.141 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:28:20
+Valid: [188][620/621]  Loss -8.4902 (-5.0395)
+Train: [193][2321/2322]  Loss -0.2834 (-1.7944)  Time:  0.083 (0.011)  Data Time:  0.002 (0.003)
+  Eta: 0:23:36
+Valid: [193][604/605]  Loss -8.3950 (-5.1680)
+Train: [181][2784/2785]  Loss -1.3809 (-1.8156)  Time:  0.408 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:31:20
+Valid: [181][659/660]  Loss -9.8351 (-6.2786)
+Checkpoint saved...
+Train: [189][2593/2594]  Loss -0.4903 (-1.6040)  Time:  0.149 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:25:04
+Test: [206]  ADE: 0.3416  FDE: 0.5505
+Valid: [189][620/621]  Loss -7.8233 (-4.6612)
+Test: [166]  ADE: 0.4515  FDE: 0.7844
+Train: [194][2321/2322]  Loss -0.2568 (-1.5957)  Time:  0.090 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:22:40
+Valid: [194][604/605]  Loss -7.5275 (-4.5824)
+Train: [207][2111/2112]  Loss -0.8546 (-1.5581)  Time:  0.338 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:18:10
+Valid: [207][500/501]  Loss -4.5845 (-2.8394)
+Train: [182][2784/2785]  Loss -1.3426 (-1.8303)  Time:  0.484 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:37:28
+Train: [167][2075/2076]  Loss -0.3344 (-1.7426)  Time:  0.147 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:36:52
+Train: [190][2593/2594]  Loss -0.5011 (-1.7593)  Time:  0.157 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:31:13
+Valid: [167][529/530]  Loss -6.1258 (-4.4354)
+Valid: [182][659/660]  Loss -9.6577 (-6.1622)
+Valid: [190][620/621]  Loss -6.6671 (-4.0130)
+Train: [195][2321/2322]  Loss -0.2520 (-1.7825)  Time:  0.089 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:26:53
+Valid: [195][604/605]  Loss -7.9007 (-4.9189)
+Train: [208][2111/2112]  Loss -0.7363 (-1.6387)  Time:  0.313 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:17:39
+Valid: [208][500/501]  Loss -5.5875 (-3.4039)
+Train: [168][2075/2076]  Loss -0.4046 (-1.6252)  Time:  0.149 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:36:15
+Valid: [168][529/530]  Loss -5.6835 (-4.1819)
+Train: [183][2784/2785]  Loss -1.4496 (-1.7846)  Time:  0.479 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:37:43
+Train: [191][2593/2594]  Loss -0.5267 (-1.7709)  Time:  0.152 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:30:31
+Train: [196][2321/2322]  Loss -0.2386 (-1.7991)  Time:  0.097 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:26:27
+Valid: [183][659/660]  Loss -8.3962 (-5.3328)
+Valid: [191][620/621]  Loss -8.4805 (-5.0310)
+Valid: [196][604/605]  Loss -8.0847 (-4.9487)
+Train: [209][2111/2112]  Loss -0.8139 (-1.5687)  Time:  0.308 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:17:13
+Valid: [209][500/501]  Loss -5.1183 (-3.1465)
+Train: [169][2075/2076]  Loss -0.3696 (-1.7436)  Time:  0.140 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:35:02
+Valid: [169][529/530]  Loss -5.3896 (-4.0228)
+Test: [196]  ADE: 0.3617  FDE: 0.5381
+Train: [192][2593/2594]  Loss -0.5241 (-1.8120)  Time:  0.170 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:29:08
+Train: [184][2784/2785]  Loss -1.4455 (-1.8126)  Time:  0.441 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:35:32
+Valid: [192][620/621]  Loss -8.2127 (-4.8467)
+Train: [210][2111/2112]  Loss -0.8027 (-1.5998)  Time:  0.307 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:16:20
+Valid: [184][659/660]  Loss -9.4456 (-6.0260)
+Valid: [210][500/501]  Loss -5.5166 (-3.3723)
+Train: [170][2075/2076]  Loss -0.4328 (-1.7099)  Time:  0.145 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:34:06
+Valid: [170][529/530]  Loss -6.0327 (-4.3955)
+Train: [197][2321/2322]  Loss -0.2003 (-1.6870)  Time:  0.114 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:25:10
+Valid: [197][604/605]  Loss -8.3997 (-5.1910)
+Train: [211][2111/2112]  Loss -0.8457 (-1.4977)  Time:  0.315 (0.012)  Data Time:  0.006 (0.005)
+  Eta: 0:16:03
+Train: [193][2593/2594]  Loss -0.4724 (-1.8428)  Time:  0.150 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:28:49
+Valid: [211][500/501]  Loss -4.7310 (-2.9243)
+Train: [185][2784/2785]  Loss -1.4778 (-1.7759)  Time:  0.411 (0.012)  Data Time:  0.003 (0.005)
+  Eta: 0:35:22
+Valid: [193][620/621]  Loss -8.4524 (-4.9869)
+Valid: [185][659/660]  Loss -9.7574 (-6.2202)
+Train: [171][2075/2076]  Loss -0.3284 (-1.6592)  Time:  0.170 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:33:15
+Valid: [171][529/530]  Loss -5.7764 (-4.1932)
+Train: [198][2321/2322]  Loss -0.1568 (-1.6887)  Time:  0.100 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:24:28
+Valid: [198][604/605]  Loss -8.1719 (-5.0026)
+Train: [212][2111/2112]  Loss -0.8492 (-1.6430)  Time:  0.349 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:15:59
+Valid: [212][500/501]  Loss -4.1523 (-2.6742)
+Train: [194][2593/2594]  Loss -0.5059 (-1.7744)  Time:  0.165 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:29:16
+Train: [172][2075/2076]  Loss -0.4215 (-1.7465)  Time:  0.149 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:34:46
+Valid: [194][620/621]  Loss -8.5678 (-5.0712)
+Train: [186][2784/2785]  Loss -1.4405 (-1.8139)  Time:  0.485 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:36:20
+Valid: [172][529/530]  Loss -5.0400 (-3.7787)
+Valid: [186][659/660]  Loss -9.4338 (-6.0306)
+Test: [186]  ADE: 0.7458  FDE: 1.2945
+Train: [199][2321/2322]  Loss -0.1971 (-1.4850)  Time:  0.097 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:24:57
+Valid: [199][604/605]  Loss -8.3447 (-5.1362)
+Train: [213][2111/2112]  Loss -0.8438 (-1.5465)  Time:  0.321 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:15:21
+Valid: [213][500/501]  Loss -3.5237 (-2.2890)
+Train: [195][2593/2594]  Loss -0.4628 (-1.6707)  Time:  0.174 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:28:23
+Train: [173][2075/2076]  Loss -0.3037 (-1.7599)  Time:  0.154 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:34:27
+Valid: [173][529/530]  Loss -3.0304 (-2.6815)
+Valid: [195][620/621]  Loss -8.2134 (-4.8808)
+Train: [187][2784/2785]  Loss -1.3885 (-1.8531)  Time:  0.467 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:35:52
+Train: [200][2321/2322]  Loss -0.2455 (-1.7744)  Time:  0.098 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:24:51
+Train: [214][2111/2112]  Loss -0.8633 (-1.5759)  Time:  0.302 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:15:11
+Valid: [187][659/660]  Loss -9.5333 (-6.0854)
+Valid: [214][500/501]  Loss -5.4185 (-3.3012)
+Valid: [200][604/605]  Loss -8.0114 (-4.8765)
+Train: [174][2075/2076]  Loss -0.3276 (-1.7354)  Time:  0.155 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:34:04
+Valid: [174][529/530]  Loss -4.6942 (-3.6216)
+Train: [196][2593/2594]  Loss -0.4746 (-1.8091)  Time:  0.176 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:28:12
+Valid: [196][620/621]  Loss -7.8444 (-4.6598)
+Train: [215][2111/2112]  Loss -0.7948 (-1.5518)  Time:  0.306 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:14:35
+Valid: [215][500/501]  Loss -5.1391 (-3.1863)
+Train: [201][2321/2322]  Loss -0.2572 (-1.7538)  Time:  0.100 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:24:03
+Test: [196]  ADE: 0.4228  FDE: 0.5708
+Train: [188][2784/2785]  Loss -1.3363 (-1.8558)  Time:  0.418 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:34:03
+Valid: [201][604/605]  Loss -8.2137 (-5.0559)
+Valid: [188][659/660]  Loss -9.4419 (-6.0237)
+Train: [175][2075/2076]  Loss -0.4050 (-1.6943)  Time:  0.154 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:32:32
+Valid: [175][529/530]  Loss -5.9212 (-4.2814)
+Train: [216][2111/2112]  Loss -0.8605 (-1.6316)  Time:  0.352 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:14:20
+Valid: [216][500/501]  Loss -5.5031 (-3.4336)
+Train: [197][2593/2594]  Loss -0.4773 (-1.7881)  Time:  0.184 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:27:17
+Train: [202][2321/2322]  Loss -0.3103 (-1.7453)  Time:  0.084 (0.013)  Data Time:  0.003 (0.004)
+  Eta: 0:23:13
+Valid: [197][620/621]  Loss -7.9876 (-4.7464)
+Valid: [202][604/605]  Loss -8.1283 (-4.9550)
+Train: [189][2784/2785]  Loss -1.3453 (-1.8542)  Time:  0.495 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:33:21
+Train: [176][2075/2076]  Loss -0.4121 (-1.6643)  Time:  0.130 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:30:56
+Valid: [189][659/660]  Loss -9.4440 (-6.0362)
+Valid: [176][529/530]  Loss -4.6151 (-3.5722)
+Train: [198][2593/2594]  Loss -0.5286 (-1.8393)  Time:  0.142 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:21:50
+Train: [203][2321/2322]  Loss -0.1726 (-1.7714)  Time:  0.078 (0.010)  Data Time:  0.001 (0.003)
+  Eta: 0:18:39
+Test: [216]  ADE: 0.3333  FDE: 0.5337
+Valid: [203][604/605]  Loss -7.8105 (-4.8011)
+Valid: [198][620/621]  Loss -8.6141 (-5.0927)
+Train: [190][2784/2785]  Loss -1.4400 (-1.8438)  Time:  0.411 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:26:44
+Valid: [190][659/660]  Loss -9.5697 (-6.1143)
+Train: [217][2111/2112]  Loss -0.7678 (-1.5762)  Time:  0.269 (0.010)  Data Time:  0.004 (0.004)
+  Eta: 0:11:55
+Valid: [217][500/501]  Loss -4.9799 (-3.1130)
+Train: [204][2321/2322]  Loss -0.2425 (-1.7664)  Time:  0.083 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:18:53
+Train: [199][2593/2594]  Loss -0.4277 (-1.7736)  Time:  0.160 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:22:43
+Valid: [204][604/605]  Loss -7.9303 (-4.8667)
+Valid: [199][620/621]  Loss -8.3960 (-4.9802)
+Train: [191][2784/2785]  Loss -1.4848 (-1.8114)  Time:  0.421 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:28:33
+Valid: [191][659/660]  Loss -9.6366 (-6.1335)
+Train: [218][2111/2112]  Loss -0.7820 (-1.5224)  Time:  0.288 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:11:37
+Valid: [218][500/501]  Loss -4.0214 (-2.5795)
+Train: [205][2321/2322]  Loss -0.2496 (-1.7510)  Time:  0.095 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:19:51
+Train: [200][2593/2594]  Loss -0.5149 (-1.7775)  Time:  0.159 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:22:52
+Valid: [205][604/605]  Loss -8.4922 (-5.2331)
+Checkpoint saved...
+Valid: [200][620/621]  Loss -8.5024 (-5.0340)
+Train: [219][2111/2112]  Loss -0.8167 (-1.5447)  Time:  0.257 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:11:31
+Test: [176]  ADE: 0.5160  FDE: 0.9558
+Train: [192][2784/2785]  Loss -1.3673 (-1.8179)  Time:  0.496 (0.011)  Data Time:  0.005 (0.003)
+  Eta: 0:28:49
+Valid: [219][500/501]  Loss -5.1476 (-3.1839)
+Valid: [192][659/660]  Loss -9.5542 (-6.1050)
+Train: [206][2321/2322]  Loss -0.2009 (-1.8173)  Time:  0.106 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:20:45
+Valid: [206][604/605]  Loss -7.8536 (-4.7864)
+Train: [201][2593/2594]  Loss -0.4955 (-1.5630)  Time:  0.149 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:24:43
+Train: [177][2075/2076]  Loss -0.4206 (-1.7149)  Time:  0.142 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:31:39
+Valid: [201][620/621]  Loss -8.4787 (-5.0248)
+Train: [220][2111/2112]  Loss -0.8174 (-1.6221)  Time:  0.288 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:12:27
+Valid: [177][529/530]  Loss -5.4737 (-3.9572)
+Valid: [220][500/501]  Loss -2.9474 (-1.8837)
+Train: [193][2784/2785]  Loss -1.2879 (-1.8165)  Time:  0.431 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:30:34
+Test: [206]  ADE: 0.3917  FDE: 0.5804
+Valid: [193][659/660]  Loss -9.1671 (-5.8489)
+Train: [221][2111/2112]  Loss -0.8891 (-1.5954)  Time:  0.323 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:12:03
+Train: [178][2075/2076]  Loss -0.4423 (-1.7760)  Time:  0.160 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:31:43
+Train: [202][2593/2594]  Loss -0.4693 (-1.8346)  Time:  0.159 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:24:13
+Valid: [221][500/501]  Loss -2.2094 (-1.5782)
+Valid: [178][529/530]  Loss -5.3055 (-3.9652)
+Valid: [202][620/621]  Loss -7.6495 (-4.5229)
+Train: [207][2321/2322]  Loss -0.2364 (-1.7890)  Time:  0.108 (0.013)  Data Time:  0.003 (0.004)
+  Eta: 0:21:07
+Valid: [207][604/605]  Loss -8.1331 (-4.9990)
+Train: [194][2784/2785]  Loss -1.3484 (-1.8333)  Time:  0.448 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:31:45
+Valid: [194][659/660]  Loss -9.3489 (-5.9716)
+Train: [222][2111/2112]  Loss -0.7528 (-1.6160)  Time:  0.327 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:11:57
+Train: [179][2075/2076]  Loss -0.2834 (-1.7352)  Time:  0.142 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:30:51
+Valid: [222][500/501]  Loss -5.3401 (-3.2937)
+Valid: [179][529/530]  Loss -5.2716 (-3.8645)
+Train: [203][2593/2594]  Loss -0.4683 (-1.7337)  Time:  0.167 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:24:05
+Valid: [203][620/621]  Loss -8.6094 (-5.1042)
+Train: [208][2321/2322]  Loss -0.2471 (-1.7922)  Time:  0.098 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:20:00
+Valid: [208][604/605]  Loss -8.1027 (-4.9631)
+Train: [223][2111/2112]  Loss -0.7665 (-1.5383)  Time:  0.320 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:11:23
+Train: [195][2784/2785]  Loss -1.4363 (-1.8394)  Time:  0.463 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:30:40
+Train: [180][2075/2076]  Loss -0.3783 (-1.7556)  Time:  0.151 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:30:54
+Valid: [223][500/501]  Loss -5.1908 (-3.2392)
+Valid: [180][529/530]  Loss -5.6495 (-4.0621)
+Valid: [195][659/660]  Loss -8.3700 (-5.3492)
+Train: [204][2593/2594]  Loss -0.4285 (-1.6261)  Time:  0.174 (0.012)  Data Time:  0.006 (0.005)
+  Eta: 0:23:50
+Valid: [204][620/621]  Loss -8.4778 (-5.0396)
+Train: [209][2321/2322]  Loss -0.2560 (-1.7610)  Time:  0.097 (0.012)  Data Time:  0.006 (0.004)
+  Eta: 0:19:43
+Valid: [209][604/605]  Loss -7.8818 (-4.8398)
+Train: [224][2111/2112]  Loss -0.8440 (-1.5647)  Time:  0.309 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:10:51
+Train: [181][2075/2076]  Loss -0.4128 (-1.7042)  Time:  0.147 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:29:55
+Valid: [224][500/501]  Loss -4.6607 (-2.9013)
+Valid: [181][529/530]  Loss -5.6036 (-4.0912)
+Train: [196][2784/2785]  Loss -1.4928 (-1.8198)  Time:  0.503 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:29:58
+Valid: [196][659/660]  Loss -9.4966 (-6.0379)
+Test: [196]  ADE: 0.7795  FDE: 1.3936
+Train: [205][2593/2594]  Loss -0.5067 (-1.8207)  Time:  0.159 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:22:54
+Valid: [205][620/621]  Loss -8.3139 (-4.9208)
+Train: [210][2321/2322]  Loss -0.2916 (-1.6095)  Time:  0.104 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:18:47
+Train: [225][2111/2112]  Loss -0.8528 (-1.6363)  Time:  0.315 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:10:14
+Valid: [210][604/605]  Loss -7.8707 (-4.7961)
+Valid: [225][500/501]  Loss -3.6635 (-2.3698)
+Train: [182][2075/2076]  Loss -0.4268 (-1.6912)  Time:  0.156 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:29:12
+Valid: [182][529/530]  Loss -4.7622 (-3.6132)
+Train: [197][2784/2785]  Loss -1.4654 (-1.8143)  Time:  0.453 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:30:06
+Train: [206][2593/2594]  Loss -0.4638 (-1.8253)  Time:  0.165 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:22:57
+Valid: [197][659/660]  Loss -9.4617 (-6.0245)
+Train: [226][2111/2112]  Loss -0.7177 (-1.5179)  Time:  0.311 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:10:19
+Train: [211][2321/2322]  Loss -0.2349 (-1.7317)  Time:  0.097 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:19:16
+Valid: [206][620/621]  Loss -8.5243 (-5.0510)
+Valid: [226][500/501]  Loss -5.2198 (-3.2537)
+Train: [183][2075/2076]  Loss -0.3871 (-1.7052)  Time:  0.127 (0.013)  Data Time:  0.003 (0.004)
+  Eta: 0:29:07
+Valid: [211][604/605]  Loss -8.1811 (-4.9969)
+Valid: [183][529/530]  Loss -5.8452 (-4.2391)
+Test: [206]  ADE: 0.4308  FDE: 0.6952
+Train: [198][2784/2785]  Loss -1.4638 (-1.8437)  Time:  0.435 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:26:00
+Train: [212][2321/2322]  Loss -0.2727 (-1.8192)  Time:  0.083 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:16:54
+Train: [184][2075/2076]  Loss -0.3102 (-1.6907)  Time:  0.133 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:27:02
+Valid: [198][659/660]  Loss -9.7176 (-6.2221)
+Valid: [212][604/605]  Loss -7.6507 (-4.7246)
+Valid: [184][529/530]  Loss -5.6825 (-4.1640)
+Test: [226]  ADE: 0.3204  FDE: 0.5376
+Train: [207][2593/2594]  Loss -0.4659 (-1.8578)  Time:  0.157 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:20:27
+Valid: [207][620/621]  Loss -8.3913 (-4.9777)
+Train: [185][2075/2076]  Loss -0.4266 (-1.7825)  Time:  0.145 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:28:33
+Train: [227][2111/2112]  Loss -0.7919 (-1.5044)  Time:  0.328 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:09:52
+Train: [213][2321/2322]  Loss -0.2592 (-1.7921)  Time:  0.096 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:17:49
+Train: [199][2784/2785]  Loss -1.3958 (-1.8645)  Time:  0.431 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:28:13
+Valid: [185][529/530]  Loss -5.7555 (-4.2192)
+Valid: [227][500/501]  Loss -4.6515 (-2.8198)
+Valid: [213][604/605]  Loss -8.0900 (-4.9262)
+Valid: [199][659/660]  Loss -9.8297 (-6.2779)
+Train: [208][2593/2594]  Loss -0.4881 (-1.8145)  Time:  0.162 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:21:55
+Valid: [208][620/621]  Loss -8.3317 (-4.9506)
+Train: [228][2111/2112]  Loss -0.8721 (-1.5916)  Time:  0.370 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:09:17
+Train: [186][2075/2076]  Loss -0.3523 (-1.7427)  Time:  0.145 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:27:54
+Valid: [228][500/501]  Loss -3.7357 (-2.2339)
+Valid: [186][529/530]  Loss -6.0940 (-4.4322)
+Train: [214][2321/2322]  Loss -0.2618 (-1.8009)  Time:  0.118 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:17:12
+Valid: [214][604/605]  Loss -8.0530 (-4.9621)
+Train: [200][2784/2785]  Loss -1.4100 (-1.8529)  Time:  0.442 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:26:49
+Train: [209][2593/2594]  Loss -0.5336 (-1.6429)  Time:  0.146 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:20:17
+Valid: [200][659/660]  Loss -9.3586 (-5.9592)
+Valid: [209][620/621]  Loss -8.2824 (-4.9090)
+Train: [229][2111/2112]  Loss -0.8612 (-1.6130)  Time:  0.278 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:07:54
+Valid: [229][500/501]  Loss -3.2671 (-2.0971)
+Train: [215][2321/2322]  Loss -0.2393 (-1.7262)  Time:  0.093 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:15:13
+Valid: [215][604/605]  Loss -7.7112 (-4.7007)
+Train: [201][2784/2785]  Loss -1.2521 (-1.8376)  Time:  0.386 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:24:19
+Train: [210][2593/2594]  Loss -0.5114 (-1.6688)  Time:  0.134 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:18:20
+Valid: [201][659/660]  Loss -9.9589 (-6.3739)
+Checkpoint saved...
+Train: [230][2111/2112]  Loss -0.7629 (-1.6097)  Time:  0.272 (0.010)  Data Time:  0.004 (0.004)
+  Eta: 0:07:17
+Valid: [210][620/621]  Loss -8.1803 (-4.8474)
+Valid: [230][500/501]  Loss -3.9668 (-2.6363)
+Train: [216][2321/2322]  Loss -0.2012 (-1.7764)  Time:  0.082 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:14:26
+Valid: [216][604/605]  Loss -8.1268 (-4.9916)
+Train: [231][2111/2112]  Loss -0.7786 (-1.5006)  Time:  0.270 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:06:51
+Train: [202][2784/2785]  Loss -1.5487 (-1.8481)  Time:  0.401 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:22:44
+Train: [211][2593/2594]  Loss -0.4955 (-1.8779)  Time:  0.134 (0.010)  Data Time:  0.002 (0.003)
+  Eta: 0:17:11
+Valid: [231][500/501]  Loss -4.4035 (-2.7417)
+Valid: [211][620/621]  Loss -8.0185 (-4.7722)
+Valid: [202][659/660]  Loss -9.6676 (-6.1611)
+Test: [216]  ADE: 0.3740  FDE: 0.5532
+Test: [186]  ADE: 0.4823  FDE: 0.8958
+Train: [232][2111/2112]  Loss -0.7827 (-1.4526)  Time:  0.339 (0.011)  Data Time:  0.005 (0.003)
+  Eta: 0:06:52
+Valid: [232][500/501]  Loss -5.0172 (-3.1145)
+Train: [212][2593/2594]  Loss -0.5107 (-1.7674)  Time:  0.171 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:18:28
+Train: [203][2784/2785]  Loss -1.3655 (-1.8129)  Time:  0.529 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:25:01
+Train: [217][2321/2322]  Loss -0.2647 (-1.5906)  Time:  0.094 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:15:40
+Valid: [212][620/621]  Loss -8.5339 (-5.0646)
+Valid: [217][604/605]  Loss -8.0570 (-4.9307)
+Valid: [203][659/660]  Loss -9.4590 (-6.0438)
+Train: [187][2075/2076]  Loss -0.4126 (-1.7304)  Time:  0.158 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:28:01
+Valid: [187][529/530]  Loss -4.5240 (-3.4290)
+Train: [233][2111/2112]  Loss -0.8155 (-1.5276)  Time:  0.323 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:07:09
+Valid: [233][500/501]  Loss -2.4137 (-1.5746)
+Train: [213][2593/2594]  Loss -0.4909 (-1.8325)  Time:  0.163 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:19:24
+Train: [218][2321/2322]  Loss -0.2056 (-1.7404)  Time:  0.094 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:15:57
+Valid: [213][620/621]  Loss -8.2706 (-4.9151)
+Train: [204][2784/2785]  Loss -1.4086 (-1.8439)  Time:  0.437 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:26:05
+Valid: [218][604/605]  Loss -8.1715 (-5.0024)
+Train: [188][2075/2076]  Loss -0.4037 (-1.7559)  Time:  0.141 (0.013)  Data Time:  0.003 (0.005)
+  Eta: 0:27:17
+Valid: [204][659/660]  Loss -9.0948 (-5.7701)
+Valid: [188][529/530]  Loss -4.2313 (-3.4064)
+Train: [234][2111/2112]  Loss -0.8153 (-1.6018)  Time:  0.296 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:06:37
+Valid: [234][500/501]  Loss -4.6741 (-2.9423)
+Train: [219][2321/2322]  Loss -0.2030 (-1.7652)  Time:  0.101 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:14:52
+Train: [214][2593/2594]  Loss -0.5545 (-1.6383)  Time:  0.162 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:18:19
+Train: [189][2075/2076]  Loss -0.3211 (-1.7558)  Time:  0.151 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:26:40
+Valid: [219][604/605]  Loss -7.1274 (-4.3371)
+Valid: [214][620/621]  Loss -7.6718 (-4.5766)
+Valid: [189][529/530]  Loss -6.3247 (-4.5358)
+Train: [235][2111/2112]  Loss -0.8514 (-1.6273)  Time:  0.313 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:06:21
+Train: [205][2784/2785]  Loss -1.4306 (-1.7721)  Time:  0.472 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:24:40
+Valid: [235][500/501]  Loss -3.8831 (-2.3527)
+Valid: [205][659/660]  Loss -9.7177 (-6.2104)
+Train: [190][2075/2076]  Loss -0.4135 (-1.7612)  Time:  0.151 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:26:44
+Train: [220][2321/2322]  Loss -0.1719 (-1.7237)  Time:  0.106 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:15:07
+Train: [215][2593/2594]  Loss -0.4917 (-1.6958)  Time:  0.154 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:18:12
+Train: [236][2111/2112]  Loss -0.7433 (-1.5659)  Time:  0.286 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:05:59
+Valid: [190][529/530]  Loss -5.7795 (-4.1503)
+Valid: [220][604/605]  Loss -7.7144 (-4.7540)
+Valid: [236][500/501]  Loss -4.6475 (-2.8382)
+Valid: [215][620/621]  Loss -8.0562 (-4.7805)
+Train: [206][2784/2785]  Loss -1.4106 (-1.8459)  Time:  0.420 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:24:30
+Valid: [206][659/660]  Loss -9.6912 (-6.1786)
+Test: [206]  ADE: 0.7277  FDE: 1.2004
+Train: [191][2075/2076]  Loss -0.3160 (-1.6864)  Time:  0.145 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:24:18
+Train: [221][2321/2322]  Loss -0.2357 (-1.7668)  Time:  0.104 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:13:00
+Valid: [191][529/530]  Loss -5.9488 (-4.3330)
+Train: [216][2593/2594]  Loss -0.4279 (-1.8175)  Time:  0.149 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:16:05
+Valid: [221][604/605]  Loss -8.0412 (-4.9440)
+Valid: [216][620/621]  Loss -6.4093 (-3.8276)
+Test: [236]  ADE: 0.3352  FDE: 0.5458
+Test: [216]  ADE: 0.4260  FDE: 0.5119
+Train: [207][2784/2785]  Loss -1.3006 (-1.8478)  Time:  0.457 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:21:37
+Valid: [207][659/660]  Loss -9.5142 (-6.0869)
+Train: [192][2075/2076]  Loss -0.4665 (-1.7580)  Time:  0.120 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:23:01
+Valid: [192][529/530]  Loss -5.6828 (-4.0817)
+Train: [222][2321/2322]  Loss -0.2384 (-1.7582)  Time:  0.092 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:12:33
+Train: [237][2111/2112]  Loss -0.8521 (-1.5552)  Time:  0.312 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:05:18
+Valid: [222][604/605]  Loss -7.1842 (-4.4069)
+Valid: [237][500/501]  Loss -2.7743 (-1.8522)
+Train: [217][2593/2594]  Loss -0.4901 (-1.8148)  Time:  0.172 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:16:48
+Valid: [217][620/621]  Loss -8.3787 (-4.9638)
+Train: [193][2075/2076]  Loss -0.4210 (-1.7718)  Time:  0.139 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:25:10
+Train: [208][2784/2785]  Loss -1.4307 (-1.8745)  Time:  0.475 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:23:17
+Valid: [193][529/530]  Loss -5.9908 (-4.3401)
+Valid: [208][659/660]  Loss -9.4345 (-6.0185)
+Train: [238][2111/2112]  Loss -0.8339 (-1.5764)  Time:  0.293 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:05:05
+Train: [223][2321/2322]  Loss -0.2537 (-1.6745)  Time:  0.095 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:13:18
+Valid: [238][500/501]  Loss -4.8453 (-2.9654)
+Valid: [223][604/605]  Loss -7.9803 (-4.8849)
+Train: [218][2593/2594]  Loss -0.5458 (-1.8477)  Time:  0.168 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:16:51
+Train: [194][2075/2076]  Loss -0.3506 (-1.7870)  Time:  0.135 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:24:52
+Valid: [218][620/621]  Loss -7.4857 (-4.4548)
+Valid: [194][529/530]  Loss -5.6632 (-4.1877)
+Train: [239][2111/2112]  Loss -0.7341 (-1.6346)  Time:  0.315 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:04:38
+Train: [209][2784/2785]  Loss -1.4272 (-1.8729)  Time:  0.462 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:22:46
+Valid: [239][500/501]  Loss -5.2646 (-3.3044)
+Train: [224][2321/2322]  Loss -0.2411 (-1.6535)  Time:  0.102 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:12:35
+Valid: [209][659/660]  Loss -9.4483 (-6.0319)
+Valid: [224][604/605]  Loss -8.2274 (-5.0292)
+Train: [195][2075/2076]  Loss -0.4384 (-1.7283)  Time:  0.140 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:23:40
+Train: [219][2593/2594]  Loss -0.5336 (-1.8328)  Time:  0.170 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:15:54
+Valid: [195][529/530]  Loss -5.3594 (-3.9755)
+Train: [240][2111/2112]  Loss -0.8160 (-1.6066)  Time:  0.283 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:04:12
+Valid: [219][620/621]  Loss -8.4763 (-5.0222)
+Valid: [240][500/501]  Loss -4.8546 (-3.0149)
+Train: [225][2321/2322]  Loss -0.2438 (-1.8274)  Time:  0.095 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:12:01
+Train: [210][2784/2785]  Loss -1.4786 (-1.8515)  Time:  0.478 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:22:16
+Valid: [225][604/605]  Loss -8.3493 (-5.1570)
+Valid: [210][659/660]  Loss -9.3264 (-5.9599)
+Train: [196][2075/2076]  Loss -0.4543 (-1.6485)  Time:  0.151 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:23:47
+Valid: [196][529/530]  Loss -5.2331 (-3.7886)
+Train: [241][2111/2112]  Loss -0.8792 (-1.5382)  Time:  0.300 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:03:48
+Train: [220][2593/2594]  Loss -0.4023 (-1.8406)  Time:  0.158 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:15:18
+Valid: [241][500/501]  Loss -5.4411 (-3.4310)
+Valid: [220][620/621]  Loss -7.8757 (-4.6867)
+Train: [226][2321/2322]  Loss -0.2403 (-1.7627)  Time:  0.092 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:11:06
+Train: [211][2784/2785]  Loss -1.2855 (-1.8716)  Time:  0.417 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:20:21
+Valid: [226][604/605]  Loss -7.2642 (-4.4266)
+Valid: [211][659/660]  Loss -9.7122 (-6.2167)
+Train: [242][2111/2112]  Loss -0.7603 (-1.6117)  Time:  0.264 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:02:53
+Valid: [242][500/501]  Loss -5.7708 (-3.6056)
+Train: [221][2593/2594]  Loss -0.4776 (-1.8513)  Time:  0.133 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:12:15
+Test: [226]  ADE: 0.4342  FDE: 0.6478
+Valid: [221][620/621]  Loss -7.3627 (-4.3806)
+Train: [243][2111/2112]  Loss -0.7016 (-1.6052)  Time:  0.269 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:02:33
+Train: [212][2784/2785]  Loss -1.3737 (-1.8455)  Time:  0.432 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:17:52
+Valid: [243][500/501]  Loss -5.1894 (-3.1186)
+Valid: [212][659/660]  Loss -9.5649 (-6.0987)
+Train: [227][2321/2322]  Loss -0.2378 (-1.7913)  Time:  0.085 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:09:56
+Train: [222][2593/2594]  Loss -0.4503 (-1.6687)  Time:  0.151 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:12:45
+Valid: [227][604/605]  Loss -8.0519 (-4.9276)
+Valid: [222][620/621]  Loss -8.0556 (-4.7862)
+Train: [244][2111/2112]  Loss -0.7955 (-1.6151)  Time:  0.276 (0.010)  Data Time:  0.004 (0.004)
+  Eta: 0:02:12
+Valid: [244][500/501]  Loss -5.4993 (-3.3759)
+Train: [213][2784/2785]  Loss -1.4293 (-1.8478)  Time:  0.451 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:18:20
+Valid: [213][659/660]  Loss -9.4708 (-6.0146)
+Train: [228][2321/2322]  Loss -0.2345 (-1.6145)  Time:  0.095 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:09:21
+Test: [196]  ADE: 0.4531  FDE: 0.7651
+Valid: [228][604/605]  Loss -8.3652 (-5.1740)
+Train: [223][2593/2594]  Loss -0.4849 (-1.8506)  Time:  0.167 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:12:44
+Valid: [223][620/621]  Loss -7.8622 (-4.6924)
+Train: [245][2111/2112]  Loss -0.7433 (-1.5424)  Time:  0.326 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:01:59
+Valid: [245][500/501]  Loss -4.3539 (-2.7336)
+Train: [197][2075/2076]  Loss -0.4457 (-1.6770)  Time:  0.151 (0.013)  Data Time:  0.005 (0.005)
+  Eta: 0:23:43
+Train: [214][2784/2785]  Loss -1.5387 (-1.8555)  Time:  0.473 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:20:10
+Valid: [197][529/530]  Loss -5.7495 (-4.1568)
+Train: [229][2321/2322]  Loss -0.2411 (-1.7778)  Time:  0.093 (0.013)  Data Time:  0.004 (0.005)
+  Eta: 0:10:19
+Valid: [214][659/660]  Loss -9.4385 (-6.0064)
+Valid: [229][604/605]  Loss -8.3187 (-5.0821)
+Train: [224][2593/2594]  Loss -0.4899 (-1.8464)  Time:  0.169 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:13:23
+Train: [246][2111/2112]  Loss -0.8646 (-1.6214)  Time:  0.299 (0.012)  Data Time:  0.005 (0.005)
+  Eta: 0:01:41
+Valid: [246][500/501]  Loss -4.1140 (-2.5741)
+Valid: [224][620/621]  Loss -8.3174 (-4.9524)
+Train: [198][2075/2076]  Loss -0.3447 (-1.7585)  Time:  0.125 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:21:14
+Valid: [198][529/530]  Loss -5.6118 (-4.0203)
+Train: [230][2321/2322]  Loss -0.2355 (-1.7787)  Time:  0.086 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:08:57
+Train: [215][2784/2785]  Loss -1.4680 (-1.8520)  Time:  0.413 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:18:07
+Valid: [230][604/605]  Loss -8.3836 (-5.1680)
+Valid: [215][659/660]  Loss -9.0370 (-5.7808)
+Train: [225][2593/2594]  Loss -0.5113 (-1.8079)  Time:  0.149 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:11:46
+Valid: [225][620/621]  Loss -7.8092 (-4.6561)
+Test: [246]  ADE: 0.3378  FDE: 0.5677
+Train: [199][2075/2076]  Loss -0.3906 (-1.7588)  Time:  0.158 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:20:53
+Valid: [199][529/530]  Loss -5.7169 (-4.1130)
+Train: [231][2321/2322]  Loss -0.2122 (-1.6306)  Time:  0.101 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:08:58
+Valid: [231][604/605]  Loss -8.3945 (-5.1961)
+Train: [216][2784/2785]  Loss -1.3585 (-1.8428)  Time:  0.469 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:18:39
+Train: [247][2111/2112]  Loss -0.8604 (-1.5689)  Time:  0.309 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:01:15
+Train: [226][2593/2594]  Loss -0.5297 (-1.7842)  Time:  0.166 (0.012)  Data Time:  0.004 (0.005)
+  Eta: 0:12:30
+Valid: [247][500/501]  Loss -5.4623 (-3.3211)
+Valid: [216][659/660]  Loss -9.8633 (-6.3100)
+Test: [216]  ADE: 0.7528  FDE: 1.2174
+Valid: [226][620/621]  Loss -8.2938 (-4.9056)
+Train: [200][2075/2076]  Loss -0.3377 (-1.7577)  Time:  0.144 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:22:15
+Valid: [200][529/530]  Loss -5.1826 (-3.8989)
+Test: [226]  ADE: 0.4110  FDE: 0.5924
+Train: [232][2321/2322]  Loss -0.2798 (-1.7721)  Time:  0.100 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:08:44
+Train: [248][2111/2112]  Loss -0.8270 (-1.6019)  Time:  0.319 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:00:49
+Valid: [232][604/605]  Loss -7.7846 (-4.7393)
+Valid: [248][500/501]  Loss -4.9984 (-3.0673)
+Train: [217][2784/2785]  Loss -1.4146 (-1.7900)  Time:  0.501 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:18:25
+Train: [201][2075/2076]  Loss -0.4105 (-1.7844)  Time:  0.147 (0.013)  Data Time:  0.004 (0.004)
+  Eta: 0:21:37
+Valid: [201][529/530]  Loss -5.3118 (-3.9572)
+Valid: [217][659/660]  Loss -9.2716 (-5.9473)
+Train: [227][2593/2594]  Loss -0.4487 (-1.6442)  Time:  0.161 (0.012)  Data Time:  0.003 (0.004)
+  Eta: 0:11:54
+Valid: [227][620/621]  Loss -8.1801 (-4.8702)
+Train: [249][2111/2112]  Loss -0.8438 (-1.6088)  Time:  0.314 (0.012)  Data Time:  0.004 (0.004)
+  Eta: 0:00:25
+Train: [233][2321/2322]  Loss -0.2022 (-1.6743)  Time:  0.092 (0.013)  Data Time:  0.005 (0.004)
+  Eta: 0:08:21
+Valid: [249][500/501]  Loss -3.9293 (-2.4643)
+Valid: [233][604/605]  Loss -8.3814 (-5.1601)
+Train: [202][2075/2076]  Loss -0.3220 (-1.7589)  Time:  0.139 (0.012)  Data Time:  0.005 (0.004)
+  Eta: 0:20:12
+**************************************************
+Number of samples: 20
+**************************************************
+./runs/Apr11_04-16-30_node06/eth
+Evaluating model: ./runs/Apr11_04-16-30_node06/eth/checkpoint
+Stats: {'min_val_epoch': 201, 'min_val_loss': -0.015089305919228179}
+Loading Data from previous pre-process .....
+Testing eth ....
+Valid: [202][529/530]  Loss -5.5444 (-3.9676)
+ADE:  0.7446941119578707  FDE:  1.2303049539086888
+**************************************************
+./runs/Apr11_04-16-30_node06/hotel
+Evaluating model: ./runs/Apr11_04-16-30_node06/hotel/checkpoint
+Stats: {'min_val_epoch': 174, 'min_val_loss': -0.014086534435622359}
+Loading Data from previous pre-process .....
+Testing hotel ....
+Train: [218][2784/2785]  Loss -1.3997 (-1.8402)  Time:  0.495 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:16:50
+Valid: [218][659/660]  Loss -9.4018 (-6.0008)
+Train: [228][2593/2594]  Loss -0.5523 (-1.8550)  Time:  0.182 (0.011)  Data Time:  0.005 (0.004)
+  Eta: 0:10:32
+Valid: [228][620/621]  Loss -7.3899 (-4.3963)
+Train: [234][2321/2322]  Loss -0.2443 (-1.7577)  Time:  0.080 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:06:44
+ADE:  0.4255446427755658  FDE:  0.6836788768293105
+**************************************************
+./runs/Apr11_04-16-30_node06/univ
+Evaluating model: ./runs/Apr11_04-16-30_node06/univ/checkpoint
+Stats: {'min_val_epoch': 151, 'min_val_loss': -0.012499387140543956}
+Loading Data from previous pre-process .....
+Testing univ ....
+Valid: [234][604/605]  Loss -8.0720 (-4.9300)
+Train: [203][2075/2076]  Loss -0.4400 (-1.7646)  Time:  0.124 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:17:37
+Valid: [203][529/530]  Loss -5.3939 (-3.9107)
+Train: [219][2784/2785]  Loss -1.3021 (-1.8673)  Time:  0.390 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:15:21
+Train: [229][2593/2594]  Loss -0.4974 (-1.8418)  Time:  0.144 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:09:32
+Valid: [219][659/660]  Loss -8.0965 (-5.1997)
+Train: [235][2321/2322]  Loss -0.2289 (-1.7744)  Time:  0.083 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:06:19
+Valid: [229][620/621]  Loss -8.4379 (-5.0074)
+Train: [204][2075/2076]  Loss -0.3364 (-1.6317)  Time:  0.148 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:17:25
+Valid: [235][604/605]  Loss -8.1562 (-4.9925)
+Valid: [204][529/530]  Loss -4.9995 (-3.6496)
+Train: [220][2784/2785]  Loss -1.3716 (-1.8566)  Time:  0.405 (0.010)  Data Time:  0.003 (0.004)
+  Eta: 0:14:32
+Train: [230][2593/2594]  Loss -0.4627 (-1.8145)  Time:  0.156 (0.010)  Data Time:  0.004 (0.004)
+  Eta: 0:09:02
+Train: [236][2321/2322]  Loss -0.2128 (-1.8031)  Time:  0.089 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:05:52
+Train: [205][2075/2076]  Loss -0.3921 (-1.7796)  Time:  0.140 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:17:15
+Valid: [220][659/660]  Loss -9.5013 (-6.0783)
+Valid: [230][620/621]  Loss -8.0666 (-4.8205)
+Valid: [236][604/605]  Loss -8.1264 (-4.9948)
+Valid: [205][529/530]  Loss -6.2033 (-4.4354)
+Test: [236]  ADE: 0.3708  FDE: 0.5688
+Train: [206][2075/2076]  Loss -0.3333 (-1.6772)  Time:  0.129 (0.011)  Data Time:  0.005 (0.003)
+  Eta: 0:16:15
+Train: [231][2593/2594]  Loss -0.5035 (-1.8077)  Time:  0.153 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:08:23
+Train: [221][2784/2785]  Loss -1.4358 (-1.8468)  Time:  0.421 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:13:38
+Valid: [206][529/530]  Loss -5.2679 (-3.8466)
+ADE:  0.4651348497101514  FDE:  0.8547504626459589
+**************************************************
+./runs/Apr11_04-16-30_node06/zara1
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara1/checkpoint
+Stats: {'min_val_epoch': 205, 'min_val_loss': -0.014036679859003745}
+Loading Data from previous pre-process .....
+Testing zara1 ....
+Valid: [231][620/621]  Loss -7.3654 (-4.4043)
+Valid: [221][659/660]  Loss -9.4113 (-6.0040)
+Train: [237][2321/2322]  Loss -0.2766 (-1.6823)  Time:  0.079 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:05:08
+Valid: [237][604/605]  Loss -8.3228 (-5.0972)
+ADE:  0.3541685850904967  FDE:  0.5734561243285256
+**************************************************
+./runs/Apr11_04-16-30_node06/zara2
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara2/checkpoint
+Stats: {'min_val_epoch': 158, 'min_val_loss': -0.011533084029922942}
+Loading Data from previous pre-process .....
+Testing zara2 ....
+Train: [232][2593/2594]  Loss -0.4989 (-1.8098)  Time:  0.133 (0.010)  Data Time:  0.001 (0.003)
+  Eta: 0:07:29
+Train: [222][2784/2785]  Loss -1.5226 (-1.8644)  Time:  0.380 (0.010)  Data Time:  0.002 (0.003)
+  Eta: 0:12:38
+Valid: [232][620/621]  Loss -8.3655 (-4.9496)
+Valid: [222][659/660]  Loss -9.5977 (-6.1191)
+Train: [238][2321/2322]  Loss -0.2671 (-1.8301)  Time:  0.077 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:04:36
+Valid: [238][604/605]  Loss -7.9171 (-4.8716)
+Train: [233][2593/2594]  Loss -0.4642 (-1.7729)  Time:  0.133 (0.009)  Data Time:  0.003 (0.003)
+  Eta: 0:06:54
+ADE:  0.3289222327250375  FDE:  0.5260392544236655
+**************************************************
+Avg ADE:  0.4636928844518245
+Avg FDE:  0.7736459344272298
+Valid: [233][620/621]  Loss -8.4005 (-4.9939)
+Train: [223][2784/2785]  Loss -1.4141 (-1.8347)  Time:  0.363 (0.009)  Data Time:  0.001 (0.003)
+  Eta: 0:11:51
+Valid: [223][659/660]  Loss -8.6700 (-5.5579)
+Train: [239][2321/2322]  Loss -0.2532 (-1.8018)  Time:  0.075 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:04:08
+Valid: [239][604/605]  Loss -8.4153 (-5.1598)
+Train: [234][2593/2594]  Loss -0.5207 (-1.7959)  Time:  0.134 (0.009)  Data Time:  0.002 (0.002)
+  Eta: 0:06:19
+Valid: [234][620/621]  Loss -8.1458 (-4.8356)
+Train: [224][2784/2785]  Loss -1.3871 (-1.8725)  Time:  0.378 (0.009)  Data Time:  0.003 (0.002)
+  Eta: 0:11:01
+Test: [206]  ADE: 0.4627  FDE: 0.7690
+Train: [240][2321/2322]  Loss -0.2882 (-1.5403)  Time:  0.086 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:03:43
+Valid: [224][659/660]  Loss -9.5628 (-6.1163)
+Valid: [240][604/605]  Loss -7.6968 (-4.6641)
+Train: [235][2593/2594]  Loss -0.4788 (-1.6039)  Time:  0.149 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:06:24
+Train: [207][2075/2076]  Loss -0.3646 (-1.7583)  Time:  0.147 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:15:49
+Valid: [235][620/621]  Loss -8.3715 (-4.9871)
+Valid: [207][529/530]  Loss -4.9549 (-3.6574)
+Train: [241][2321/2322]  Loss -0.2977 (-1.5804)  Time:  0.086 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:03:39
+Train: [225][2784/2785]  Loss -1.5388 (-1.7823)  Time:  0.403 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:11:59
+Valid: [241][604/605]  Loss -7.5772 (-4.6368)
+Valid: [225][659/660]  Loss -8.7350 (-5.5950)
+Train: [208][2075/2076]  Loss -0.3634 (-1.7666)  Time:  0.131 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:15:39
+Train: [236][2593/2594]  Loss -0.5366 (-1.6267)  Time:  0.176 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:06:08
+Valid: [208][529/530]  Loss -6.0353 (-4.3871)
+Valid: [236][620/621]  Loss -8.4307 (-5.0036)
+Train: [242][2321/2322]  Loss -0.1971 (-1.8240)  Time:  0.085 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:03:13
+Valid: [242][604/605]  Loss -8.3990 (-5.1973)
+Train: [226][2784/2785]  Loss -1.2462 (-1.8538)  Time:  0.377 (0.010)  Data Time:  0.002 (0.003)
+  Eta: 0:11:10
+Test: [236]  ADE: 0.4121  FDE: 0.6177
+Valid: [226][659/660]  Loss -9.7241 (-6.2409)
+Test: [226]  ADE: 0.7557  FDE: 1.2732
+Train: [209][2075/2076]  Loss -0.3347 (-1.6898)  Time:  0.131 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:14:51
+Valid: [209][529/530]  Loss -5.7819 (-4.2201)
+Train: [243][2321/2322]  Loss -0.2542 (-1.7485)  Time:  0.102 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:02:59
+Train: [237][2593/2594]  Loss -0.5367 (-1.6886)  Time:  0.148 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:05:46
+Valid: [243][604/605]  Loss -7.7609 (-4.7175)
+Valid: [237][620/621]  Loss -7.9233 (-4.7049)
+Train: [227][2784/2785]  Loss -1.3365 (-1.8388)  Time:  0.431 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:11:09
+Train: [210][2075/2076]  Loss -0.3292 (-1.6277)  Time:  0.153 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:15:35
+Valid: [227][659/660]  Loss -9.0744 (-5.7889)
+Valid: [210][529/530]  Loss -5.9157 (-4.2555)
+Train: [244][2321/2322]  Loss -0.2625 (-1.8081)  Time:  0.087 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:02:30
+Train: [238][2593/2594]  Loss -0.4363 (-1.8106)  Time:  0.152 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:05:20
+Valid: [244][604/605]  Loss -8.3162 (-5.1155)
+Valid: [238][620/621]  Loss -8.5017 (-5.0571)
+Train: [211][2075/2076]  Loss -0.4280 (-1.7544)  Time:  0.132 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:14:56
+Valid: [211][529/530]  Loss -5.8215 (-4.1876)
+Train: [228][2784/2785]  Loss -1.3206 (-1.8720)  Time:  0.453 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:10:34
+Valid: [228][659/660]  Loss -8.9803 (-5.7331)
+Train: [245][2321/2322]  Loss -0.2015 (-1.4743)  Time:  0.080 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:02:09
+Valid: [245][604/605]  Loss -8.2514 (-5.0742)
+Train: [239][2593/2594]  Loss -0.5522 (-1.7812)  Time:  0.142 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:04:57
+Train: [212][2075/2076]  Loss -0.3859 (-1.7618)  Time:  0.120 (0.011)  Data Time:  0.003 (0.004)
+  Eta: 0:14:43
+Valid: [239][620/621]  Loss -8.2847 (-4.9314)
+Valid: [212][529/530]  Loss -5.7532 (-4.1448)
+Train: [229][2784/2785]  Loss -1.4472 (-1.8754)  Time:  0.465 (0.011)  Data Time:  0.003 (0.003)
+  Eta: 0:10:16
+Valid: [229][659/660]  Loss -9.8162 (-6.2692)
+Train: [246][2321/2322]  Loss -0.2352 (-1.6590)  Time:  0.090 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:01:39
+Train: [213][2075/2076]  Loss -0.3551 (-1.7646)  Time:  0.126 (0.011)  Data Time:  0.004 (0.004)
+  Eta: 0:14:08
+Valid: [246][604/605]  Loss -8.3276 (-5.1398)
+Train: [240][2593/2594]  Loss -0.5000 (-1.8301)  Time:  0.130 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:04:25
+Valid: [213][529/530]  Loss -4.2968 (-3.4039)
+Valid: [240][620/621]  Loss -8.1638 (-4.8415)
+Train: [230][2784/2785]  Loss -1.3986 (-1.8922)  Time:  0.348 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:09:00
+Test: [246]  ADE: 0.3582  FDE: 0.5686
+Valid: [230][659/660]  Loss -9.6983 (-6.1835)
+Train: [214][2075/2076]  Loss -0.4075 (-1.7673)  Time:  0.129 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:12:45
+Valid: [214][529/530]  Loss -5.3984 (-3.9660)
+Train: [241][2593/2594]  Loss -0.4631 (-1.6820)  Time:  0.134 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:03:45
+Valid: [241][620/621]  Loss -8.4830 (-5.0461)
+Train: [247][2321/2322]  Loss -0.2539 (-1.7973)  Time:  0.086 (0.010)  Data Time:  0.004 (0.003)
+  Eta: 0:01:12
+Valid: [247][604/605]  Loss -8.4709 (-5.2267)
+Train: [231][2784/2785]  Loss -1.4558 (-1.8522)  Time:  0.423 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:08:36
+Train: [215][2075/2076]  Loss -0.4190 (-1.7579)  Time:  0.119 (0.010)  Data Time:  0.004 (0.004)
+  Eta: 0:12:21
+Valid: [215][529/530]  Loss -6.2403 (-4.4850)
+Valid: [231][659/660]  Loss -9.4726 (-6.0457)
+Train: [242][2593/2594]  Loss -0.5199 (-1.8193)  Time:  0.142 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:03:25
+Valid: [242][620/621]  Loss -7.6113 (-4.5421)
+Train: [248][2321/2322]  Loss -0.2267 (-1.6358)  Time:  0.088 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:00:48
+Valid: [248][604/605]  Loss -7.8877 (-4.8404)
+Train: [216][2075/2076]  Loss -0.3920 (-1.7322)  Time:  0.138 (0.011)  Data Time:  0.004 (0.003)
+  Eta: 0:12:41
+Valid: [216][529/530]  Loss -4.6523 (-3.4667)
+Train: [232][2784/2785]  Loss -1.2346 (-1.8194)  Time:  0.367 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:08:41
+Valid: [232][659/660]  Loss -9.6157 (-6.1484)
+Train: [243][2593/2594]  Loss -0.5125 (-1.8154)  Time:  0.137 (0.010)  Data Time:  0.003 (0.003)
+  Eta: 0:02:55
+Train: [249][2321/2322]  Loss -0.2311 (-1.7839)  Time:  0.076 (0.010)  Data Time:  0.002 (0.003)
+  Eta: 0:00:22
+Valid: [243][620/621]  Loss -8.0459 (-4.7975)
+Valid: [249][604/605]  Loss -6.9691 (-4.2137)
+**************************************************
+Number of samples: 20
+**************************************************
+./runs/Apr11_04-16-30_node06/eth
+Evaluating model: ./runs/Apr11_04-16-30_node06/eth/checkpoint
+Stats: {'min_val_epoch': 201, 'min_val_loss': -0.015089305919228179}
+Loading Data from previous pre-process .....
+Testing eth ....
+Train: [233][2784/2785]  Loss -1.5857 (-1.7993)  Time:  0.347 (0.009)  Data Time:  0.003 (0.002)
+  Eta: 0:06:43
+ADE:  0.7338483602267457  FDE:  1.2177698276726072
+**************************************************
+./runs/Apr11_04-16-30_node06/hotel
+Evaluating model: ./runs/Apr11_04-16-30_node06/hotel/checkpoint
+Stats: {'min_val_epoch': 174, 'min_val_loss': -0.014086534435622359}
+Loading Data from previous pre-process .....
+Testing hotel ....
+Valid: [233][659/660]  Loss -8.2831 (-5.3427)
+Train: [244][2593/2594]  Loss -0.4203 (-1.7663)  Time:  0.139 (0.008)  Data Time:  0.002 (0.002)
+  Eta: 0:02:06
+Valid: [244][620/621]  Loss -8.2172 (-4.9017)
+ADE:  0.4374203575501136  FDE:  0.6893320020129945
+**************************************************
+./runs/Apr11_04-16-30_node06/univ
+Evaluating model: ./runs/Apr11_04-16-30_node06/univ/checkpoint
+Stats: {'min_val_epoch': 151, 'min_val_loss': -0.012499387140543956}
+Loading Data from previous pre-process .....
+Testing univ ....
+Train: [234][2784/2785]  Loss -1.3080 (-1.8676)  Time:  0.302 (0.008)  Data Time:  0.002 (0.001)
+  Eta: 0:05:39
+Train: [245][2593/2594]  Loss -0.4798 (-1.8468)  Time:  0.123 (0.007)  Data Time:  0.001 (0.001)
+  Eta: 0:01:37
+Valid: [234][659/660]  Loss -9.4766 (-6.0636)
+Valid: [245][620/621]  Loss -8.4348 (-5.0134)
+Train: [235][2784/2785]  Loss -1.3622 (-1.8853)  Time:  0.376 (0.008)  Data Time:  0.001 (0.001)
+  Eta: 0:05:16
+Train: [246][2593/2594]  Loss -0.5137 (-1.8069)  Time:  0.101 (0.007)  Data Time:  0.000 (0.001)
+  Eta: 0:01:17
+Valid: [235][659/660]  Loss -9.5607 (-6.1256)
+Valid: [246][620/621]  Loss -8.4307 (-5.0122)
+Test: [216]  ADE: 0.4757  FDE: 0.8022
+Test: [246]  ADE: 0.4222  FDE: 0.6395
+Train: [236][2784/2785]  Loss -1.4031 (-1.9005)  Time:  0.373 (0.008)  Data Time:  0.003 (0.002)
+  Eta: 0:05:30
+Train: [217][2075/2076]  Loss -0.4326 (-1.7623)  Time:  0.119 (0.010)  Data Time:  0.002 (0.002)
+  Eta: 0:11:03
+Valid: [217][529/530]  Loss -4.1846 (-3.2672)
+Valid: [236][659/660]  Loss -9.2244 (-5.8881)
+Test: [236]  ADE: 0.7534  FDE: 1.2872
+Train: [247][2593/2594]  Loss -0.4405 (-1.8513)  Time:  0.148 (0.009)  Data Time:  0.003 (0.002)
+  Eta: 0:01:09
+Valid: [247][620/621]  Loss -7.8117 (-4.6540)
+Train: [218][2075/2076]  Loss -0.3862 (-1.6993)  Time:  0.103 (0.010)  Data Time:  0.002 (0.002)
+  Eta: 0:10:39
+ADE:  0.46516975061482746  FDE:  0.8543256172602641
+**************************************************
+./runs/Apr11_04-16-30_node06/zara1
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara1/checkpoint
+Stats: {'min_val_epoch': 205, 'min_val_loss': -0.014036679859003745}
+Loading Data from previous pre-process .....
+Testing zara1 ....
+Valid: [218][529/530]  Loss -6.0943 (-4.4104)
+Train: [237][2784/2785]  Loss -1.3826 (-1.8710)  Time:  0.371 (0.009)  Data Time:  0.003 (0.002)
+  Eta: 0:05:22
+Valid: [237][659/660]  Loss -9.6900 (-6.1863)
+Train: [248][2593/2594]  Loss -0.5029 (-1.8498)  Time:  0.125 (0.009)  Data Time:  0.002 (0.003)
+  Eta: 0:00:46
+Valid: [248][620/621]  Loss -8.3812 (-4.9711)
+ADE:  0.3547589863081582  FDE:  0.5753546255631767
+**************************************************
+./runs/Apr11_04-16-30_node06/zara2
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara2/checkpoint
+Stats: {'min_val_epoch': 158, 'min_val_loss': -0.011533084029922942}
+Loading Data from previous pre-process .....
+Testing zara2 ....
+Train: [219][2075/2076]  Loss -0.4664 (-1.7594)  Time:  0.110 (0.009)  Data Time:  0.003 (0.003)
+  Eta: 0:10:02
+Valid: [219][529/530]  Loss -4.8172 (-3.7091)
+Train: [238][2784/2785]  Loss -1.3570 (-1.8199)  Time:  0.374 (0.009)  Data Time:  0.003 (0.003)
+  Eta: 0:04:57
+Train: [249][2593/2594]  Loss -0.5251 (-1.8229)  Time:  0.133 (0.009)  Data Time:  0.002 (0.003)
+  Eta: 0:00:23
+Valid: [238][659/660]  Loss -9.6494 (-6.1736)
+Valid: [249][620/621]  Loss -8.1840 (-4.8590)
+Train: [220][2075/2076]  Loss -0.3843 (-1.6806)  Time:  0.119 (0.009)  Data Time:  0.002 (0.003)
+  Eta: 0:09:47
+Valid: [220][529/530]  Loss -5.9390 (-4.2696)
+ADE:  0.3290708210491193  FDE:  0.527808928972972
+**************************************************
+Avg ADE:  0.4640536551497928
+Avg FDE:  0.772918200296403
+**************************************************
+Number of samples: 20
+**************************************************
+./runs/Apr11_04-16-30_node06/eth
+Evaluating model: ./runs/Apr11_04-16-30_node06/eth/checkpoint
+Stats: {'min_val_epoch': 201, 'min_val_loss': -0.015089305919228179}
+Loading Data from previous pre-process .....
+Testing eth ....
+ADE:  0.7388585625239223  FDE:  1.242748997025361
+**************************************************
+./runs/Apr11_04-16-30_node06/hotel
+Evaluating model: ./runs/Apr11_04-16-30_node06/hotel/checkpoint
+Stats: {'min_val_epoch': 174, 'min_val_loss': -0.014086534435622359}
+Loading Data from previous pre-process .....
+Testing hotel ....
+Train: [239][2784/2785]  Loss -1.3403 (-1.9030)  Time:  0.352 (0.008)  Data Time:  0.002 (0.002)
+  Eta: 0:04:00
+Train: [221][2075/2076]  Loss -0.3851 (-1.8010)  Time:  0.098 (0.009)  Data Time:  0.000 (0.002)
+  Eta: 0:08:32
+Valid: [239][659/660]  Loss -9.4973 (-6.0640)
+Valid: [221][529/530]  Loss -5.1483 (-3.7085)
+ADE:  0.4317353719038719  FDE:  0.6933864804183719
+**************************************************
+./runs/Apr11_04-16-30_node06/univ
+Evaluating model: ./runs/Apr11_04-16-30_node06/univ/checkpoint
+Stats: {'min_val_epoch': 151, 'min_val_loss': -0.012499387140543956}
+Loading Data from previous pre-process .....
+Testing univ ....
+Train: [240][2784/2785]  Loss -1.3870 (-1.8670)  Time:  0.335 (0.008)  Data Time:  0.002 (0.001)
+  Eta: 0:03:32
+Train: [222][2075/2076]  Loss -0.4025 (-1.7932)  Time:  0.105 (0.008)  Data Time:  0.000 (0.002)
+  Eta: 0:08:11
+Valid: [222][529/530]  Loss -5.3241 (-3.9288)
+Valid: [240][659/660]  Loss -9.3597 (-5.9728)
+Train: [223][2075/2076]  Loss -0.4381 (-1.7172)  Time:  0.110 (0.008)  Data Time:  0.002 (0.001)
+  Eta: 0:07:52
+Valid: [223][529/530]  Loss -5.3507 (-4.0491)
+Train: [241][2784/2785]  Loss -1.4535 (-1.8415)  Time:  0.375 (0.007)  Data Time:  0.000 (0.001)
+  Eta: 0:03:07
+Valid: [241][659/660]  Loss -6.9464 (-4.5694)
+Train: [224][2075/2076]  Loss -0.4008 (-1.7239)  Time:  0.114 (0.008)  Data Time:  0.001 (0.001)
+  Eta: 0:07:11
+Valid: [224][529/530]  Loss -5.5808 (-4.0230)
+Train: [242][2784/2785]  Loss -1.3815 (-1.8811)  Time:  0.290 (0.008)  Data Time:  0.001 (0.001)
+  Eta: 0:02:47
+Valid: [242][659/660]  Loss -8.8042 (-5.6138)
+Train: [225][2075/2076]  Loss -0.3598 (-1.8229)  Time:  0.102 (0.008)  Data Time:  0.002 (0.001)
+  Eta: 0:07:20
+Valid: [225][529/530]  Loss -5.5394 (-4.0416)
+ADE:  0.4645773337348871  FDE:  0.8519268670658336
+**************************************************
+./runs/Apr11_04-16-30_node06/zara1
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara1/checkpoint
+Stats: {'min_val_epoch': 205, 'min_val_loss': -0.014036679859003745}
+Loading Data from previous pre-process .....
+Testing zara1 ....
+Train: [243][2784/2785]  Loss -1.4246 (-1.8325)  Time:  0.370 (0.008)  Data Time:  0.001 (0.001)
+  Eta: 0:02:27
+Valid: [243][659/660]  Loss -9.8121 (-6.2659)
+Train: [226][2075/2076]  Loss -0.3100 (-1.7841)  Time:  0.132 (0.009)  Data Time:  0.002 (0.001)
+  Eta: 0:07:07
+Valid: [226][529/530]  Loss -6.1064 (-4.4053)
+ADE:  0.35187512183970576  FDE:  0.5707829548507952
+**************************************************
+./runs/Apr11_04-16-30_node06/zara2
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara2/checkpoint
+Stats: {'min_val_epoch': 158, 'min_val_loss': -0.011533084029922942}
+Loading Data from previous pre-process .....
+Testing zara2 ....
+Train: [244][2784/2785]  Loss -1.4996 (-1.8155)  Time:  0.321 (0.007)  Data Time:  0.000 (0.001)
+  Eta: 0:01:52
+Valid: [244][659/660]  Loss -9.8936 (-6.3027)
+Train: [245][2784/2785]  Loss -1.4109 (-1.8606)  Time:  0.287 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:01:25
+ADE:  0.32848264389172854  FDE:  0.527202119950837
+**************************************************
+Avg ADE:  0.4631058067788231
+Avg FDE:  0.7772094838622398
+Valid: [245][659/660]  Loss -9.5168 (-6.0903)
+Train: [246][2784/2785]  Loss -1.4619 (-1.8282)  Time:  0.278 (0.006)  Data Time:  0.001 (0.000)
+  Eta: 0:01:06
+Valid: [246][659/660]  Loss -8.9844 (-5.7061)
+Test: [246]  ADE: 0.8172  FDE: 1.4876
+Train: [247][2784/2785]  Loss -1.4153 (-1.8459)  Time:  0.303 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:00:50
+Valid: [247][659/660]  Loss -9.7188 (-6.1930)
+Test: [226]  ADE: 0.4723  FDE: 0.8514
+Train: [248][2784/2785]  Loss -1.3834 (-1.8523)  Time:  0.337 (0.007)  Data Time:  0.001 (0.001)
+  Eta: 0:00:39
+Train: [227][2075/2076]  Loss -0.4077 (-1.7139)  Time:  0.124 (0.008)  Data Time:  0.000 (0.001)
+  Eta: 0:06:28
+Valid: [248][659/660]  Loss -9.7672 (-6.2451)
+Valid: [227][529/530]  Loss -4.8925 (-3.7081)
+Train: [228][2075/2076]  Loss -0.4143 (-1.6221)  Time:  0.107 (0.008)  Data Time:  0.002 (0.001)
+  Eta: 0:06:02
+Train: [249][2784/2785]  Loss -1.4326 (-1.8612)  Time:  0.278 (0.007)  Data Time:  0.000 (0.001)
+  Eta: 0:00:20
+Valid: [228][529/530]  Loss -5.6400 (-4.1743)
+Valid: [249][659/660]  Loss -9.7285 (-6.2108)
+**************************************************
+Number of samples: 20
+**************************************************
+./runs/Apr11_04-16-30_node06/eth
+Evaluating model: ./runs/Apr11_04-16-30_node06/eth/checkpoint
+Stats: {'min_val_epoch': 201, 'min_val_loss': -0.015089305919228179}
+Loading Data from previous pre-process .....
+Testing eth ....
+Train: [229][2075/2076]  Loss -0.4622 (-1.7830)  Time:  0.098 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:04:57
+ADE:  0.7394302706629282  FDE:  1.2492705396264538
+**************************************************
+./runs/Apr11_04-16-30_node06/hotel
+Evaluating model: ./runs/Apr11_04-16-30_node06/hotel/checkpoint
+Stats: {'min_val_epoch': 174, 'min_val_loss': -0.014086534435622359}
+Loading Data from previous pre-process .....
+Testing hotel ....
+Valid: [229][529/530]  Loss -6.0127 (-4.3072)
+ADE:  0.4328249341290197  FDE:  0.7047450544551788
+**************************************************
+./runs/Apr11_04-16-30_node06/univ
+Evaluating model: ./runs/Apr11_04-16-30_node06/univ/checkpoint
+Stats: {'min_val_epoch': 151, 'min_val_loss': -0.012499387140543956}
+Loading Data from previous pre-process .....
+Testing univ ....
+Train: [230][2075/2076]  Loss -0.3688 (-1.8064)  Time:  0.123 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:04:48
+Valid: [230][529/530]  Loss -5.5666 (-3.9977)
+Train: [231][2075/2076]  Loss -0.3811 (-1.7502)  Time:  0.080 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:04:21
+Valid: [231][529/530]  Loss -6.2970 (-4.5670)
+Train: [232][2075/2076]  Loss -0.4730 (-1.7716)  Time:  0.090 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:04:10
+Valid: [232][529/530]  Loss -4.6594 (-3.6096)
+Train: [233][2075/2076]  Loss -0.4503 (-1.7842)  Time:  0.084 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:03:40
+Valid: [233][529/530]  Loss -5.8324 (-4.2802)
+Train: [234][2075/2076]  Loss -0.3438 (-1.8351)  Time:  0.076 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:03:25
+Valid: [234][529/530]  Loss -5.9876 (-4.2953)
+ADE:  0.46496060961059765  FDE:  0.8518563001130645
+**************************************************
+./runs/Apr11_04-16-30_node06/zara1
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara1/checkpoint
+Stats: {'min_val_epoch': 205, 'min_val_loss': -0.014036679859003745}
+Loading Data from previous pre-process .....
+Testing zara1 ....
+Train: [235][2075/2076]  Loss -0.3148 (-1.7906)  Time:  0.099 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:03:27
+Valid: [235][529/530]  Loss -6.0249 (-4.3642)
+ADE:  0.35249011536546343  FDE:  0.5763939657191638
+**************************************************
+./runs/Apr11_04-16-30_node06/zara2
+Evaluating model: ./runs/Apr11_04-16-30_node06/zara2/checkpoint
+Stats: {'min_val_epoch': 158, 'min_val_loss': -0.011533084029922942}
+Loading Data from previous pre-process .....
+Testing zara2 ....
+Train: [236][2075/2076]  Loss -0.3442 (-1.7930)  Time:  0.093 (0.007)  Data Time:  0.001 (0.000)
+  Eta: 0:03:10
+Valid: [236][529/530]  Loss -5.7561 (-4.2016)
+ADE:  0.3312964806224782  FDE:  0.5314646759464113
+**************************************************
+Avg ADE:  0.4642004820780974
+Avg FDE:  0.7827461071720545
+Test: [236]  ADE: 0.4700  FDE: 0.8343
+Train: [237][2075/2076]  Loss -0.3576 (-1.7395)  Time:  0.088 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:03:01
+Valid: [237][529/530]  Loss -3.1811 (-2.7640)
+Train: [238][2075/2076]  Loss -0.3782 (-1.7075)  Time:  0.095 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:02:39
+Valid: [238][529/530]  Loss -5.9263 (-4.3573)
+Train: [239][2075/2076]  Loss -0.3474 (-1.7728)  Time:  0.088 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:02:22
+Valid: [239][529/530]  Loss -3.8278 (-3.0547)
+Train: [240][2075/2076]  Loss -0.3522 (-1.6517)  Time:  0.084 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:02:15
+Valid: [240][529/530]  Loss -5.5884 (-4.0263)
+Train: [241][2075/2076]  Loss -0.4395 (-1.6658)  Time:  0.086 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:01:50
+Valid: [241][529/530]  Loss -6.0614 (-4.3765)
+Train: [242][2075/2076]  Loss -0.3861 (-1.7218)  Time:  0.091 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:01:40
+Valid: [242][529/530]  Loss -6.1656 (-4.4036)
+Train: [243][2075/2076]  Loss -0.4773 (-1.8152)  Time:  0.093 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:01:35
+Valid: [243][529/530]  Loss -5.3220 (-3.9608)
+Train: [244][2075/2076]  Loss -0.3899 (-1.7666)  Time:  0.097 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:01:23
+Valid: [244][529/530]  Loss -4.8698 (-3.6391)
+Train: [245][2075/2076]  Loss -0.4039 (-1.7291)  Time:  0.092 (0.007)  Data Time:  0.000 (0.000)
+  Eta: 0:01:08
+Valid: [245][529/530]  Loss -5.2790 (-3.9076)
+Train: [246][2075/2076]  Loss -0.3607 (-1.7808)  Time:  0.090 (0.006)  Data Time:  0.000 (0.000)
+  Eta: 0:00:53
+Valid: [246][529/530]  Loss -5.4833 (-3.9114)
+./scripts/train-v0.sh: line 17: 21994 Killed                  python ./scripts/train-v0.py --model ${MODEL} --lr 0.01 --n_stgcnn 1 --n_txpcnn 5 --dataset ${env} --tag ${env} --use_lrschd --num_epochs 250 --drop ${DROP} --init ${INIT}
